@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import Scroll from './components/scroller.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +28,8 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <h1>Sam Zoll</h1>
+      <h1 style={{ fontSize: '4em', textAlign: 'center', paddingTop: '1em' }} >Sam Zoll</h1>
+      <Scroll />
     </div>)
   }
 }
