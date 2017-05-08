@@ -36,5 +36,11 @@
 }
 
 .projectDescription {
-  height: 598px;
+  height: 100%;
+}
+
+.imageCenter {
+  max-height: 580px;
+  display: block !important;
+  margin: auto !important;
 }

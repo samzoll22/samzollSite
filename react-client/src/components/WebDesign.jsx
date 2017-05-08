@@ -14,7 +14,12 @@ const descriptionArr = [
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif'},
   { title: 'Ticket Champ',
     description: 'This is a video guided tour.',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4'}
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4'
+  },
+  { title: 'Ticket Champ',
+    description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
+  }
 ]
 
 
@@ -60,18 +65,24 @@ class WebDesign extends React.Component {
         <Col xs={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
           <TabPane tab="HomeScreen" key="0" >
-
-            <Image style={{ 'maxHeight': '600px' }} src={ info.content } responsive rounded />
+            <Col md={12} >
+              <Image src={ info.content } className="imageCenter" responsive rounded />
+            </Col>
           </TabPane>
           <TabPane tab="Guided GIF" key="1">
-            <Image src={ info.content } responsive rounded />
+            <Col md={12} >
+              <Image src={ info.content } className="imageCenter" responsive rounded />
+            </Col>
           </TabPane>
           <TabPane tab="Guided Video" key="2">
-            <div style={{width: 660, height: 'auto'}}>
-              <ResponsiveEmbed a16by9>
-                <embed type="video/mp4" src={ info.content } />
-              </ResponsiveEmbed>
-            </div>
+            <video height="480" className="imageCenter" loop controls autoplay>
+              <source src={ info.content } type="video/mp4" />
+            </video>
+          </TabPane>
+          <TabPane tab="Wireframes" key="3">
+            <Col md={12} >
+              <Image src={ info.content } className="imageCenter" responsive rounded />
+            </Col>
           </TabPane>
         </Tabs>
         </Col>
