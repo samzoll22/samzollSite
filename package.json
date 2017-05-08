@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "personal_portfolio",
   "main": "index.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
   "scripts": {
     "start": "node server.js",
     "react-dev": "webpack -d --watch",
