@@ -6,6 +6,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+app.set('port', (process.env.PORT || 8000));
+
 // UNCOMMENT FOR REACT
 app.use(express.static(__dirname + '/../react-client/dist'));
 
@@ -23,7 +25,7 @@ app.get('/items', function (req, res) {
   });
 });
 
-app.listen(8000, function() {
-  console.log('listening on port 8000!');
+app.listen(app.get('port'), function() {
+  console.log('listening on port ', app.get('port'));
 });
 
