@@ -1,5 +1,10 @@
 import React from 'react';
 import Scroll from 'react-scroll';
+import WebDesign from './WebDesign.jsx';
+import { Tabs, Carousel, Timeline } from 'antd';
+import { Col, Panel, Image } from 'react-bootstrap';
+
+const TabPane = Tabs.TabPane;
 
 let Link       = Scroll.Link;
 let Element    = Scroll.Element;
@@ -11,9 +16,6 @@ let scrollSpy  = Scroll.scrollSpy;
 class Section extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      items: []
-    }
   }
 
   componentDidMount() {
@@ -52,38 +54,85 @@ class Section extends React.Component {
 
   render () {
     return (
-         <div>
-              <nav className="navbar navbar-default navbar-fixed-top">
-                <div className="container-fluid">
-                  <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul className="nav navbar-nav">
-                      <li><Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >Test 1</Link></li>
-                      <li><Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}>Test 2</Link></li>
-                      <li><Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500} >Test 3</Link></li>
-                      <li><Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500}>Test 4</Link></li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-
-              <Element name="test1" className="element" >
-                test 1
-              </Element>
-
-              <Element name="test2" className="element">
-                test 2
-              </Element>
-
-              <Element name="test3" className="element">
-                test 3
-              </Element>
-
-              <Element name="test4" className="element">
-                test 4
-              </Element>
-
-              <a onClick={this.scrollToTop}><h1 style={{ fontSize: '4em', textAlign: 'center' }}>To the top!</h1></a>
-      </div>
+       <Timeline>
+         <Timeline.Item>
+          <h3>Web Design</h3>
+           <Element name="test1" className="element">
+              <Tabs
+                defaultActiveKey="1"
+                tabPosition='left'
+                style={{ height: 600 }}
+              >
+                <TabPane tab="Ticket Champ" key="1" className="animated fadeInLeftBig" >
+                  <WebDesign />
+                </TabPane>
+                <TabPane tab="Oranges 2 Oranges" key="2" className="animated fadeInLeftBig"><WebDesign />
+                </TabPane>
+                <TabPane tab="Truck Hunt" key="3" className="animated fadeInLeftBig">
+                <WebDesign />
+                </TabPane>
+              </Tabs>
+          </Element>
+          </Timeline.Item>
+          <Timeline.Item>
+            <h3>Web Design</h3>
+            <Element name="test2" className="element">
+              <Tabs
+                defaultActiveKey="1"
+                tabPosition='left'
+                style={{ height: 600 }}
+              >
+                <TabPane tab="Ticket Champ" key="1" className="animated fadeInLeftBig" >
+                  <WebDesign />
+                </TabPane>
+                <TabPane tab="Oranges 2 Oranges" key="2" className="animated fadeInLeftBig"><WebDesign />
+                </TabPane>
+                <TabPane tab="Truck Hunt" key="3" className="animated fadeInLeftBig">
+                <WebDesign />
+                </TabPane>
+              </Tabs>
+            </Element>
+          </Timeline.Item>
+          <Timeline.Item>
+            <h3>Web Design</h3>
+            <Element name="test3" className="element">
+              <Tabs
+                defaultActiveKey="1"
+                tabPosition='left'
+                style={{ height: 600 }}
+              >
+                <TabPane tab="Ticket Champ" key="1" className="animated fadeInLeft" >
+                  <WebDesign />
+                </TabPane>
+                <TabPane tab="Oranges 2 Oranges" key="2" className="animated fadeInLeft"><WebDesign />
+                </TabPane>
+                <TabPane tab="Truck Hunt" key="3" className="animated fadeInLeft">
+                <WebDesign />
+                </TabPane>
+              </Tabs>
+            </Element>
+          </Timeline.Item>
+          <Timeline.Item>
+            <h3>Web Design</h3>
+            <Element name="test4" className="element">
+              <Tabs
+                defaultActiveKey="1"
+                tabPosition='left'
+                style={{ height: 600 }}
+              >
+                <TabPane tab="Ticket Champ" key="1" className="animated fadeInLeft" >
+                  <WebDesign />
+                </TabPane>
+                <TabPane tab="Oranges 2 Oranges" key="2" className="animated fadeInLeft"><WebDesign />
+                </TabPane>
+                <TabPane tab="Truck Hunt" key="3" className="animated fadeInLeft">
+                <WebDesign />
+                </TabPane>
+              </Tabs>
+            </Element>
+          </Timeline.Item>
+          <a onClick={this.scrollToTop}><h1 style={{ fontSize: '4em', textAlign: 'center' }}>To the top!</h1></a>
+       </Timeline>
     )
   }
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
 import Scroll from './components/scroller.jsx';
+import Nav from './components/Nav.jsx';
+import { Col } from 'react-bootstrap';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -28,8 +30,16 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <h1 style={{ fontSize: '4em', textAlign: 'center', paddingTop: '1em' }} >Sam Zoll</h1>
-      <Scroll />
+      <Nav />
+      <div className='logoStyle'>
+        <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
+      </div>
+      <div className='logoTextStyle'>
+        <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Text-2017.svg" alt="Sam Zoll Text" className='szText'/>
+      </div>
+      <Col md={10} mdOffset={1}>
+        <Scroll />
+      </Col>
     </div>)
   }
 }
