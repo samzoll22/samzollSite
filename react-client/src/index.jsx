@@ -31,10 +31,10 @@ class App extends React.Component {
     return (
     <div>
       <Nav />
-      <div className='logoStyle'>
+      <div className='animated rotateIn flipInX logoStyle'>
         <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
       </div>
-      <div className='logoTextStyle'>
+      <div className='animated fadeInUp logoTextStyle'>
         <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Text-2017.svg" alt="Sam Zoll Text" className='szText'/>
       </div>
       <Col md={10} mdOffset={1}>
