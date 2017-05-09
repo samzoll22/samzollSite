@@ -3,7 +3,7 @@ import Scroll from 'react-scroll';
 import WebDesignTabs from './WebDesignTabs.jsx';
 import AppDesignTabs from './AppDesignTabs.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
-import { Col, Panel, Image } from 'react-bootstrap';
+import { Col, Panel, Image, Label } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
@@ -70,8 +70,11 @@ class Section extends React.Component {
           </Timeline.Item>
           <Timeline.Item>
             <h3>2D/3D Design</h3>
-            <Element name="test3" className="element">
-              <WebDesignTabs />
+            <Element name="test3" className="animated zoomIn element" style={{textAlign: 'center'}}>
+
+              <h1><Label>
+                Coming Soon
+              </Label></h1>
             </Element>
           </Timeline.Item>
           <a onClick={this.scrollToTop}><h1 style={{ fontSize: '4em', textAlign: 'center' }}>To the top!</h1></a>
