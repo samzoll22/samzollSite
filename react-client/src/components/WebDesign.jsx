@@ -37,7 +37,9 @@ class WebDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[this.props.project][i]
+    let info = descriptionArr[this.props.project][i];
+    let length = descriptionArr[this.props.project].length;
+
     return (
       <div>
         <Col smHidden md={4}>
@@ -93,16 +95,18 @@ class WebDesign extends React.Component {
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Guided Video" key="2">
-            <video height="480" className="imageCenter" loop controls autoPlay >
+          <TabPane tab="Video" key="2">
+            <video height="480" className="imageCenter" loop controls autoPlay muted >
               <source src={ info.content } type="video/mp4" />
             </video>
           </TabPane>
-          <TabPane tab="Wireframes" key="3">
+          { length < 4 ? null :
+          (<TabPane tab="Wireframes" key="3">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
-          </TabPane>
+          </TabPane>)
+          }
         </Tabs>
         </Col>
       </div>

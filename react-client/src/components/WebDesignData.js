@@ -65,6 +65,23 @@ module.exports = {
     description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
+  }],
+  [
+  { title: 'Trivia Night',
+    description: 'With Trivia Night, you can easily launch your own white-labeled trivia game using our personalized dashboard in a matter of seconds. No more clunky tablets, hardware installation, and maintenance. We provide plug and play entertainment and your customers get to use their own mobile devices. Trivia Night gets customers in the door and keeps them coming back!',
+    tools: 'Bootstrap, jQuery, NodeJS, Express, Illustrator, After Effects, and Final Cut Pro',
+    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    team: 'Purple Gator',
+    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/homescreen.png'},
+  { title: 'Trivia Night',
+    description: 'This is a quick gif guided tour.',
+    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-Mockup.png'},
+  { title: 'Trivia Night',
+    description: 'This is a video guided tour.',
+    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4'
   }]
   ]
 }
