@@ -96,7 +96,7 @@ class WebDesign extends React.Component {
             </Col>
           </TabPane>
           <TabPane tab="Video" key="2">
-            <video height="480" className="imageCenter" loop controls autoPlay muted >
+            <video height="480" className="imageCenter" loop controls muted >
               <source src={ info.content } type="video/mp4" />
             </video>
           </TabPane>

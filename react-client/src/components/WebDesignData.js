@@ -16,11 +16,6 @@ module.exports = {
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck+hunt+demo+(720p).mp4'
-  },
-  { title: 'Truck Hunt SF',
-    description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
   }],
   [
   { title: 'Oranges 2 Oranges',
@@ -38,11 +33,6 @@ module.exports = {
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v'
-  },
-  { title: 'Oranges 2 Oranges',
-    description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
   }],
   [
   { title: 'Ticket Champ',
