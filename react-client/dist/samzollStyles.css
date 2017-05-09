@@ -15,6 +15,10 @@
   color:red !important;
 }
 
+.media-body {
+  vertical-align: middle !important;
+}
+
 .logoStyle {
   padding-top: 4em;
   text-align: center;
@@ -43,4 +47,8 @@
   max-height: 580px;
   display: block !important;
   margin: auto !important;
+}
+
+.textPadd {
+  padding-bottom: 6px;
 }

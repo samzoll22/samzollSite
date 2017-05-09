@@ -1,26 +1,11 @@
 import React from 'react';
+import WebDesignData from './WebDesignData.js';
 import { Tabs, Carousel, Timeline } from 'antd';
-import { Col, Panel, Image, ResponsiveEmbed, Button } from 'react-bootstrap';
+import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
-const descriptionArr = [
-  { title: 'Ticket Champ',
-    description: 'Ticket Champ is a ticket price comparison app. When trying to find the best price for tickets, Ticket Champ allows you to search your desired event and compare prices from multiple vendor to find the best priced tickets.',
-    image: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket-Champ-Static.png'},
-  { title: 'Ticket Champ',
-    description: 'This is a quick gif guided tour.',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif'},
-  { title: 'Ticket Champ',
-    description: 'This is a video guided tour.',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4'
-  },
-  { title: 'Ticket Champ',
-    description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
-  }
-]
+const descriptionArr = WebDesignData.data;
 
 
 class WebDesign extends React.Component {
@@ -36,7 +21,7 @@ class WebDesign extends React.Component {
 
 
   handleSwipe(key) {
-    console.log(key);
+    console.log('Inner', key);
     this.setState({
       key
     })
@@ -52,14 +37,48 @@ class WebDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[i]
+    let info = descriptionArr[this.props.project][i]
     return (
       <div>
         <Col smHidden md={4}>
           <Panel className='projectDescription'>
-            <h2>{info.title}</h2>
-            <h5>{info.description}</h5>
-            { this.state.key >= 1 ? null : (<Image className='animated fadeIn' src={info.image} responsive />) }
+              <Media>
+               <Media.Left>
+                  <img width={64} height={64} src={info.logo} alt="Image"/>
+                </Media.Left>
+                <Media.Body>
+                  <h2>{info.title}</h2>
+                </Media.Body>
+              </Media>
+              { info.tools ?
+                (<ListGroup fill>
+                  <ListGroupItem>
+                  <h4 className="textPadd" >Project Description</h4>
+                  <h5>{info.description}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                  <h4 className="textPadd" >Tools + Tech</h4>
+                  <h5>{info.tools}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                   <Media>
+                     <Media.Left>
+                        <img width={48} height={48} src={info.teamImage} alt="Image"/>
+                      </Media.Left>
+                      <Media.Body>
+                        <h4 className="textPadd" >Team</h4>
+                        <h5>{info.team}</h5>
+                      </Media.Body>
+                    </Media>
+                  </ListGroupItem>
+                </ListGroup>
+                )
+                : (<ListGroup fill>
+                    <ListGroupItem>
+                    <h5>{info.description}</h5>
+                    </ListGroupItem>
+                  </ListGroup>
+              )}
           </Panel>
         </Col>
         <Col xs={12} md={8}>
@@ -75,7 +94,7 @@ class WebDesign extends React.Component {
             </Col>
           </TabPane>
           <TabPane tab="Guided Video" key="2">
-            <video height="480" className="imageCenter" loop controls autoplay>
+            <video height="480" className="imageCenter" loop controls autoPlay >
               <source src={ info.content } type="video/mp4" />
             </video>
           </TabPane>

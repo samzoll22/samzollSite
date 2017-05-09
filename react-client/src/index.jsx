@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Scroll from './components/scroller.jsx';
+import Scroll from './components/Scroller.jsx';
 import Nav from './components/Nav.jsx';
 import { Col } from 'react-bootstrap';
 
@@ -30,7 +30,6 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <Nav />
       <div className='animated rotateIn flipInX logoStyle'>
         <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
       </div>
