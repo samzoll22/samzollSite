@@ -60,6 +60,9 @@ class Section extends React.Component {
     return (
       <div>
         <Welcome className='animated fadeInUp'  />
+        <Element name="projects" className="start">
+        <div> </div>
+        </Element>
         <Timeline>
           <Element name="webdesign" className="element">
             <Timeline.Item>

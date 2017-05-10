@@ -5,7 +5,7 @@ import { Nav, Navbar, NavDropdown, NavItem, MenuItem, Image } from 'react-bootst
 let Link       = Scroll.Link;
 
 const NavBar = () => (
-  <Navbar className="white" collapseOnSelect>
+  <Navbar className="white" fixedTop collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
         <Image className="szLogo" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" responsive/>
@@ -14,7 +14,7 @@ const NavBar = () => (
     <Navbar.Collapse>
       <Nav pullRight>
 
-        <NavItem eventKey={1} ><Link activeClass="active" to="webdesign" spy smooth duration={500}>Projects</Link></NavItem>
+        <NavItem eventKey={1} ><Link activeClass="active" to="projects" spy smooth duration={500}>Projects</Link></NavItem>
         <NavItem eventKey={2} ><Link activeClass="active" to="resume" spy smooth duration={700}>Resume</Link></NavItem>
         <NavItem eventKey={3} ><Link activeClass="active" to="contact" spy smooth duration={900}>Contact</Link></NavItem>
       </Nav>

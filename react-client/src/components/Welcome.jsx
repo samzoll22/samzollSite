@@ -16,7 +16,7 @@ const Welcome = (props) => (
       </Row>
     </div>
     <div className="down">
-        <Link activeClass="active" to="webdesign" spy smooth duration={900}>
+        <Link activeClass="active" to="projects" spy smooth duration={900}>
           <Glyphicon glyph="glyphicon glyphicon-chevron-down"/>
         </Link>
     </div>

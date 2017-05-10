@@ -11,9 +11,10 @@
   background-color: #ededed;*/
 }
 
-.active {
+/*.active {
   color:red !important;
-}
+  font-weight: bolder !important;
+}*/
 
 .media-body {
   vertical-align: middle !important;
@@ -40,6 +41,11 @@ img.szLogo.navbar-brand.img-responsive {
 ul.nav.navbar-nav.navbar-right {
     padding-top: 20px;
     font-size: initial;
+}
+
+.start {
+  height: 80px;
+  padding-top: 40px;
 }
 
 

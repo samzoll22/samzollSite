@@ -22,9 +22,6 @@ const Resume = () => (
           <Image className="resume" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.png
   " />
         </Row>
-        <Row>
-        {' '}
-        </Row>
       </Col>
     </Row>
   </Well>
