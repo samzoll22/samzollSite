@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Scroll from './components/Scroller.jsx';
-import Nav from './components/Nav.jsx';
+import Nav from './components/NavBar.jsx';
 import { Col } from 'react-bootstrap';
 
 
@@ -30,12 +30,7 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <div className='animated rotateIn flipInX logoStyle'>
-        <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
-      </div>
-      <div className='animated fadeInUp logoTextStyle'>
-        <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Text-2017.svg" alt="Sam Zoll Text" className='szText'/>
-      </div>
+      <Nav />
       <Col md={10} mdOffset={1}>
         <Scroll />
       </Col>
@@ -44,3 +39,9 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
+      // <div className='animated fadeInUp logoTextStyle'>
+        // <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Text-2017.svg" alt="Sam Zoll Text" className='szText'/>
+      // </div>
+      // <div className='animated rotateIn flipInX logoStyle'>
+      //   <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
+      // </div>

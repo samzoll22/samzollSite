@@ -87,7 +87,7 @@ class WebDesign extends React.Component {
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
           <TabPane tab="HomeScreen" key="0" >
             <Col md={12} >
-              <Image src={ info.content } className="imageCenter" responsive rounded />
+              <Image src={ info.content } className="imageCenter" responsive />
             </Col>
           </TabPane>
           <TabPane tab="Guided GIF" key="1">

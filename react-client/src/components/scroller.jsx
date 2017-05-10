@@ -1,5 +1,7 @@
 import React from 'react';
 import Scroll from 'react-scroll';
+import Welcome from './Welcome.jsx';
+import Resume from './Resume.jsx';
 import WebDesignTabs from './WebDesignTabs.jsx';
 import AppDesignTabs from './AppDesignTabs.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
@@ -55,32 +57,39 @@ class Section extends React.Component {
 
   render () {
     return (
-       <Timeline>
-         <Timeline.Item>
-          <h3>Web Design</h3>
-           <Element name="test1" className="element">
-              <WebDesignTabs />
+      <div>
+        <Welcome className='animated fadeInUp'  />
+        <Timeline>
+          <Element name="webdesign" className="element">
+            <Timeline.Item>
+                <h3>Web Design</h3>
+                <WebDesignTabs />
+            </Timeline.Item>
           </Element>
-          </Timeline.Item>
+          <Element name="appdesign" className="element">
           <Timeline.Item>
             <h3>App Design</h3>
-            <Element name="test2" className="element">
               <AppDesignTabs />
-            </Element>
           </Timeline.Item>
-          <Timeline.Item>
-            <h3>2D/3D Design</h3>
-            <Element name="test3" className="animated zoomIn element" style={{textAlign: 'center'}}>
-
+          </Element>
+          <Element name="2d3d" className="element">
+          <Timeline.Item className="animated zoomIn">
+            <h3 className="textPaddBig">2D/3D Design</h3>
+              <div style={{textAlign: 'center', fontSize: '2em'}}>
               <h1><Label>
                 Coming Soon
               </Label></h1>
-            </Element>
+              </div>
           </Timeline.Item>
-          <a onClick={this.scrollToTop}><h1 style={{ fontSize: '4em', textAlign: 'center' }}>To the top!</h1></a>
-       </Timeline>
+          </Element>
+        </Timeline>
+        <Element name="resume" className="element">
+          <Resume className='animated fadeInUp'  />
+        </Element>
+      </div>
     )
   }
 }
 
 export default Section;
+          // <a onClick={this.scrollToTop}><h1 style={{ fontSize: '4em', textAlign: 'center' }}>To the top!</h1></a>

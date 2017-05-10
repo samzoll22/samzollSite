@@ -30,14 +30,18 @@
   text-align: center;
 }
 
-.szLogo {
-  max-height: 200px;
-  max-width: 200px;
+/*Navigation Styles*/
+
+img.szLogo.navbar-brand.img-responsive {
+  height: 92px;
+  width: 92px;
 }
 
-.szText {
-  max-height: 92px;
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 20px;
+    font-size: initial;
 }
+
 
 .projectDescription {
   height: 100%;
@@ -51,4 +55,65 @@
 
 .textPadd {
   padding-bottom: 6px;
+}
+
+.textPaddBig {
+  padding-bottom: 4vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.halfWidth {
+  max-width: 50%;
+}
+
+.fullView {
+  height: 100vh;
+}
+
+
+.resumeParent {
+  height: 700px;
+}
+
+@media screen and (min-width: 892px) {
+  .resumeParent {
+    height: 420px;
+
+  }
+  .resumeStyle {
+    padding-bottom: 2em;
+  }
+}
+
+.resumeStyle {
+  padding-top: 2em;
+}
+
+.resume {
+  max-height: 380px;
+}
+
+.white {
+  background-color: #fff !important;
+}
+
+.textCenter {
+  padding-top: 22vh;
+}
+
+.download {
+  font-size: .4em;
+}
+
+.down {
+  transition: font-size 0.5s ease;
+  font-size: 4em;
+  text-align: center;
+}
+
+.down:hover{
+  font-size: 6em;
 }
