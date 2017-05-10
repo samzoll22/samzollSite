@@ -2,6 +2,7 @@ import React from 'react';
 import Scroll from 'react-scroll';
 import Welcome from './Welcome.jsx';
 import Resume from './Resume.jsx';
+import Contact from './Contact.jsx';
 import WebDesignTabs from './WebDesignTabs.jsx';
 import AppDesignTabs from './AppDesignTabs.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
@@ -72,7 +73,7 @@ class Section extends React.Component {
               <AppDesignTabs />
           </Timeline.Item>
           </Element>
-          <Element name="2d3d" className="element">
+          <Element name="2d3d" style={{height: "300px"}}>
           <Timeline.Item className="animated zoomIn">
             <h3 className="textPaddBig">2D/3D Design</h3>
               <div style={{textAlign: 'center', fontSize: '2em'}}>
@@ -83,8 +84,11 @@ class Section extends React.Component {
           </Timeline.Item>
           </Element>
         </Timeline>
-        <Element name="resume" className="element">
+        <Element name="resume" className="animated zoomIn element">
           <Resume className='animated fadeInUp'  />
+        </Element>
+        <Element name="contact" style={{height: "300px"}}>
+          <Contact className='animated fadeInUp' />
         </Element>
       </div>
     )

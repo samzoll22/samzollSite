@@ -16,7 +16,7 @@ const NavBar = () => (
 
         <NavItem eventKey={1} ><Link activeClass="active" to="webdesign" spy smooth duration={500}>Projects</Link></NavItem>
         <NavItem eventKey={2} ><Link activeClass="active" to="resume" spy smooth duration={700}>Resume</Link></NavItem>
-        <NavItem eventKey={3}>Contact</NavItem>
+        <NavItem eventKey={3} ><Link activeClass="active" to="contact" spy smooth duration={900}>Contact</Link></NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

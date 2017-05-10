@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Scroll from './components/Scroller.jsx';
 import Nav from './components/NavBar.jsx';
+import Footer from './components/Footer.jsx';
 import { Col } from 'react-bootstrap';
 
 
@@ -34,6 +35,7 @@ class App extends React.Component {
       <Col md={10} mdOffset={1}>
         <Scroll />
       </Col>
+      <Footer />
     </div>)
   }
 }
