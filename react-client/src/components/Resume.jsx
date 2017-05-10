@@ -19,8 +19,10 @@ const Resume = () => (
       </Col>
       <Col md={8} >
         <Row className="center textPaddBig">
+        <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf">
           <Image className="resume" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.png
   " />
+        </a>
         </Row>
       </Col>
     </Row>

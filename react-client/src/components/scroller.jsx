@@ -58,7 +58,7 @@ class Section extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="textPaddBig">
         <Welcome className='animated fadeInUp'  />
         <Element name="projects" className="start">
         <div> </div>
@@ -90,7 +90,7 @@ class Section extends React.Component {
         <Element name="resume" className="animated zoomIn element">
           <Resume className='animated fadeInUp'  />
         </Element>
-        <Element name="contact" style={{height: "300px"}}>
+        <Element name="contact" style={{height: "300px"}} className="textPaddBig">
           <Contact className='animated fadeInUp' />
         </Element>
       </div>

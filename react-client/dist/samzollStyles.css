@@ -53,6 +53,7 @@ ul.nav.navbar-nav.navbar-right {
   height: 100%;
 }
 
+
 .imageCenter {
   max-height: 580px;
   display: block !important;
@@ -99,8 +100,22 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 2em;
 }
 
+.email {
+  transition: font-size 0.3s ease;
+  font-size: 2em;
+}
+
+.email:hover {
+  font-size: 2.5em;
+}
+
 .resume {
-  max-height: 380px;
+  transition: height 0.3s ease;
+  height: 380px;
+}
+
+.resume:hover {
+  height: 420px;
 }
 
 .white {
@@ -111,12 +126,18 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 22vh;
 }
 
+
 .download {
+  transition: font-size 0.3s ease;
   font-size: .4em;
 }
 
+.download:hover {
+  font-size: .7em;
+}
+
 .down {
-  transition: font-size 0.5s ease;
+  transition: font-size 0.3s ease;
   font-size: 4em;
   text-align: center;
 }
@@ -124,3 +145,15 @@ ul.nav.navbar-nav.navbar-right {
 .down:hover{
   font-size: 6em;
 }
+
+.social {
+  transition: height 0.3s ease;
+  height: 64px;
+  width: 64px;
+}
+
+
+.social:hover {
+  height: 92px;
+}
+
