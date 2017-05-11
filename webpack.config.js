@@ -11,11 +11,24 @@ module.exports = {
   module : {
     loaders : [
       {
-        test : /\.jsx?/,
+        test: /\.css$/,
+        loader:'style-loader',
+
+      },
+      {
+        test: /\.css$/,
+        loader:'css-loader',
+        query: {
+          modules: true
+        }
+      },
+      {
+        test : /\.(js|jsx)$/,
         include : SRC_DIR,
         loader : 'babel-loader',
         query: {
-          presets: ['react', 'es2015']
+          presets: ['es2015', 'react'],
+          plugins: [["import", { "libraryName": "antd", "style": "css" }]]
        }
       }
     ]

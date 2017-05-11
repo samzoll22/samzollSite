@@ -36,7 +36,8 @@ class App extends React.Component {
         <Scroll />
       </Col>
       <Footer />
-    </div>)
+    </div>
+    )
   }
 }
 
