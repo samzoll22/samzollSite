@@ -11,7 +11,7 @@ const Resume = () => (
         <Col md={8} mdOffset={4}>
           <div className="resumeStyle">
             <h1 >Resume</h1>
-            <a className="download" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf" block >
+            <a className="download" target="_blank" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf" block >
               Download <Glyphicon glyph="glyphicon glyphicon glyphicon-download-alt"/>
             </a>
           </div>
@@ -19,7 +19,7 @@ const Resume = () => (
       </Col>
       <Col md={8} >
         <Row className="center textPaddBig">
-        <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf">
+        <a target="_blank" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf">
           <Image className="resume" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.png
   " />
         </a>

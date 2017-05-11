@@ -5,6 +5,7 @@ import Resume from './Resume.jsx';
 import Contact from './Contact.jsx';
 import WebDesignTabs from './WebDesignTabs.jsx';
 import AppDesignTabs from './AppDesignTabs.jsx';
+import Design3dTabs from './3dDesignTabs.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
 import { Col, Panel, Image, Label } from 'react-bootstrap';
 
@@ -58,7 +59,7 @@ class Section extends React.Component {
 
   render () {
     return (
-      <div className="textPaddBig">
+      <div className="textPaddBig bottomSpacer">
         <Welcome className='animated fadeInUp'  />
         <Element name="projects" className="start">
         <div> </div>
@@ -66,28 +67,24 @@ class Section extends React.Component {
         <Timeline>
           <Element name="webdesign" className="element">
             <Timeline.Item>
-                <h3>Web Design</h3>
+                <h3>Web Apps</h3>
                 <WebDesignTabs />
             </Timeline.Item>
           </Element>
           <Element name="appdesign" className="element">
           <Timeline.Item>
-            <h3>App Design</h3>
+            <h3>Native Apps</h3>
               <AppDesignTabs />
           </Timeline.Item>
           </Element>
-          <Element name="2d3d" style={{height: "300px"}}>
+          <Element name="2d3d" className="element bottomSpacer">
           <Timeline.Item className="animated zoomIn">
             <h3 className="textPaddBig">2D/3D Design</h3>
-              <div style={{textAlign: 'center', fontSize: '2em'}}>
-              <h1><Label>
-                Coming Soon
-              </Label></h1>
-              </div>
+              <Design3dTabs />
           </Timeline.Item>
           </Element>
         </Timeline>
-        <Element name="resume" className="animated zoomIn element">
+        <Element name="resume" className="animated zoomIn element bottomSpacer">
           <Resume className='animated fadeInUp'  />
         </Element>
         <Element name="contact" style={{height: "300px"}} className="textPaddBig">

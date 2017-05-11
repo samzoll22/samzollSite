@@ -80,6 +80,14 @@ ul.nav.navbar-nav.navbar-right {
   height: 100vh;
 }
 
+.bottomSpacer {
+  padding-bottom: 16em;
+}
+
+.contactPadd {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
 
 .resumeParent {
   height: 700px;

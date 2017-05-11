@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Button, Col, Row, Image, Glyphicon, Label } from 'react-bootstrap';
+import { Jumbotron, Button, Col, Row, Image, Glyphicon, Label, Well } from 'react-bootstrap';
 import Scroll from 'react-scroll';
 
 let Link       = Scroll.Link;
@@ -7,6 +7,7 @@ let Link       = Scroll.Link;
 const Contact = (props) => (
   <Jumbotron className="white textPaddBig">
     <Col md={8} mdOffset={2} className="center">
+      <Well className="white contactPadd">
       <Row className="textPaddBig">
       <h1> Let's get in touch! </h1>
       </Row>
@@ -34,6 +35,7 @@ const Contact = (props) => (
         </Row>
         </Col>
       </Row>
+      </Well>
     </Col>
   </Jumbotron>
 )
