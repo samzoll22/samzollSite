@@ -10,8 +10,8 @@ const Resume = () => (
       <Col md={4} >
         <Col md={8} mdOffset={4}>
           <div className="resumeStyle">
-            <h1 >Resume</h1>
-            <a className="download" target="_blank" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf" block >
+            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Resume.svg" responsive/>
+            <a className="download" target="_blank" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf" >
               Download <Glyphicon glyph="glyphicon glyphicon glyphicon-download-alt"/>
             </a>
           </div>

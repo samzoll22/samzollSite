@@ -29,7 +29,7 @@ class WebDesignTab extends React.Component {
         tabPosition='left'
         style={{ height: 600 }}
       >
-        <TabPane tab="Trunk Hunt" key="0" className="animated fadeIn" >
+        <TabPane tab="Truck Hunt" key="0" className="animated fadeIn" >
           <WebDesign project={this.state.key} />
         </TabPane>
         <TabPane tab="Oranges 2 Oranges" key="1" className="animated fadeIn"><WebDesign project={this.state.key} />

@@ -7,12 +7,14 @@ let Link       = Scroll.Link;
 const Contact = (props) => (
   <Jumbotron className="white textPaddBig">
     <Col md={8} mdOffset={2} className="center">
-      <Well className="white contactPadd">
+      <div className="white contactPadd">
       <Row className="textPaddBig">
-      <h1> Let's get in touch! </h1>
+        <Col md={6} mdOffset={3} className="center">
+          <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/lets-get-in-touch.svg" responsive/>
+        </Col>
       </Row>
       <Row className="textPaddBig">
-      <h3 className="email"><a href="mailto:szoll@me.com?Subject=Nifty%20Website!">email me @ <Label style={{backgroundColor: "#108ee9"}}>szoll@me.com</Label></a></h3>
+        <h3 className="email"><a href="mailto:szoll@me.com?Subject=Nifty%20Website!">email me @ <Label style={{backgroundColor: "#108ee9"}}>szoll@me.com</Label></a></h3>
       </Row>
       <Row>
         <Col xs={6} xsOffset={3}>
@@ -35,7 +37,7 @@ const Contact = (props) => (
         </Row>
         </Col>
       </Row>
-      </Well>
+      </div>
     </Col>
   </Jumbotron>
 )

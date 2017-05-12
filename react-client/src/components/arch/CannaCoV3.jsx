@@ -1,5 +1,5 @@
 import React from 'react';
-import AppDesignData from './AppDesignData.js';
+import AppDesignData from '../3dDesignData.js';
 import { Tabs, Carousel, Timeline } from 'antd';
 import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
@@ -37,8 +37,8 @@ class AppDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[this.props.project][i];
-    let length = descriptionArr[this.props.project].length;
+    let info = descriptionArr[0][i];
+    let length = descriptionArr[0].length;
     return (
       <div>
         <Col smHidden md={4}>
@@ -90,34 +90,28 @@ class AppDesign extends React.Component {
         </Col>
         <Col xs={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
-          <TabPane tab="HomeScreen" key="0" >
+          <TabPane tab="Overview" key="0" >
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Mockup" key="1">
+          <TabPane tab="Location" key="1">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          { length < 3 ? null : (info.content.slice(-3) === 'png' ?
-            (<TabPane tab="Mockup 2" key="2">
+            <TabPane tab="Architecture" key="2">
               <Col md={12} >
                 <Image src={ info.content } className="imageCenter" responsive rounded />
               </Col>
-            </TabPane>)
-            :(<TabPane tab="Video" key="2">
-                <video width="100%" className="imageCenter" loop controls muted >
-                  <source src={ info.content } type="video/mp4" />
-                </video>
-              </TabPane>))}
-          { length < 4 ? null :
-          (<TabPane tab="Mockups" key="3">
+            </TabPane>
+
+          <TabPane tab="Expandability" key="3">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
-          </TabPane>)
-          }
+          </TabPane>
+
         </Tabs>
         </Col>
       </div>

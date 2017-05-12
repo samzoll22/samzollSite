@@ -156,6 +156,8 @@ ul.nav.navbar-nav.navbar-right {
 
 .social {
   transition: height 0.3s ease;
+  color: #108ee9 !important;
+  fill: currentColor;
   height: 64px;
   width: 64px;
 }

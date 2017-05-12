@@ -1,5 +1,7 @@
 import React from 'react';
-import Design3d from './3dDesign.jsx';
+import CanncoV3 from './arch/CannaCoV3.jsx';
+import CanncoV2 from './arch/CannaCoV2.jsx';
+import CanncoV1 from './arch/CannaCoV1.jsx';
 import { Label } from 'react-bootstrap';
 import { Tabs, Carousel, Timeline } from 'antd';
 
@@ -30,11 +32,14 @@ class WebDesignTab extends React.Component {
         tabPosition='left'
         style={{ height: 600 }}
       >
-        <TabPane tab="CannaCo Competition" key="0" className="animated fadeIn" >
-          <Design3d project={this.state.key} />
+        <TabPane tab="CannaCo V3" key="0" className="animated fadeIn" >
+          <CanncoV3 />
         </TabPane>
-        <TabPane tab="Coming Soon" key="1" className="animated fadeIn center" >
-          <h1><Label>Coming Soon !</Label></h1>
+        <TabPane tab="CannaCo V2" key="1" className="animated fadeIn" >
+          <CanncoV2 />
+        </TabPane>
+        <TabPane tab="CannaCo V1" key="2" className="animated fadeIn" >
+          <CanncoV1 />
         </TabPane>
       </Tabs>
     )

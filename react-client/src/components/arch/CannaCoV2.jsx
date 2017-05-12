@@ -1,11 +1,11 @@
 import React from 'react';
-import AppDesignData from './AppDesignData.js';
+import DesignData from '../3dDesignData.js';
 import { Tabs, Carousel, Timeline } from 'antd';
 import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
-const descriptionArr = AppDesignData.data;
+const descriptionArr = DesignData.data;
 
 
 class AppDesign extends React.Component {
@@ -16,7 +16,6 @@ class AppDesign extends React.Component {
     }
 
     this.handleSwipe = this.handleSwipe.bind(this);
-    this.handleNext = this.handleNext.bind(this);
   }
 
 
@@ -27,18 +26,10 @@ class AppDesign extends React.Component {
     })
   }
 
-   handleNext() {
-    const statePlus = this.state.key + 1;
-    this.setState({
-      key: statePlus
-
-    })
-  }
-
   render () {
     let i = this.state.key;
-    let info = descriptionArr[this.props.project][i];
-    let length = descriptionArr[this.props.project].length;
+    let info = descriptionArr[1][i];
+    let length = descriptionArr[1].length;
     return (
       <div>
         <Col smHidden md={4}>
@@ -90,34 +81,51 @@ class AppDesign extends React.Component {
         </Col>
         <Col xs={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
-          <TabPane tab="HomeScreen" key="0" >
+          <TabPane tab="Rendering 1" key="0" >
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Mockup" key="1">
+          <TabPane tab="Rendering 2" key="1">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          { length < 3 ? null : (info.content.slice(-3) === 'png' ?
-            (<TabPane tab="Mockup 2" key="2">
-              <Col md={12} >
-                <Image src={ info.content } className="imageCenter" responsive rounded />
-              </Col>
-            </TabPane>)
-            :(<TabPane tab="Video" key="2">
-                <video width="100%" className="imageCenter" loop controls muted >
-                  <source src={ info.content } type="video/mp4" />
-                </video>
-              </TabPane>))}
-          { length < 4 ? null :
-          (<TabPane tab="Mockups" key="3">
+          <TabPane tab="Infographic 1" key="2">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
-          </TabPane>)
-          }
+          </TabPane>
+          <TabPane tab="Infographic 2" key="3">
+            <Col md={12} >
+              <Image src={ info.content } className="imageCenter" responsive rounded />
+            </Col>
+          </TabPane>
+          <TabPane tab="Plans + Sections" key="4">
+             <Carousel effect="fade" dots autoplay>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section1.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section2.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan0.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan1.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan2.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccphoto.jpg" className="imageCenter" responsive />
+              </div>
+              <div>
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccwebsite.png" className="imageCenter" responsive />
+              </div>
+            </Carousel>
+          </TabPane>
         </Tabs>
         </Col>
       </div>

@@ -65,15 +65,15 @@ class Section extends React.Component {
         <div> </div>
         </Element>
         <Timeline>
-          <Element name="webdesign" className="element">
+          <Element name="webdesign" className="element bottomSpacer">
             <Timeline.Item>
-                <h3>Web Apps</h3>
-                <WebDesignTabs />
+              <h3 className="textPaddBig">Web Apps</h3>
+              <WebDesignTabs />
             </Timeline.Item>
           </Element>
-          <Element name="appdesign" className="element">
+          <Element name="appdesign" className="element bottomSpacer">
           <Timeline.Item>
-            <h3>Native Apps</h3>
+            <h3 className="textPaddBig">Native Apps</h3>
               <AppDesignTabs />
           </Timeline.Item>
           </Element>
@@ -87,7 +87,7 @@ class Section extends React.Component {
         <Element name="resume" className="animated zoomIn element bottomSpacer">
           <Resume className='animated fadeInUp'  />
         </Element>
-        <Element name="contact" style={{height: "300px"}} className="textPaddBig">
+        <Element name="contact" style={{height: "300px"}} className="textPaddBig bottomSpacer">
           <Contact className='animated fadeInUp' />
         </Element>
       </div>
