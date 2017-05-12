@@ -2,6 +2,7 @@ import React from 'react';
 import CanncoV3 from './arch/CannaCoV3.jsx';
 import CanncoV2 from './arch/CannaCoV2.jsx';
 import CanncoV1 from './arch/CannaCoV1.jsx';
+import AAMusicV2 from './arch/AaMusicV2.jsx';
 import { Label } from 'react-bootstrap';
 import { Tabs, Carousel, Timeline } from 'antd';
 
@@ -40,6 +41,9 @@ class WebDesignTab extends React.Component {
         </TabPane>
         <TabPane tab="CannaCo V1" key="2" className="animated fadeIn" >
           <CanncoV1 />
+        </TabPane>
+        <TabPane tab="Music School V2" key="3" className="animated fadeIn" >
+          <AAMusicV2 />
         </TabPane>
       </Tabs>
     )
