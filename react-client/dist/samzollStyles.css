@@ -108,8 +108,19 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 40px;
 }
 
+.aboutImages {
+  vertical-align: middle;
+  display: inline;
+  width: 360px;
+}
+
 img.samTextSpacer.img-responsive {
   display: inline;
+}
+
+.miniSpacer {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .samTextSpacer {
