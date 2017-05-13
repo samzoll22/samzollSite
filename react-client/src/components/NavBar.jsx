@@ -3,24 +3,51 @@ import Scroll from 'react-scroll';
 import { Nav, Navbar, NavDropdown, NavItem, MenuItem, Image } from 'react-bootstrap';
 
 let Link       = Scroll.Link;
+let Events     = Scroll.Events;
+let scroll     = Scroll.animateScroll;
+let scrollSpy  = Scroll.scrollSpy;
 
-const NavBar = () => (
-  <Navbar className="white" fixedTop collapseOnSelect>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <Image className="szLogo" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" responsive/>
-      </Navbar.Brand>
-    </Navbar.Header>
-    <Navbar.Collapse>
-      <Nav pullRight>
+class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
 
-        <NavItem eventKey={1} ><Link activeClass="active" to="projects" spy smooth duration={500}>Projects</Link></NavItem>
-        <NavItem eventKey={2} ><Link activeClass="active" to="resume" spy smooth duration={700}>Resume</Link></NavItem>
-        <NavItem eventKey={3} ><Link activeClass="active" to="contact" spy smooth duration={900}>Contact</Link></NavItem>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-)
+    this.scrollToTop = this.scrollToTop.bind(this);
+  }
+
+  componentDidMount() {
+    scrollSpy.update();
+  }
+
+  componentWillUnmount() {
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  }
+
+  scrollToTop() {
+    scroll.scrollToTop();
+  }
+
+
+  render () {
+    return (
+    <Navbar className="white" fixedTop collapseOnSelect>
+      <Navbar.Header>
+        <Navbar.Brand>
+          <Image className="szLogo" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" responsive onClick={this.scrollToTop}/>
+        </Navbar.Brand>
+      </Navbar.Header>
+      <Navbar.Collapse>
+        <Nav pullRight>
+          <NavItem eventKey={1} ><Link activeClass="active" to="about" spy smooth duration={300}>About</Link></NavItem>
+          <NavItem eventKey={2} ><Link activeClass="active" to="projects" spy smooth duration={500}>Projects</Link></NavItem>
+          <NavItem eventKey={3} ><Link activeClass="active" to="resume" spy smooth duration={700}>Resume</Link></NavItem>
+          <NavItem eventKey={4} ><Link activeClass="active" to="contact" spy smooth duration={900}>Contact</Link></NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+    )
+  }
+}
 
 export default NavBar;
 

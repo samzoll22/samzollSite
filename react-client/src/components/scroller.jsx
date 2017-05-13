@@ -1,6 +1,7 @@
 import React from 'react';
 import Scroll from 'react-scroll';
 import Welcome from './Welcome.jsx';
+import About from './About.jsx';
 import Resume from './Resume.jsx';
 import Contact from './Contact.jsx';
 import WebDesignTabs from './WebDesignTabs.jsx';
@@ -61,8 +62,12 @@ class Section extends React.Component {
     return (
       <div className="textPaddBig bottomSpacer">
         <Welcome className='animated fadeInUp'  />
+        <Element name="about" className="aboutSpacer">
+           <div> </div>
+        </Element>
+          <About className='animated fadeInUp'  />
         <Element name="projects" className="start">
-        <div> </div>
+          <div> </div>
         </Element>
         <Timeline>
           <Element name="webdesign" className="element bottomSpacer">
@@ -84,9 +89,10 @@ class Section extends React.Component {
           </Timeline.Item>
           </Element>
         </Timeline>
-        <Element name="resume" className="animated zoomIn element bottomSpacer">
-          <Resume className='animated fadeInUp'  />
+        <Element name="resume" className="animated zoomIn resumeSpacer">
+          <div> </div>
         </Element>
+        <Resume className='animated fadeInUp'  />
         <Element name="contact" style={{height: "300px"}} className="textPaddBig bottomSpacer">
           <Contact className='animated fadeInUp' />
         </Element>

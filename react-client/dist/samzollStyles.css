@@ -98,6 +98,58 @@ ul.nav.navbar-nav.navbar-right {
   padding-bottom: 4em;
 }
 
+.resumeSpacer {
+  height: 172px;
+  padding-top: 40px;
+}
+
+.aboutSpacer {
+  height: 172px;
+  padding-top: 40px;
+}
+
+.samTextSpacer {
+  padding-top: 6em;
+  padding-bottom: 5em;
+}
+
+.samFont {
+  color: black;
+  font-family: Avenir, Helvetica;
+  padding-bottom: 4em;
+}
+
+
+.samgif {
+   background-color: #EEEEEE;
+   background-image: url("https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/sam-i-am-mobile.gif");
+   background-position: right bottom;
+   background-repeat: no-repeat;
+}
+
+.aboutParent {
+  height: 1040px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 992px) {
+  .aboutParent {
+    height: 780px;
+  }
+  .samgif {
+   background-color: #EEEEEE;
+   background-image: url("https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/sam-i-am.gif");
+   background-position: right bottom;
+   background-repeat: no-repeat;
+  }
+
+  .samFont {
+  color: black;
+  font-family: Avenir, Helvetica;
+}
+
+}
+
 .resumeParent {
   height: 700px;
   padding-bottom: 80px;
@@ -146,11 +198,11 @@ ul.nav.navbar-nav.navbar-right {
 
 .download {
   transition: font-size 0.3s ease;
-  font-size: .4em;
+  font-size: 2.4em;
 }
 
 .download:hover {
-  font-size: .7em;
+  font-size: 2.7em;
 }
 
 .down {
