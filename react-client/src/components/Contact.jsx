@@ -20,17 +20,17 @@ const Contact = (props) => (
         <Col xs={6} xsOffset={3}>
         <Row>
         <Col xs={4}>
-          <a href="https://github.com/samzoll22">
+          <a target="_blank" href="https://github.com/samzoll22">
             <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/github-logo.svg" />
           </a>
         </Col>
         <Col xs={4}>
-          <a href="https://www.linkedin.com/in/samzoll/">
+          <a target="_blank" href="https://www.linkedin.com/in/samzoll/">
             <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/linkedin-logo-button.svg" />
           </a>
         </Col>
         <Col xs={4}>
-          <a href="https://www.instagram.com/szoll/">
+          <a target="_blank" href="https://www.instagram.com/szoll/">
             <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/instagram-logo.svg" />
           </a>
         </Col>

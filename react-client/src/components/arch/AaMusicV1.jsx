@@ -28,8 +28,8 @@ class AppDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[1][i];
-    let length = descriptionArr[1].length;
+    let info = descriptionArr[4][i];
+    let length = descriptionArr[4].length;
     return (
       <div>
         <Col smHidden md={4}>
@@ -81,39 +81,39 @@ class AppDesign extends React.Component {
         </Col>
         <Col xs={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
-          <TabPane tab="Slide 1" key="0" >
+          <TabPane tab="Model" key="0" >
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Slide 2" key="1">
+          <TabPane tab="Plans" key="1">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Slide 3" key="2">
+          <TabPane tab="Section" key="2">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Slide 4" key="3">
+          <TabPane tab="Exterior" key="3">
             <Col md={12} >
               <Image src={ info.content } className="imageCenter" responsive rounded />
             </Col>
           </TabPane>
-          <TabPane tab="Slide 5" key="4">
-             <Carousel effect="fade" dots autoplay>
+          <TabPane tab="Gallery" key="4">
+             <Carousel className="imageCenter" effect="fade" autoplay >
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+4.jpg" responsive />
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/IMG_1570.JPG" responsive rounded/>
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+3.jpg" responsive />
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/IMG_1563.JPG" responsive rounded/>
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+2.jpg" responsive />
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/IMG_1585.JPG" responsive rounded/>
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+1.jpg" responsive />
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/IMG_1608.JPG" responsive rounded/>
               </div>
             </Carousel>
           </TabPane>
