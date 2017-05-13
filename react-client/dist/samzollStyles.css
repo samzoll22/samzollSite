@@ -48,6 +48,15 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 40px;
 }
 
+.footer {
+  margin-top: -7em;
+}
+
+@media screen and (min-width: 892px) {
+  .footer {
+    margin-top: 7em;
+  }
+}
 
 .projectDescription {
   height: 100%;
