@@ -119,10 +119,10 @@ ul.nav.navbar-nav.navbar-right {
   width: 360px;
 }
 
-.aboutImagesDesign:hover {
+/*.aboutImagesDesign:hover {
   background-image: url('https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/designer-logos.svg');
   width: 360px;
-}
+}*/
 
 .aboutImagesDevelop {
   vertical-align: middle;
@@ -130,10 +130,10 @@ ul.nav.navbar-nav.navbar-right {
   width: 360px;
 }
 
-.aboutImagesDevelop:hover {
+/*.aboutImagesDevelop:hover {
   background-image: url('https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-logos.svg');
   width: 360px;
-}
+}*/
 
 img.samTextSpacer.img-responsive {
   display: inline;
