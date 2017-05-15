@@ -7,7 +7,9 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-static.png'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-static.png',
+    coords: [-122.408966, 37.783697]
+  },
   { title: 'Truck Hunt SF',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
@@ -24,7 +26,9 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-static.png'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-static.png',
+    coords: [-122.408966, 37.783697]
+  },
   { title: 'Oranges 2 Oranges',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
@@ -41,7 +45,9 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket-Champ-Static.png'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket-Champ-Static.png',
+    coords: [-122.408966, 37.783697]
+  },
   { title: 'Ticket Champ',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
@@ -63,7 +69,9 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/homescreen.png'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/homescreen.png',
+    coords: [-87.635444, 41.888543]
+  },
   { title: 'Trivia Night',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
