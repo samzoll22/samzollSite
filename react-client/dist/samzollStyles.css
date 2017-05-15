@@ -113,9 +113,25 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 40px;
 }
 
-.aboutImages {
+.aboutImagesDesign {
   vertical-align: middle;
   display: inline;
+  width: 360px;
+}
+
+.aboutImagesDesign:hover {
+  background-image: url('https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/designer-logos.svg');
+  width: 360px;
+}
+
+.aboutImagesDevelop {
+  vertical-align: middle;
+  display: inline;
+  width: 360px;
+}
+
+.aboutImagesDevelop:hover {
+  background-image: url('https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-logos.svg');
   width: 360px;
 }
 
