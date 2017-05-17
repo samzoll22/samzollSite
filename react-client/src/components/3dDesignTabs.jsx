@@ -39,34 +39,31 @@ class WebDesignTab extends React.Component {
         tabPosition='left'
         style={{ height: 600 }}
       >
-        <TabPane tab="CannaCo V3" key="0" className="animated fadeIn" >
-          <CanncoV3 />
-        </TabPane>
-        <TabPane tab="CannaCo V2" key="1" className="animated fadeIn" >
-          <CanncoV2 />
-        </TabPane>
-        <TabPane tab="CannaCo V1" key="2" className="animated fadeIn" >
+        <TabPane tab="CannaCo Phase 1" key="0" className="animated fadeIn" >
           <CanncoV1 />
         </TabPane>
-        <TabPane tab="Music School V2" key="3" className="animated fadeIn" >
-          <AAMusicV2 />
+        <TabPane tab="CannaCo Phase 2" key="1" className="animated fadeIn" >
+          <CanncoV3 />
         </TabPane>
-        <TabPane tab="Music School V1" key="4" className="animated fadeIn" >
+        <TabPane tab="Music School Phase 1" key="2" className="animated fadeIn" >
           <AAMusicV1 />
         </TabPane>
-        <TabPane tab="Hand Drawing" key="5" className="animated fadeIn" >
+        <TabPane tab="Music School Phase 2" key="3" className="animated fadeIn" >
+          <AAMusicV2 />
+        </TabPane>
+        <TabPane tab="Hand Drawing" key="4" className="animated fadeIn" >
           <HandDrawing />
         </TabPane>
-        <TabPane tab="Maison de Verre" key="6" className="animated fadeIn" >
+        <TabPane tab="Maison de Verre" key="5" className="animated fadeIn" >
           <MaisonDeVerre />
         </TabPane>
-        <TabPane tab="Open Air School" key="7" className="animated fadeIn" >
+        <TabPane tab="Open Air School" key="6" className="animated fadeIn" >
           <OpenAir />
         </TabPane>
-        <TabPane tab="UM3D Research" key="8" className="animated fadeIn" >
+        <TabPane tab="UM3D Research" key="7" className="animated fadeIn" >
           <UM3D />
         </TabPane>
-        <TabPane tab="3D Modeling" key="9" className="animated fadeIn" >
+        <TabPane tab="3D Modeling" key="8" className="animated fadeIn" >
           <BobBrobson />
         </TabPane>
       </Tabs>

@@ -1,7 +1,7 @@
 module.exports = {
   data: [
   [
-  { title: 'CannaCo',
+  { title: 'Design Competition',
     description: 'CannaCo is an International Architecture Competition entry held by the Bee Breeders Architecture Competition Organizers to design a theoretical Cannabis Bank. CannaCo placed in the Top 40, qualifying for the final round of the international competition. ',
     tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, and Photoshop',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
@@ -28,41 +28,6 @@ module.exports = {
     description: 'Slide 4.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+4.jpg'}
-  ],
-  [
-  { title: 'CannaCo',
-    description: "CannaCo is a further iteration of the Modern Pharmacy & Hospital of Chicago project, directed by studio Professor Sean Vance. The goal was to explore modern medicine, specifically medical marijuana. By finding new ways to invent and brand a conceptual company, a medical marijuana dispensary was created. Extensive research was conducted in the development of an infographic. This describes how the companies' supply chain would operate, the mechanical and operational functions of how raw materials are treated once they arrive on site, and how the promotional materials and finished products appear once packaged. From business cards to supply-chain management, CannaCo takes an in-depth look on how to create a medical dispensary in Chicago.",
-    tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
-    team: 'Solo Project',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render1.jpg'},
-  { title: 'CannaCo',
-    topic: 'Rendering',
-    tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-    description: 'Rendering with Rhino and V-Ray',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render2.jpg'},
-  { title: 'CannaCo',
-    topic: 'Graphic Design',
-    tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-    description: 'Infographic',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic1.jpg'},
-  { title: 'CannaCo',
-    topic: 'Architecture',
-    tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-    description: 'Axonometric Diagram',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic2.jpg'
-  },
-  { title: 'CannaCo',
-    topic: 'Architecture',
-    tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-    description: 'Plans, Sections, and Presentation Photo',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-    content: ['https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan0.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccphoto.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccwebsite.png']
-    }
   ],
   [
   { title: 'CannaCo',
@@ -93,7 +58,7 @@ module.exports = {
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/SECTION+MIDTERM-01.jpg'}
   ],
-    [
+  [
   { title: 'Ann Arbor Music School',
     description: 'For the second iteration of the Ann Arbor Music School, I designed an space that was focused on improving social interaction. The school is organized in a simple manner around two central helixes: one houses the classrooms and learning environments, while the other supports spaces designed for the students with individual and group learning pods where students can escape to practice music or study. If two students wanted to practice together, they could link their spaces for live audio feed, connecting two physically distant spaces in a way that feels as if they were joined. To add to this effect, lights would change color and intensity at the same rhythm or tempo to show visually that the spaces were connected. This highlights the internal connection to the exterior occupants of the surrounding building. Including this audio and visual communication aspect of this building allows students to enjoy privacy and personal space, while giving them the added benefit of being able to work on a group project or rehearse for an upcoming show in a collaborative manor.',
     tools: 'Rhino, Sketchup, AutoCAD, Illustrator, and Photoshop',
@@ -217,3 +182,39 @@ module.exports = {
   ]
   ]
 }
+
+//  [
+  // { title: 'CannaCo',
+  //   description: "CannaCo is a further iteration of the Modern Pharmacy & Hospital of Chicago project, directed by studio Professor Sean Vance. The goal was to explore modern medicine, specifically medical marijuana. By finding new ways to invent and brand a conceptual company, a medical marijuana dispensary was created. Extensive research was conducted in the development of an infographic. This describes how the companies' supply chain would operate, the mechanical and operational functions of how raw materials are treated once they arrive on site, and how the promotional materials and finished products appear once packaged. From business cards to supply-chain management, CannaCo takes an in-depth look on how to create a medical dispensary in Chicago.",
+  //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
+  //   teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+  //   team: 'Solo Project',
+  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render1.jpg'},
+  // { title: 'CannaCo',
+  //   topic: 'Rendering',
+  //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
+  //   description: 'Rendering with Rhino and V-Ray',
+  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render2.jpg'},
+  // { title: 'CannaCo',
+  //   topic: 'Graphic Design',
+  //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
+  //   description: 'Infographic',
+  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic1.jpg'},
+  // { title: 'CannaCo',
+  //   topic: 'Architecture',
+  //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
+  //   description: 'Axonometric Diagram',
+  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic2.jpg'
+  // },
+  // { title: 'CannaCo',
+  //   topic: 'Architecture',
+  //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
+  //   description: 'Plans, Sections, and Presentation Photo',
+  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: ['https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan0.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccphoto.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccwebsite.png']
+  //   }
+  // ],

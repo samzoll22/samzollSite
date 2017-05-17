@@ -156,6 +156,13 @@ img.samTextSpacer.img-responsive {
   text-align: center;
 }
 
+.samFontHeader {
+  color: black;
+  font-family: Avenir, Helvetica;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
 .samgif {
    background-color: #EEEEEE;
    background-image: url("https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/sam-i-am-mobile.gif");
@@ -180,10 +187,10 @@ img.samTextSpacer.img-responsive {
   }
 
   .samFont {
-  color: black;
-  font-family: Avenir, Helvetica;
-  text-align: left;
-}
+    color: black;
+    font-family: Avenir, Helvetica;
+    text-align: left;
+  }
 
 }
 

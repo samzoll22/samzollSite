@@ -2,7 +2,7 @@ module.exports = {
   data: [
   [
   { title: 'Truck Hunt SF',
-    description: "Do you like food trucks? Come to Trunk Hunt and find your favorite truck near you, place an order, and pick up when you're ready! Truck owners can sign up to recieve mobile payment and get access to the vendor management system. Vendors can see incoming orders, update order statuses, view past transactions and analytics.",
+    description: "Do you like food trucks? Come to Truck Hunt and find your favorite truck near you, place an order, and pick up when you're ready! Truck owners can sign up to recieve mobile payment and get access to the vendor management system. Vendors can see incoming orders, update order statuses, view past transactions and analytics.",
     tools: 'React, React-Router, Redux, NodeJS, Express, and PosgreSQL',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
@@ -13,7 +13,7 @@ module.exports = {
   { title: 'Truck Hunt SF',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Truck-Hunt-HQ.gif'},
   { title: 'Truck Hunt SF',
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',

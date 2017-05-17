@@ -1,6 +1,5 @@
 import React from 'react';
 import DesignData from '../3dDesignData.js';
-import MapView from '../Map.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
 import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
@@ -29,8 +28,8 @@ class AppDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[2][i];
-    let length = descriptionArr[2].length;
+    let info = descriptionArr[1][i];
+    let length = descriptionArr[1].length;
     return (
       <div>
         <Col smHidden md={4}>
@@ -63,9 +62,6 @@ class AppDesign extends React.Component {
                         <h5>{info.team}</h5>
                       </Media.Body>
                     </Media>
-                  </ListGroupItem>
-                   <ListGroupItem>
-                    <MapView coords={[-87.627825, 41.865289]} zoom={14}/>
                   </ListGroupItem>
                 </ListGroup>
                 )}

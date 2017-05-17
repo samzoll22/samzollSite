@@ -1,6 +1,5 @@
 import React from 'react';
 import WebDesignData from './WebDesignData.js';
-import MapView from './Map.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
 import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
@@ -75,10 +74,6 @@ class WebDesign extends React.Component {
                       </Media.Body>
                     </Media>
                   </ListGroupItem>
-                  <ListGroupItem>
-                    <MapView coords={mapInfo.coords} />
-                  </ListGroupItem>
-
                 </ListGroup>
                 )
                 : (<ListGroup fill>
