@@ -16,9 +16,9 @@
   font-weight: bolder !important;
 }*/
 
-.mapboxgl-map {
-  /*margin-bottom: -10px;*/
-  /*margin-top: -10px;*/
+.platformIcons {
+  height: 40px;
+  width: 40px;
 }
 
 .media-body {
@@ -270,6 +270,37 @@ img.samTextSpacer.img-responsive {
 
 .social:hover {
   height: 92px;
+}
+
+.homeCharacter{
+    -webkit-animation-name: titleChase;
+    animation-name: titleChase;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes titleChase{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes titleChase{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
 }
 
 #services-grid .item:hover {

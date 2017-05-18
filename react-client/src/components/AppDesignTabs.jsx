@@ -41,7 +41,7 @@ class WebDesignTab extends React.Component {
         <TabPane tab="Muncher Man" key="3" className="animated fadeIn">
           <AppDesign project={this.state.key} />
         </TabPane>
-        <TabPane tab="Trivios" key="4" className="animated fadeIn">
+        <TabPane tab="triVios" key="4" className="animated fadeIn">
           <AppDesign project={this.state.key} />
         </TabPane>
       </Tabs>

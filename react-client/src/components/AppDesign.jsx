@@ -1,7 +1,7 @@
 import React from 'react';
 import AppDesignData from './AppDesignData.js';
 import { Tabs, Carousel, Timeline } from 'antd';
-import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
+import { Grid, Col, Row, Thumbnail, Panel, Image, ResponsiveEmbed, Button, ButtonGroup, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
@@ -39,7 +39,16 @@ class AppDesign extends React.Component {
     let i = this.state.key;
     let info = descriptionArr[this.props.project][i];
     let length = descriptionArr[this.props.project].length;
-
+    let platformSize = '33%';
+    if (info.platforms) {
+      if (info.platforms.length === 3) {
+        platformSize = '33%';
+      } else if (info.platforms.length === 2) {
+        platformSize = '50%';
+      } else if (info.platforms.length === 1) {
+        platformSize = '100%';
+      }
+    }
     return (
       <div>
         <Col smHidden md={4}>
@@ -50,13 +59,34 @@ class AppDesign extends React.Component {
                 </Media.Left>
                 <Media.Body>
                   <h2>{info.title}</h2>
+                  { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
                 </Media.Body>
               </Media>
               { info.team &&
                 (<ListGroup fill>
                   <ListGroupItem>
                   <h4 className="textPadd" >Project Description</h4>
-                  <h5>{info.description}</h5>
+                    <h5>{info.description}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <h4 className="textPadd" >Responsibilities</h4>
+                    <h5>{info.responsibilities}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                  <h4 className="textPadd" >Platforms</h4>
+
+                      <ButtonGroup className="center" justified>
+                  {info.platforms.map((item, i) => {
+                    return (
+                      <a href={item.link} target="_blank" key={i} >
+                        <Button style={{width: platformSize, borderColor: '#fff'}}>
+                            <Image className="platformIcons" src={item.image} alt={item.type} />
+                        </Button>
+                      </a>
+                    )
+                  })}
+                      </ButtonGroup>
+
                   </ListGroupItem>
                   <ListGroupItem>
                   <h4 className="textPadd" >Tools + Tech</h4>

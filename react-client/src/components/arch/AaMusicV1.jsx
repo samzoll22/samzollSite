@@ -28,8 +28,8 @@ class AppDesign extends React.Component {
 
   render () {
     let i = this.state.key;
-    let info = descriptionArr[3][i];
-    let length = descriptionArr[3].length;
+    let info = descriptionArr[2][i];
+    let length = descriptionArr[2].length;
     return (
       <div>
         <Col smHidden md={4}>
@@ -40,17 +40,22 @@ class AppDesign extends React.Component {
                 </Media.Left>
                 <Media.Body>
                   <h2>{info.title}</h2>
+                  { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
                 </Media.Body>
               </Media>
               { info.team &&
                 (<ListGroup fill>
                   <ListGroupItem>
                   <h4 className="textPadd" >Project Description</h4>
-                  <h5>{info.description}</h5>
+                    <h5>{info.description}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <h4 className="textPadd" >Responsibilities</h4>
+                    <h5>{info.responsibilities}</h5>
                   </ListGroupItem>
                   <ListGroupItem>
                   <h4 className="textPadd" >Tools + Tech</h4>
-                  <h5>{info.tools}</h5>
+                    <h5>{info.tools}</h5>
                   </ListGroupItem>
                   <ListGroupItem>
                    <Media>

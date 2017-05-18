@@ -21,10 +21,10 @@ const About = () => (
       </Row>
       <Row >
         <Col sm={6} className="center miniSpacer">
-          <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.png" class="aboutImagesDesign" title="About Designer"></a>
+          <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.png" className="aboutImagesDesign" title="About Designer"></a>
         </Col>
         <Col sm={6} className="center miniSpacer">
-          <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.png" class="aboutImagesDesign" title="About Developer"></a>
+          <a href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.png" className="aboutImagesDesign" title="About Developer"></a>
         </Col>
       </Row>
     </Well>

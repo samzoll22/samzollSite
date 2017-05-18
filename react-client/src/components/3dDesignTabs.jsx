@@ -54,16 +54,13 @@ class WebDesignTab extends React.Component {
         <TabPane tab="Hand Drawing" key="4" className="animated fadeIn" >
           <HandDrawing />
         </TabPane>
-        <TabPane tab="Maison de Verre" key="5" className="animated fadeIn" >
-          <MaisonDeVerre />
-        </TabPane>
-        <TabPane tab="Open Air School" key="6" className="animated fadeIn" >
+        <TabPane tab="Open Air School" key="5" className="animated fadeIn" >
           <OpenAir />
         </TabPane>
-        <TabPane tab="UM3D Research" key="7" className="animated fadeIn" >
+        <TabPane tab="UM3D Research" key="6" className="animated fadeIn" >
           <UM3D />
         </TabPane>
-        <TabPane tab="3D Modeling" key="8" className="animated fadeIn" >
+        <TabPane tab="3D Modeling" key="7" className="animated fadeIn" >
           <BobBrobson />
         </TabPane>
       </Tabs>
