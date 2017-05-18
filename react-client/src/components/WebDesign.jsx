@@ -1,7 +1,7 @@
 import React from 'react';
 import WebDesignData from './WebDesignData.js';
 import { Tabs, Carousel, Timeline } from 'antd';
-import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
+import { Col, Row, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
@@ -38,9 +38,8 @@ class WebDesign extends React.Component {
   render () {
     let i = this.state.key;
     let info = descriptionArr[this.props.project][i];
-    let mapInfo = descriptionArr[this.props.project][0];
     let length = descriptionArr[this.props.project].length;
-    console.log('map', mapInfo)
+
     return (
       <div>
         <Col smHidden md={4}>
@@ -51,13 +50,18 @@ class WebDesign extends React.Component {
                 </Media.Left>
                 <Media.Body>
                   <h2>{info.title}</h2>
+                  { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
                 </Media.Body>
               </Media>
               { info.tools ?
                 (<ListGroup fill>
                   <ListGroupItem>
-                  <h4 className="textPadd" >Project Description</h4>
+                  <h4 className="textPadd" >Project Summary</h4>
                   <h5>{info.description}</h5>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                  <h4 className="textPadd" >Responsibilities</h4>
+                  <h5>{info.responsibilities}</h5>
                   </ListGroupItem>
                   <ListGroupItem>
                   <h4 className="textPadd" >Tools + Tech</h4>

@@ -9,24 +9,7 @@ import { Col } from 'react-bootstrap';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      items: []
-    }
   }
-
-  // componentDidMount() {
-  //   $.ajax({
-  //     url: '/items',
-  //     success: (data) => {
-  //       this.setState({
-  //         items: data
-  //       })
-  //     },
-  //     error: (err) => {
-  //       console.log('err', err);
-  //     }
-  //   });
-  // }
 
   render () {
     return (
@@ -42,9 +25,3 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
-      // <div className='animated fadeInUp logoTextStyle'>
-        // <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Text-2017.svg" alt="Sam Zoll Text" className='szText'/>
-      // </div>
-      // <div className='animated rotateIn flipInX logoStyle'>
-      //   <img src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" className='szLogo'/>
-      // </div>

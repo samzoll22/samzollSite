@@ -39,7 +39,6 @@ class AppDesign extends React.Component {
     let i = this.state.key;
     let info = descriptionArr[this.props.project][i];
     let length = descriptionArr[this.props.project].length;
-    let mapInfo = descriptionArr[this.props.project][0];
 
     return (
       <div>

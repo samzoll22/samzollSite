@@ -2,84 +2,125 @@ module.exports = {
   data: [
   [
   { title: 'Truck Hunt SF',
-    description: "Do you like food trucks? Come to Truck Hunt and find your favorite truck near you, place an order, and pick up when you're ready! Truck owners can sign up to recieve mobile payment and get access to the vendor management system. Vendors can see incoming orders, update order statuses, view past transactions and analytics.",
-    tools: 'React, React-Router, Redux, NodeJS, Express, and PosgreSQL',
+    description: 'Truck Hunt allows users in San Francisco to find the nearest food trucks, place an order, and pick up when ready. Truck Hunt features both consumer and vendor facing interfaces so that truck vendors can also log onto the app to view incoming orders, past orders, and customer analytics.',
+    responsibilities: 'Responsible for UI/UX design, React/Redux implementation, consumer user flow with maps and search auto-complete, and vendor management portal with D3-based analytics.',
+    tools: 'React, React-Router, Redux, NodeJS, Express, PosgreSQL, Mapbox, Bootstrap, and Semantic UI',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-static.png',
-    coords: [-122.408966, 37.783697]
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'
   },
   { title: 'Truck Hunt SF',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Truck-Hunt-HQ.gif'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'},
   { title: 'Truck Hunt SF',
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck+hunt+demo+(720p).mp4'
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck+hunt+demo+(720p).mp4',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'
   }],
   [
   { title: 'Oranges 2 Oranges',
     description: 'Oranges 2 Oranges is a realtime MMO based off the board game Apples to Apples. 4 players join a game and take turns coming up with the wittiest responses to each prompt. Player with the most judge voted points wins. Players can enjoy playing an endless-flyer game while waiting for players to connect in the waiting room.',
-    tools: 'React, React-Router, Socket.io, Phaser.io, NodeJS, Express, and MongoDB',
+    responsibilities: 'Responsible for endless-flyer loading game, automated emailing tool, responsive UI and fluid UX improving animations.',
+    tools: 'React, React-Router, Socket.io, Phaser.io, NodeJS, Express, MongoDB, and Bootstrap',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-static.png',
-    coords: [-122.408966, 37.783697]
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
   },
   { title: 'Oranges 2 Oranges',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges_2_oranges.gif'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges_2_oranges.gif',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
+  },
   { title: 'Oranges 2 Oranges',
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v'
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
   }],
   [
   { title: 'Ticket Champ',
     description: 'Ticket Champ is a ticket price comparison app. When trying to find the best price for tickets, Ticket Champ allows you to search your desired event and compare prices from multiple vendor to find the best priced tickets.',
-    tools: 'React, NodeJS, Express, and MySQL',
+    responsibilities: "Responsible for app UI/UX design and implementation, integrating multiple ticket vendor API's and consolidated server requests for minimal 3rd party API reliance",
+    tools: 'React, NodeJS, Express, MySQL, Bootstrap and CSS Flexbox',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket-Champ-Static.png',
-    coords: [-122.408966, 37.783697]
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
   },
   { title: 'Ticket Champ',
     description: 'This is a quick gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
+  },
   { title: 'Ticket Champ',
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4'
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
   },
   { title: 'Ticket Champ',
     description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket_champ_logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png'
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
   }],
   [
   { title: 'Trivia Night',
-    description: 'With Trivia Night, you can easily launch your own white-labeled trivia game using our personalized dashboard in a matter of seconds. No more clunky tablets, hardware installation, and maintenance. We provide plug and play entertainment and your customers get to use their own mobile devices. Trivia Night gets customers in the door and keeps them coming back!',
-    tools: 'Bootstrap, jQuery, NodeJS, Express, Illustrator, After Effects, and Final Cut Pro',
+    description: "Trivia Night enables bar owners to create white-labeled trivia games with personalized dashboard in a matter of seconds. Users BYOD and create a trivia game, friends join the socket-based HTML5 game, and compete for prizes of the bar's choice. Bystanders can follow along by watching the venues TV's to view questions and leaderboards in real-time.",
+    responsibilities: 'Responsible for Trivia Night Demo website, app UI/UX, and all promotional videos and materials.',
+    tools: 'Bootstrap, jQuery, NodeJS, Express, Photoshop, Illustrator, After Effects, and Final Cut Pro',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/homescreen.png',
-    coords: [-87.635444, 41.888543]
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'
   },
   { title: 'Trivia Night',
-    description: 'This is a quick gif guided tour.',
+    description: 'Detailed desktop site mockup.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-Mockup.png'},
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-Mockup.png',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'},
   { title: 'Trivia Night',
     description: 'This is a video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4'
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'April 2017'
   }]
   ]
 }
