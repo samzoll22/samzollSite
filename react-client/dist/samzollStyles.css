@@ -16,6 +16,18 @@
   font-weight: bolder !important;
 }*/
 
+.center.miniSpacer.col-xs-6 {
+  text-align: -webkit-center;
+}
+
+.test {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+
 .platformIcons {
   height: 40px;
   width: 40px;
@@ -106,6 +118,37 @@ ul.nav.navbar-nav.navbar-right {
 .resumeSpacer {
   height: 172px;
   padding-top: 40px;
+}
+
+.aboutImageSwap {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.aboutImageSwap img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.aboutImageSwap img.bottom {
+  opacity:0;
+}
+
+.aboutImageSwap img.top {
+  opacity:1;
+}
+
+.aboutImageSwap img.top:hover {
+  opacity:0;
+}
+
+.aboutImageSwap img.bottom:hover {
+  opacity:1;
 }
 
 .aboutSpacer {

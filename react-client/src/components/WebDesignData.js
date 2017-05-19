@@ -116,7 +116,7 @@ module.exports = {
     date: '2017'
   },
   { title: 'Trivia Night',
-    description: 'This is a video guided tour.',
+    description: 'Marketing demo and product experience tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4',
     location: 'Chicago',
