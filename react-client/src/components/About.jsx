@@ -1,7 +1,8 @@
 import React from 'react';
 import { Well, Button, Col, Row, Image, Glyphicon } from 'react-bootstrap';
 import Scroll from 'react-scroll';
-import AboutGrid from './AboutGrid.jsx';
+import AboutGridDesign from './AboutGridDesign.jsx';
+import AboutGridDev from './AboutGridDev.jsx';
 
 
 let Link       = Scroll.Link;
@@ -10,8 +11,8 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      design: false,
-      dev: false
+      design: true,
+      dev: true
     }
     this.designEnter = this.designEnter.bind(this);
     this.designLeave = this.designLeave.bind(this);
@@ -62,15 +63,29 @@ class About extends React.Component {
           </Col>
         </Row>
         <Row className="center" >
-          <Col md={6} className="center miniSpacer" onMouseLeave={this.designLeave}>
-              <Row className="test" onMouseEnter={this.designEnter} >
+          <Col md={6} className="center miniSpacer" >
+            <Well>
+              <Row className="test" onClick={this.designEnter} >
                 <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" />
               </Row>
+              { this.state.design ?
+                (<Row className="animated bounceIn">
+                  <AboutGridDesign />
+                </Row>) : null
+              }
+            </Well>
           </Col>
-          <Col md={6} className="center miniSpacer">
-            <div className="test" onMouseEnter={this.devEnter} onMouseLeave={this.devLeave}>
-              <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" />
-            </div>
+          <Col md={6} className="center miniSpacer" >
+            <Well>
+              <Row className="test" onClick={this.devEnter} >
+                  <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" />
+                </Row>
+                { this.state.dev ?
+                  (<Row className="animated bounceIn">
+                    <AboutGridDev />
+                  </Row>) : null
+                }
+            </Well>
           </Col>
         </Row>
       </Well>
@@ -80,11 +95,6 @@ class About extends React.Component {
 }
 
 export default About;
-              // { this.state.design ?
-              //   (<Row className="animated bounceIn">
-              //     <AboutGrid />
-              //   </Row>) : null
-              // }
 
           // <Col md={6} className="center miniSpacer">
             // <div className="test" onMouseEnter={this.designEnter} onMouseLeave={this.designLeave}>
