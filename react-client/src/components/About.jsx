@@ -53,8 +53,10 @@ class About extends React.Component {
    return (
     <div >
       <Well className="white center contactPadd">
-         <Row className="samFontHeader center">
-          <h1 style={{fontSize:'4em'}}> About </h1>
+        <Row className="samFontHeader center">
+          <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
+            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about.svg" alt="about" responsive/>
+          </Col>
         </Row>
         <Row>
           <Col md={10} mdOffset={1}>
@@ -66,7 +68,7 @@ class About extends React.Component {
           <Col md={6} className="center miniSpacer" >
             <Well>
               <Row className="test" onClick={this.designEnter} >
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" />
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" alt="designTools"/>
               </Row>
               { this.state.design ?
                 (<Row className="animated bounceIn">
@@ -78,7 +80,7 @@ class About extends React.Component {
           <Col md={6} className="center miniSpacer" >
             <Well>
               <Row className="test" onClick={this.devEnter} >
-                  <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" />
+                  <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" alt="developerTools"/>
                 </Row>
                 { this.state.dev ?
                   (<Row className="animated bounceIn">
