@@ -30,7 +30,7 @@ module.exports = {
   }],
   [
   { title: 'Oranges 2 Oranges',
-    description: 'Oranges 2 Oranges is a realtime MMO based off the board game Apples to Apples. 4 players join a game and take turns coming up with the wittiest responses to each prompt. Player with the most judge voted points wins. Players can enjoy playing an endless-flyer game while waiting for players to connect in the waiting room.',
+    description: 'Oranges 2 Oranges is a realtime MMO based off the board game Apples to Apples. 4 players join a game and take turns coming up with the wittiest responses to each prompt. Player with the most judge voted points wins. Players can enjoy playing an endless-flyer game as other players connect in the waiting room.',
     responsibilities: 'Endless-flyer loading game, automated emailing tool, responsive UI and fluid UX improving animations.',
     tools: 'React, React-Router, Socket.io, Phaser.io, NodeJS, Express, MongoDB, and Bootstrap',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
@@ -59,7 +59,7 @@ module.exports = {
   }],
   [
   { title: 'Ticket Champ',
-    description: 'Ticket Champ is a ticket price comparison app. When trying to find the best price for tickets, Ticket Champ allows you to search your desired event and compare prices from multiple vendor to find the best priced tickets.',
+    description: 'Ticket Champ is a ticket price comparison app. When trying to find the best price for tickets, Ticket Champ allows you to search your desired event and compare prices from multiple vendors.',
     responsibilities: "App UI/UX design and implementation, integrated multiple ticket vendor API's and consolidated server requests for minimal 3rd party API reliance.",
     tools: 'React, NodeJS, Express, MySQL, Bootstrap and CSS Flexbox',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
@@ -96,7 +96,7 @@ module.exports = {
   }],
   [
   { title: 'Trivia Night',
-    description: "Trivia Night enables bar owners to create white-labeled trivia games with personalized dashboard in a matter of seconds. Users BYOD and create a trivia game, friends join the socket-based HTML5 game, and compete for prizes of the bar's choice. Bystanders can follow along by watching the venues TV's to view questions and leaderboards in real-time.",
+    description: "Trivia Night enables bar owners to create white-labeled trivia games with personalized dashboard in a matter of seconds. Users BYOD and create a trivia game as friends join the socket-based HTML5 game, and compete for prizes of the bar's choice. Bystanders can follow along by watching the venue’s TV's to view questions and leaderboards in real-time.",
     responsibilities: 'Trivia Night Demo website, app UI/UX, and all promotional videos + materials.',
     tools: 'Bootstrap, jQuery, NodeJS, Express, Photoshop, Illustrator, After Effects, and Final Cut Pro',
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
