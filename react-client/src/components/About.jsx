@@ -68,7 +68,7 @@ class About extends React.Component {
           <Col md={6} className="center miniSpacer" >
             <Well>
               <Row className="test" onClick={this.designEnter} >
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" alt="designTools"/>
+                <a><h2>Design Tools</h2></a>
               </Row>
               { this.state.design ?
                 (<Row className="animated bounceIn">
@@ -80,7 +80,7 @@ class About extends React.Component {
           <Col md={6} className="center miniSpacer" >
             <Well>
               <Row className="test" onClick={this.devEnter} >
-                  <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" alt="developerTools"/>
+                  <a><h2>Developer Tools</h2></a>
                 </Row>
                 { this.state.dev ?
                   (<Row className="animated bounceIn">
