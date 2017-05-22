@@ -34,11 +34,17 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <Nav />
-        <Col md={10} mdOffset={1}>
-          <Scroll width={this.state.windowWidth}/>
-        </Col>
-        <Footer />
+        <Row>
+          <Nav />
+          <Col md={10} mdOffset={1}>
+            <Scroll width={this.state.windowWidth}/>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12} md={12}>
+            <Footer />
+          </Col>
+        </Row>
       </div>
     )
   }

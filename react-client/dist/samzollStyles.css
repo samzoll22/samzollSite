@@ -83,14 +83,27 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .footer {
-  margin-top: -7em;
+  /*margin-top: -7em;*/
+  height: 25vh;
+  background-color: #dddddd;
 }
 
 @media screen and (min-width: 892px) {
   .footer {
-    margin-top: 7em;
+    /*margin-top: 7em;*/
   }
 }
+
+.footerText {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+.footerSubtext {
+  font-size: 14px;
+  padding-bottom: 3vh;
+}
+
 
 /*.projectDescription {
   height: 100%;
@@ -264,12 +277,8 @@ img.samTextSpacer.img-responsive {
 
 }
 
-.resumeParent {
-  height: 700px;
-  padding-bottom: 80px;
-}
 
-@media screen and (min-width: 892px) {
+@media screen and (min-width: 992px) {
   .resumeParent {
     height: 420px;
 

@@ -9,7 +9,7 @@ const Contact = (props) => (
     <Col md={8} mdOffset={2} className="center">
       <div className="white contactPadd">
       <Row className="textPaddBig">
-        <Col md={6} mdOffset={3} className="center">
+        <Col sm={6} smOffset={3} md={6} mdOffset={3} className="center">
           <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/lets-get-in-touch.svg" responsive/>
         </Col>
       </Row>
