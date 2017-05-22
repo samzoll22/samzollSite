@@ -43,7 +43,7 @@ module.exports = {
     date: ' 2016 - Present'
   },
   { title: 'Lucky North Casino',
-    topic: 'UI DESIGN',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
@@ -59,7 +59,7 @@ module.exports = {
     date: ' 2016 - Present'
   },
   { title: 'Lucky North Casino',
-    topic: 'MOTION GRAPHICS',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
@@ -117,7 +117,7 @@ module.exports = {
     date: '2016 - Present'
   },
   { title: 'Trivia Monster',
-    topic: 'UI DESIGN - HomeScreen',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
@@ -130,7 +130,7 @@ module.exports = {
     date: '2016 - Present'
   },
   { title: 'Trivia Monster',
-    topic: 'UI DESIGN - Gameplay',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
@@ -184,12 +184,15 @@ module.exports = {
     date: '2015'
   },
   { title: 'Double Luck Nudge',
-    topic: 'UI DESIGN - App Store Detail 1',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
             }],
-    description: 'This is a detailed mockup of Double Luck Nudge',
+    description: 'This is a detailed mockup of Double Luck Nudge featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/DoubleLuckIconX1024.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/App-Store-Screenshots6-1.png',
     location: 'Chicago',
@@ -197,12 +200,15 @@ module.exports = {
     date: '2015'
   },
   { title: 'Double Luck Nudge',
-    topic: 'UI DESIGN - App Store Detail 2',
+    topic: 'Description',
     tools: [
             { name: 'Illustrator',
               image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
             }],
-    description: 'This is a detailed mockup of Double Luck Nudge',
+    description: 'This is a detailed mockup of Double Luck Nudge featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/DoubleLuckIconX1024.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/App-Store-Screenshots6-2.png',
     location: 'Chicago',
@@ -248,7 +254,7 @@ module.exports = {
     date: '2015'
   },
   { title: 'Muncher Man',
-    topic: 'UI DESIGN - App Store Detail 1',
+    topic: 'Description',
     tools: [
         { name: 'Illustrator',
           image: 'illustrator'
@@ -256,7 +262,7 @@ module.exports = {
         { name: 'Photoshop',
           image: 'photoshop'
         }],
-    description: 'This is a detailed mockup of Muncher Man',
+    description: 'This is a detailed mockup of Muncher Man featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/1.png',
     location: 'Chicago',
@@ -264,7 +270,7 @@ module.exports = {
     date: '2015'
   },
   { title: 'Muncher Man',
-    topic: 'UI DESIGN - App Store Detail 2',
+    topic: 'Description',
     tools: [
         { name: 'Illustrator',
           image: 'illustrator'
@@ -272,7 +278,7 @@ module.exports = {
         { name: 'Photoshop',
           image: 'photoshop'
         }],
-    description: 'This is a detailed mockup of Muncher Man',
+    description: 'This is a detailed mockup of Muncher Man featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/3.png',
     location: 'Chicago',
@@ -322,7 +328,7 @@ module.exports = {
     date: '2014-2015'
   },
   { title: 'triVios',
-    topic: 'UI DESIGN - App Store Detail',
+    topic: 'Description',
     tools: [
         { name: 'Illustrator',
           image: 'illustrator'
@@ -330,14 +336,14 @@ module.exports = {
         { name: 'Photoshop',
           image: 'photoshop'
         }],
-    description: 'This is a detailed mockup of triVios',
+    description: 'This is a detailed mockup of triVios featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/1024X-app-icon-1024.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/Apple_iPhone4-2.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2014-2015'},
   { title: 'triVios',
-    topic: 'MOTION GRAPHICS - Demo Video',
+    topic: 'Description',
         tools: [
         { name: 'Illustrator',
           image: 'illustrator'
@@ -351,7 +357,7 @@ module.exports = {
         { name: 'Final Cut Pro',
           image: 'final_cut_pro'
         }],
-    description: 'This is a detailed mockup of triVios',
+    description: 'This is a detailed mockup of triVios featured in the Apple App Store',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/1024X-app-icon-1024.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/triVios+1.2+Video+Final+(Official)+30s+-+1334X750.mov',
     location: 'Chicago',

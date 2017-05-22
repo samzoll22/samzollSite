@@ -4,7 +4,25 @@ module.exports = {
       { title: 'CannaCo Phase 1',
         description: 'The Modern Pharmacy & Hospital of Chicago is this first iteration of the CannaCo Project series. The focus was to create a medical facility that operates as a pharmacy and hospital, while also having the capacity to process its own medicine on-site. In the current stage of this project, the building is designed to include a processing and storage facility, a grand entrance, unloading dock, pharmacy, hospital, patio and lounge.',
         responsibilities: 'Project architecture, 2D architectural drawings + diagrams, 3D models + rendering, laser cut + 3D printed models, large format 2D printing.',
-        tools: 'Rhino, V-Ray (with render farm), Sketchup, AutoCAD, Illustrator, and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'V-Ray (render farm)',
+              image: 'vray'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
@@ -15,7 +33,13 @@ module.exports = {
       },
       { title: 'CannaCo Phase 1',
         topic: 'Architecture',
-        tools: 'Rhino and Illustrator',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
         description: 'Process / User Flow Diagram.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/medicine+processing+diagram.jpg',
@@ -25,7 +49,16 @@ module.exports = {
       },
       { title: 'CannaCo Phase 1',
         topic: 'Architecture',
-        tools: 'Rhino, AutoCAD and Illustrator',
+         tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
         description: 'Floor Plans.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/FINAL+PLANS+MIDTERM-04.jpg',
@@ -35,7 +68,13 @@ module.exports = {
       },
       { title: 'CannaCo Phase 1',
         topic: 'Architecture',
-        tools: 'Rhino and Illustrator',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
         description: 'Section Diagram.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/SECTION+MIDTERM-01.jpg',
@@ -47,7 +86,28 @@ module.exports = {
       { title: 'CannaCo Phase 2',
         description: 'CannaCo is an International Architecture Competition entry held by the Bee Breeders Architecture Competition Organizers to design a theoretical Cannabis Bank. CannaCo placed in the Top 40, qualifying for the final round of the international competition.',
         responsibilities: 'Project architecture, 2D architectural drawings + diagrams, and 3D models + rendering.',
-        tools: 'Rhino, V-Ray, Sketchup, AutoCAD, Illustrator, InDesign and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'V-Ray',
+              image: 'vray'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'InDesign',
+              image: 'indesign'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
@@ -58,7 +118,22 @@ module.exports = {
       },
       { title: 'CannaCo Phase 2',
         topic: 'UX DESIGN',
-        tools: 'Rhino, AutoCAD, Illustrator, InDesign and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'InDesign',
+              image: 'indesign'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         description: 'Slide 2 - Centralized location.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+2.jpg',
@@ -68,7 +143,25 @@ module.exports = {
       },
       { title: 'CannaCo Phase 2',
         topic: 'UX DESIGN',
-        tools: 'Rhino, V-Ray, Sketchup, AutoCAD, Illustrator and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'V-Ray',
+              image: 'vray'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         description: 'Slide 3 - Automating architecture.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+3.jpg',
@@ -78,7 +171,25 @@ module.exports = {
       },
       { title: 'CannaCo Phase 2',
         topic: 'UX DESIGN',
-        tools: 'Rhino, V-Ray, Sketchup, AutoCAD, Illustrator and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'V-Ray',
+              image: 'vray'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         description: 'Slide 4 - Modular design. ',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+4.jpg',
@@ -91,7 +202,31 @@ module.exports = {
       { title: 'Music School Phase 1',
         description: "The Ann Arbor School of Music was part of an exploration that dealt with how to design an educational environment with preference to music students. Studied the Openluchtschool (Open Air School) in Amsterdam by Johannes Duiker to help create a formal expression of how to design a division of space for the conception of this school.",
         responsibilities: 'Project architecture, 2D architectural drawings + diagrams, 3D models, laser cut + hand crafted models, large format 2D printing.',
-        tools: 'Rhino, Sketchup, AutoCAD, Illustrator, Photoshop, laser cutters, fiber optics, and LEDs',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            },
+            { name: 'Laser Cutters',
+              image: 'laser_cutter'
+            },
+            { name: 'Fiber Optics',
+              image: 'fiber'
+            },
+            { name: 'LEDs',
+              image: 'led'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
@@ -102,7 +237,13 @@ module.exports = {
       },
       { title: 'Music School Phase 1',
         topic: 'Architecture',
-        tools: 'AutoCAD and Illustrator',
+        tools: [
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
         description: 'Floor Plans.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/FINAL+3+PLANS.jpg',
@@ -112,7 +253,19 @@ module.exports = {
       },
       { title: 'Music School Phase 1',
         topic: 'Architecture',
-        tools: 'AutoCAD, Illustrator, Micron Pen and Paper',
+        tools: [
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Pencil',
+              image: 'pencil'
+            },
+            { name: 'Paper',
+              image: 'paper'
+            }],
         description: 'Section Sketch.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/SECTION+PERSPECTIVE.jpg',
@@ -122,7 +275,16 @@ module.exports = {
       },
       { title: 'Music School Phase 1',
         topic: 'Architecture',
-        tools: 'Rhino, AutoCAD and Illustrator',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
         description: 'Exterior facade diagram.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
@@ -132,7 +294,22 @@ module.exports = {
       },
       { title: 'Music School Phase 1',
         topic: 'Architecture',
-        tools: 'Rhino, Sketchup, AutoCAD, Illustrator, and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         description: '1/16th Scale Model with fiber optic cables and LED lights.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
@@ -144,7 +321,22 @@ module.exports = {
       { title: 'Music School Phase 2',
         description: 'The second iteration of the Ann Arbor Music School focused on improving social interactions inside and out. The school is organized around two central helixes: one houses the classrooms and learning environments, while the other contains pods designed for students to practice music or study individually or with groups. When students practice in different pods, they have the ability to play together by linking their pods, which syncronizes LED lights and sound to digitally connect the environments and reflect this connection externally for pedestrians to observe.',
         responsibilities: 'Project architecture, 2D architectural drawings + diagrams, 3D models + rendering, large format 2D printing.',
-        tools: 'Rhino, Sketchup, AutoCAD, Illustrator, and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
@@ -155,7 +347,22 @@ module.exports = {
       },
       { title: 'Music School Phase 2',
         topic: 'Architecture',
-        tools: 'Rhino, Sketchup, AutoCAD, Illustrator, and Photoshop',
+        tools: [
+            { name: 'Rhino',
+              image: 'rhino'
+            },
+            { name: 'Sketchup',
+              image: 'sketchup'
+            },
+            { name: 'AutoCAD',
+              image: 'autocad'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         description: 'This is a graphic representing the numerous iterations it to took get to completed design.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/Tile+UG4.jpg',
@@ -168,7 +375,13 @@ module.exports = {
       { title: 'Hand Drawing',
         description: "Crafted drawings after being captivated by the long perspectival view afforded when approaching this transitional area. For this architectural drawing experiment, no rulers or erasers were utilized, which made the presented depiction take days to reach completion. The drawing in view is an axonometric representation of a stairwell found in the UMMA in Ann Arbor.",
         responsibilities: 'Sketched drawings free-handed without the aid of erasers or rulers.',
-        tools: 'Pencil and Paper',
+        tools: [
+            { name: 'Pencil',
+              image: 'pencil'
+            },
+            { name: 'Paper',
+              image: 'paper'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
@@ -179,7 +392,13 @@ module.exports = {
       },
       { title: 'Hand Drawing',
         topic: 'Architecture',
-        tools: 'Pencil and Paper',
+        tools: [
+            { name: 'Pencil',
+              image: 'pencil'
+            },
+            { name: 'Paper',
+              image: 'paper'
+            }],
         description: 'One point perspective.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/IMG_7942.jpg',
@@ -192,7 +411,16 @@ module.exports = {
       { title: 'Open Air School',
         description: "Created illustrated book breaking down the essential technicalities that ultimately compose the character of the Open Air School to study various types of school designs. This project was conducted to better understand the fundamental characteristics of designing an educational environment.",
         responsibilities: 'Researched, designed, and assembled informational book.',
-        tools: 'Illustrator, Photoshop and InDesign',
+        tools: [
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            },
+            { name: 'InDesign',
+              image: 'indesign'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/book-icon.svg',
@@ -206,7 +434,13 @@ module.exports = {
       { title: 'Universal Character System',
         description: "Helped create a database of physical human characteristics that can be easily manipulated by a user dragging a slider. These characteristics include skin tones, body weights, body structures, genders, and other unique features complied from databases of real people who had been photographed in order to use the images to create different types of high-resolution, three-dimensional characters. This system would be helpful in real world applications by professions in need of a quick human models to demonstrate something that the user could determine.",
         responsibilities: 'Deconstructed + corrected large images and created 3D mesh character models.',
-        tools: 'Mudbox and Photoshop',
+        tools: [
+            { name: 'Mudbox',
+              image: 'mudbox'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
         team: 'UM3D Lab @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
@@ -217,7 +451,10 @@ module.exports = {
       },
       { title: 'Universal Character System',
         topic: '3D Character Design',
-        tools: 'Mudbox',
+        tools: [
+            { name: 'Mudbox',
+              image: 'mudbox'
+            }],
         description: 'Mudbox character detail.',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/character.png',
@@ -230,7 +467,10 @@ module.exports = {
       { title: '2D Drawings to 3D Models',
         description: "Converted architectural firm's 2D plans and section building drawings into 3D representations. Used Sketchup to created highly detailed 3D models in order to show future clients demonstrations of the firm’s work.",
         responsibilities: 'Converted 2D architectural drawings into 3D Sketchup models.',
-        tools: 'Sketchup',
+        tools: [
+            { name: 'Sketchup',
+              image: 'sketchup'
+            }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',
         team: 'Bob Brobson',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',

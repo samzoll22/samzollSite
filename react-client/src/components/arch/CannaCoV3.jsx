@@ -1,6 +1,6 @@
 import React from 'react';
 import AppDesignData from '../3dDesignData.js';
-import { Tabs, Carousel, Timeline } from 'antd';
+import { Tabs, Carousel, Timeline, Tooltip } from 'antd';
 import { Col, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
@@ -64,7 +64,15 @@ class AppDesign extends React.Component {
                   </ListGroupItem>
                   <ListGroupItem>
                   <h4 className="textPadd" >Tools + Tech</h4>
-                  <h5>{info.tools}</h5>
+                  {info.tools.map((item, i) => {
+                        const count = info.tools.length;
+                        const size = 100 / count;
+                        return (
+                        <Tooltip title={item.name} key={i}>
+                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                        </Tooltip>
+                        )
+                      })}
                   </ListGroupItem>
                   <ListGroupItem>
                    <Media>
@@ -87,7 +95,15 @@ class AppDesign extends React.Component {
                   </ListGroupItem>
                   <ListGroupItem>
                   <h4 className="textPadd" >Tools + Tech</h4>
-                  <h5>{info.tools}</h5>
+                  {info.tools.map((item, i) => {
+                        const count = info.tools.length;
+                        const size = 100 / count;
+                        return (
+                        <Tooltip title={item.name} key={i}>
+                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                        </Tooltip>
+                        )
+                      })}
                   </ListGroupItem>
                 </ListGroup>
                 )}

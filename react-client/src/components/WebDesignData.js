@@ -41,14 +41,72 @@ module.exports = {
     date: 'April 2017'
   },
   { title: 'Truck Hunt SF',
-    description: 'This is a quick gif guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Redux',
+              image: 'redux'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'PostgreSQL',
+              image: 'postgresql'
+            },
+            { name: 'Mapbox',
+              image: 'mapbox'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'Semantic UI',
+              image: 'semantic'
+            }],
+    description: 'This is a quick (4X speed) gif guided tour. Watch video for real time (1X speed).',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'April 2017'},
   { title: 'Truck Hunt SF',
-    description: 'This is a video guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Redux',
+              image: 'redux'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'PostgreSQL',
+              image: 'postgresql'
+            },
+            { name: 'Mapbox',
+              image: 'mapbox'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'Semantic UI',
+              image: 'semantic'
+            }],
+    description: 'This is a video guided tour @ 1X Speed.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck+hunt+demo+(720p).mp4',
     location: 'San Francisco',
@@ -91,7 +149,30 @@ module.exports = {
     date: 'March 2017'
   },
   { title: 'Oranges 2 Oranges',
-    description: 'This is a quick gif guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Socket.io',
+              image: 'socketio'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MongoDB',
+              image: 'mongod'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            }],
+    description: 'This is a quick (4X speed) gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges_2_oranges.gif',
     location: 'San Francisco',
@@ -99,7 +180,30 @@ module.exports = {
     date: 'March 2017'
   },
   { title: 'Oranges 2 Oranges',
-    description: 'This is a video guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Socket.io',
+              image: 'socketio'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MongoDB',
+              image: 'mongod'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            }],
+    description: 'This is a quick (4X speed) video guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v',
     location: 'San Francisco',
@@ -139,7 +243,27 @@ module.exports = {
     date: 'March 2017'
   },
   { title: 'Ticket Champ',
-    description: 'This is a quick gif guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MySQL',
+              image: 'mysql'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'CSS Flexbox',
+              image: 'css'
+            }],
+    description: 'This is a quick (1X speed) gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif',
     location: 'San Francisco',
@@ -147,7 +271,27 @@ module.exports = {
     date: 'March 2017'
   },
   { title: 'Ticket Champ',
-    description: 'This is a video guided tour.',
+    topic: 'Description',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MySQL',
+              image: 'mysql'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'CSS Flexbox',
+              image: 'css'
+            }],
+    description: 'This is a video (1X speed) guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4',
     location: 'San Francisco',
@@ -155,6 +299,20 @@ module.exports = {
     date: 'March 2017'
   },
   { title: 'Ticket Champ',
+    topic: 'Description',
+    tools: [
+            { name: 'Pencil',
+              image: 'pencil'
+            },
+            { name: 'Paper',
+              image: 'paper'
+            },
+            { name: 'iPhone 7 Plus',
+              image: 'iphone'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
     description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png',
@@ -188,6 +346,9 @@ module.exports = {
             },
             { name: 'After Effects',
               image: 'after_effects'
+            },
+            { name: 'iPhone 7 Plus',
+              image: 'iphone'
             }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
@@ -198,6 +359,14 @@ module.exports = {
     date: '2017'
   },
   { title: 'Trivia Night',
+    topic: 'Description',
+    tools: [
+            { name: 'Photoshop',
+              image: 'photoshop'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
     description: 'Detailed desktop site mockup.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-Mockup.png',
@@ -206,6 +375,19 @@ module.exports = {
     date: '2017'
   },
   { title: 'Trivia Night',
+    topic: 'Description',
+    tools: [{ name: 'iPhone 7 Plus',
+              image: 'iphone'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'After Effects',
+              image: 'after_effects'
+            }],
     description: 'Marketing demo and product experience tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4',

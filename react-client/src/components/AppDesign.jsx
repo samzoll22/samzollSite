@@ -164,7 +164,7 @@ class AppDesign extends React.Component {
                         { mobile[0].location ? (<h5>{mobile[0].location} • {mobile[0].date}</h5>) : null}
                       </Media.Body>
                     </Media>
-                    { mobile[0].team &&
+                    { info.team &&
                       (<ListGroup fill>
                         <ListGroupItem>
                         <h4 className="textPadd" >Project Description</h4>
@@ -211,19 +211,19 @@ class AppDesign extends React.Component {
                             </Media.Body>
                           </Media>
                         </ListGroupItem>
-
                       </ListGroup>
                       )}
-                      { mobile[0].topic &&
+
+                      { info.topic &&
                       (<ListGroup fill>
                         <ListGroupItem>
-                        <h4 className="textPadd" >{mobile[0].topic}</h4>
-                        <h5>{mobile[0].description}</h5>
+                        <h4 className="textPadd" >{info.topic}</h4>
+                        <h5>{info.description}</h5>
                         </ListGroupItem>
                         <ListGroupItem>
                         <h4 className="textPadd" >Tools + Tech</h4>
-                        {mobile[0].tools.map((item, i) => {
-                          const count = mobile[0].tools.length;
+                        {info.tools.map((item, i) => {
+                          const count = info.tools.length;
                           const size = 100 / count;
                           return (
                           <Tooltip title={item.name} key={i}>
@@ -237,7 +237,7 @@ class AppDesign extends React.Component {
                 </Panel>
               </Col>
               <Col xs={12} md={8}>
-                <Tabs defaultActiveKey="0" onChange={this.handleSwipe} activeKey={(this.state.key).toString()} tabPosition="top">
+                <Tabs defaultActiveKey="0" onChange={this.handleSwipe} tabPosition="top">
                   <TabPane tab="HomeScreen" key="0" >
                     <Col md={12} >
                       <Image src={ info.content } className="imageCenter" responsive rounded />

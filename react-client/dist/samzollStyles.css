@@ -16,6 +16,10 @@
   font-weight: bolder !important;
 }*/
 
+h5 {
+  font-size: 12px;
+}
+
 .center.miniSpacer.col-xs-6 {
   text-align: -webkit-center;
 }
@@ -88,10 +92,20 @@ ul.nav.navbar-nav.navbar-right {
   }
 }
 
-.projectDescription {
+/*.projectDescription {
   height: 100%;
 }
+*/
+.projectDescription.panel.panel-default {
+    height: 530px;
+    overflow: scroll;
+  }
 
+@media screen and (min-width: 1200px) {
+  .projectDescription.panel.panel-default {
+    height: 100%
+  }
+}
 
 .imageCenter {
   max-height: 580px;

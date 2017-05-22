@@ -37,7 +37,8 @@ class WebDesign extends React.Component {
 
   render () {
     let i = this.state.key
-    let info = descriptionArr[this.props.project][i];
+    let mobile = descriptionArr[this.props.project];
+    let info = mobile[i];
     let length = descriptionArr[this.props.project].length;
     let screenWidth = this.props.width;
 
@@ -79,47 +80,39 @@ class WebDesign extends React.Component {
                       { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
                     </Media.Body>
                   </Media>
-                  { descriptionArr[this.props.project][0].tools ?
-                    (<ListGroup fill>
-                      <ListGroupItem>
-                      <h4 className="textPadd" >Project Summary</h4>
-                      <h5>{descriptionArr[this.props.project][0].description}</h5>
-                      </ListGroupItem>
-                      <ListGroupItem>
-                      <h4 className="textPadd" >Responsibilities</h4>
-                      <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
-                      </ListGroupItem>
-                      <ListGroupItem>
-                      <h4 className="textPadd" >Tools + Tech</h4>
-                      {descriptionArr[this.props.project][0].tools.map((item, i) => {
-                        const count = descriptionArr[this.props.project][0].tools.length;
-                        const size = 100 / count;
-                        return (
-                        <Tooltip title={item.name} key={i}>
-                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
-                        </Tooltip>
-                        )
-                      })}
-                      </ListGroupItem>
-                      <ListGroupItem>
-                       <Media>
-                         <Media.Left>
-                            <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
-                          </Media.Left>
-                          <Media.Body>
-                            <h4 className="textPadd" >Team</h4>
-                            <h5>{descriptionArr[this.props.project][0].team}</h5>
-                          </Media.Body>
-                        </Media>
-                      </ListGroupItem>
-                    </ListGroup>
-                    )
-                    : (<ListGroup fill>
-                        <ListGroupItem>
-                        <h5>{descriptionArr[this.props.project][0].description}</h5>
-                        </ListGroupItem>
-                      </ListGroup>
-                  )}
+                  <ListGroup fill>
+                    <ListGroupItem>
+                    <h4 className="textPadd" >Project Summary</h4>
+                    <h5>{descriptionArr[this.props.project][0].description}</h5>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                    <h4 className="textPadd" >Responsibilities</h4>
+                    <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                    <h4 className="textPadd" >Tools + Tech</h4>
+                    {descriptionArr[this.props.project][0].tools.map((item, i) => {
+                      const count = descriptionArr[this.props.project][0].tools.length;
+                      const size = 100 / count;
+                      return (
+                      <Tooltip title={item.name} key={i}>
+                        <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                      </Tooltip>
+                      )
+                    })}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                     <Media>
+                       <Media.Left>
+                          <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                        </Media.Left>
+                        <Media.Body>
+                          <h4 className="textPadd" >Team</h4>
+                          <h5>{descriptionArr[this.props.project][0].team}</h5>
+                        </Media.Body>
+                      </Media>
+                    </ListGroupItem>
+                  </ListGroup>
                 </Panel>
               </TabPane>
             </Tabs>
@@ -136,10 +129,10 @@ class WebDesign extends React.Component {
                       { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
                     </Media.Body>
                   </Media>
-                  { info.tools ?
+                  { info.team &&
                     (<ListGroup fill>
                       <ListGroupItem>
-                      <h4 className="textPadd" >Project Summary</h4>
+                      <h4 className="textPadd" >Project Description</h4>
                       <h5>{info.description}</h5>
                       </ListGroupItem>
                       <ListGroupItem>
@@ -148,11 +141,11 @@ class WebDesign extends React.Component {
                       </ListGroupItem>
                       <ListGroupItem>
                       <h4 className="textPadd" >Tools + Tech</h4>
-                      {info.tools.map((item) => {
+                      {info.tools.map((item, i) => {
                         const count = info.tools.length;
                         const size = 100 / count;
                         return (
-                        <Tooltip title={item.name}>
+                        <Tooltip title={item.name} key={i}>
                           <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
                         </Tooltip>
                         )
@@ -170,13 +163,28 @@ class WebDesign extends React.Component {
                         </Media>
                       </ListGroupItem>
                     </ListGroup>
-                    )
-                    : (<ListGroup fill>
+                    )}
+
+                    { info.topic &&
+                      (<ListGroup fill>
                         <ListGroupItem>
+                        <h4 className="textPadd" >{info.topic}</h4>
                         <h5>{info.description}</h5>
                         </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Tools + Tech</h4>
+                        {info.tools.map((item, i) => {
+                          const count = info.tools.length;
+                          const size = 100 / count;
+                          return (
+                          <Tooltip title={item.name} key={i}>
+                            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          </Tooltip>
+                          )
+                        })}
+                        </ListGroupItem>
                       </ListGroup>
-                  )}
+                      )}
               </Panel>
             </Col>
             <Col xs={12} md={8}>

@@ -41,28 +41,28 @@ class WebDesignTab extends React.Component {
         size="small"
       >
         <TabPane tab="CannaCo • 1" key="0" className="animated fadeIn" >
-          <CanncoV1 />
+          <CanncoV1 width={this.props.width}/>
         </TabPane>
         <TabPane tab="CannaCo • 2" key="1" className="animated fadeIn" >
-          <CanncoV3 />
+          <CanncoV3 width={this.props.width}/>
         </TabPane>
         <TabPane tab="Music School • 1" key="2" className="animated fadeIn" >
-          <AAMusicV1 />
+          <AAMusicV1 width={this.props.width}/>
         </TabPane>
         <TabPane tab="Music School • 2" key="3" className="animated fadeIn" >
-          <AAMusicV2 />
+          <AAMusicV2 width={this.props.width}/>
         </TabPane>
         <TabPane tab="Hand Drawing" key="4" className="animated fadeIn" >
-          <HandDrawing />
+          <HandDrawing width={this.props.width}/>
         </TabPane>
         <TabPane tab="Open Air School" key="5" className="animated fadeIn" >
-          <OpenAir />
+          <OpenAir width={this.props.width}/>
         </TabPane>
         <TabPane tab="UM3D Research" key="6" className="animated fadeIn" >
-          <UM3D />
+          <UM3D width={this.props.width}/>
         </TabPane>
         <TabPane tab="3D Modeling" key="7" className="animated fadeIn" >
-          <BobBrobson />
+          <BobBrobson width={this.props.width}/>
         </TabPane>
       </Tabs>
     )
