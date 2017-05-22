@@ -82,7 +82,7 @@ module.exports = {
   }],
   [
   { title: 'Trivia Monster',
-    description: 'Trivia Monster is the third iteration of the Trivios games. It is currently in developement but coming soon. Trivia Monster is a real-time trivia tournament game where players compete for real prizes. This view shows the game lobby and tournament navigation.',
+    description: 'Trivia Monster is the third iteration of the Trivios games. It is currently in development but coming soon. Trivia Monster is a real-time trivia tournament game where players compete for real prizes. This view shows the game lobby and tournament navigation.',
     responsibilities: 'Led Chicago-based design team(3) and app UI/UX.',
     tools: [
             { name: 'Illustrator',
@@ -144,7 +144,7 @@ module.exports = {
   }],
   [
   { title: 'Double Luck Nudge',
-    description: 'Double Luck Nudge is an Apple Watch slot machine on your wrist. Based off real Las Vegas Slot machines, Just tap the slot machine on your Watch and hope for a win. Purple Gator worked with LED Gaming to port the Vegas Slot game to the Apple Watch form factor.',
+    description: 'Double Luck Nudge is an Apple Watch slot machine on your wrist based off real Las Vegas Slot machines. Just tap the slot machine on your Watch and hope for a win. Purple Gator worked with LED Gaming to port the Vegas Slot game to the Apple Watch form factor.',
     responsibilities: 'App UI/UX, marketing materials and marketing campaigns.',
     tools: [
             { name: 'Illustrator',

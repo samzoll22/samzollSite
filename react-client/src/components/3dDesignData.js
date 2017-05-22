@@ -319,7 +319,7 @@ module.exports = {
     ],
     [
       { title: 'Music School Phase 2',
-        description: 'The second iteration of the Ann Arbor Music School focused on improving social interactions inside and out. The school is organized around two central helixes: one houses the classrooms and learning environments, while the other contains pods designed for students to practice music or study individually or with groups. When students practice in different pods, they have the ability to play together by linking their pods, which syncronizes LED lights and sound to digitally connect the environments and reflect this connection externally for pedestrians to observe.',
+        description: 'The second iteration of the Ann Arbor Music School focused on improving social interactions inside and out. The school is organized around two central helixes: one houses the classrooms and learning environments, while the other contains pods designed for students to practice music or study individually or with groups. When students practice in different pods, they have the ability to play together by linking their pods which syncronizes LED lights and sound to digitally connect the environments and reflect this connection externally for pedestrians to observe.',
         responsibilities: 'Project architecture, 2D architectural drawings + diagrams, 3D models + rendering, large format 2D printing.',
         tools: [
             { name: 'Rhino',

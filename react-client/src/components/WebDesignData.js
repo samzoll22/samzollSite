@@ -369,7 +369,7 @@ module.exports = {
             }],
     description: 'Detailed desktop site mockup.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-Mockup.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-website.gif',
     location: 'Chicago',
     locationImage: 'url',
     date: '2017'
