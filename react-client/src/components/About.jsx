@@ -22,28 +22,24 @@ class About extends React.Component {
 
 
   designEnter() {
-    console.log('ITS ME');
     this.setState({
       design: true
     })
   }
 
   designLeave() {
-    console.log('ITS YOU');
     this.setState({
       design: false
     })
   }
 
   devEnter() {
-    console.log('DEV ITS ME');
     this.setState({
       dev: true
     })
   }
 
   devLeave() {
-    console.log('DEV ITS YOU');
     this.setState({
       dev: false
     })
@@ -66,27 +62,19 @@ class About extends React.Component {
         </Row>
         <Row className="center" >
           <Col md={6} className="center miniSpacer" >
+            <h2 className="aboutTitle" >Design Tools</h2>
             <Well>
-              <Row className="test" onClick={this.designEnter} >
-                <a><h2>Design Tools</h2></a>
+              <Row className="animated bounceIn aboutIcons">
+                <AboutGridDesign />
               </Row>
-              { this.state.design ?
-                (<Row className="animated bounceIn">
-                  <AboutGridDesign />
-                </Row>) : null
-              }
             </Well>
           </Col>
           <Col md={6} className="center miniSpacer" >
+            <h2 className="aboutTitle" >Developer Tools</h2>
             <Well>
-              <Row className="test" onClick={this.devEnter} >
-                  <a><h2>Developer Tools</h2></a>
-                </Row>
-                { this.state.dev ?
-                  (<Row className="animated bounceIn">
-                    <AboutGridDev />
-                  </Row>) : null
-                }
+              <Row className="animated bounceIn aboutIcons">
+                <AboutGridDev />
+              </Row>
             </Well>
           </Col>
         </Row>

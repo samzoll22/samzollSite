@@ -65,7 +65,7 @@ class Section extends React.Component {
         <Element name="about" className="aboutSpacer">
            <div> </div>
         </Element>
-          <About className='animated fadeInUp'  />
+        <About className='animated fadeInUp'  />
         <Element name="projects" className="start">
           <div> </div>
         </Element>
@@ -73,26 +73,26 @@ class Section extends React.Component {
           <Element name="webdesign" className="element bottomSpacer">
             <Timeline.Item>
               <h3 className="textPaddBig">Web Apps</h3>
-              <WebDesignTabs />
+              <WebDesignTabs width={this.props.width} />
             </Timeline.Item>
           </Element>
           <Element name="appdesign" className="element bottomSpacer">
           <Timeline.Item>
             <h3 className="textPaddBig">Native Apps</h3>
-              <AppDesignTabs />
+              <AppDesignTabs width={this.props.width} />
           </Timeline.Item>
           </Element>
           <Element name="2d3d" className="element bottomSpacer">
           <Timeline.Item className="animated zoomIn">
             <h3 className="textPaddBig">2D/3D Design</h3>
-              <Design3dTabs />
+              <Design3dTabs width={this.props.width} />
           </Timeline.Item>
           </Element>
         </Timeline>
         <Element name="resume" className="animated zoomIn resumeSpacer">
           <div> </div>
         </Element>
-        <Resume className='animated fadeInUp'  />
+        <Resume className='animated fadeInUp' width={this.props.width} />
         <Element name="contact" style={{height: "300px"}} className="textPaddBig bottomSpacer">
           <Contact className='animated fadeInUp' />
         </Element>

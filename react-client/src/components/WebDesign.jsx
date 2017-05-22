@@ -1,6 +1,6 @@
 import React from 'react';
 import WebDesignData from './WebDesignData.js';
-import { Tabs, Carousel, Timeline } from 'antd';
+import { Tabs, Carousel, Timeline, Tooltip } from 'antd';
 import { Col, Row, Panel, Image, ResponsiveEmbed, Button, ListGroup, ListGroupItem, Media } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
@@ -36,85 +36,178 @@ class WebDesign extends React.Component {
   }
 
   render () {
-    let i = this.state.key;
+    let i = this.state.key
     let info = descriptionArr[this.props.project][i];
     let length = descriptionArr[this.props.project].length;
+    let screenWidth = this.props.width;
 
+    console.log('width in webdesign', this.props.width)
+
+    if (this.state.key === 3 && screenWidth > 991) {
+      this.setState({
+        key: 0
+      });
+    }
     return (
-      <div>
-        <Col smHidden md={4}>
-          <Panel className='projectDescription'>
-              <Media>
-               <Media.Left>
-                  <img width={64} height={64} src={info.logo} alt="Image"/>
-                </Media.Left>
-                <Media.Body>
-                  <h2>{info.title}</h2>
-                  { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
-                </Media.Body>
-              </Media>
-              { info.tools ?
-                (<ListGroup fill>
-                  <ListGroupItem>
-                  <h4 className="textPadd" >Project Summary</h4>
-                  <h5>{info.description}</h5>
-                  </ListGroupItem>
-                  <ListGroupItem>
-                  <h4 className="textPadd" >Responsibilities</h4>
-                  <h5>{info.responsibilities}</h5>
-                  </ListGroupItem>
-                  <ListGroupItem>
-                  <h4 className="textPadd" >Tools + Tech</h4>
-                  <h5>{info.tools}</h5>
-                  </ListGroupItem>
-                  <ListGroupItem>
-                   <Media>
-                     <Media.Left>
-                        <img width={48} height={48} src={info.teamImage} alt="Image"/>
-                      </Media.Left>
-                      <Media.Body>
-                        <h4 className="textPadd" >Team</h4>
-                        <h5>{info.team}</h5>
-                      </Media.Body>
-                    </Media>
-                  </ListGroupItem>
-                </ListGroup>
-                )
-                : (<ListGroup fill>
-                    <ListGroupItem>
-                    <h5>{info.description}</h5>
-                    </ListGroupItem>
-                  </ListGroup>
-              )}
-          </Panel>
-        </Col>
-        <Col xs={12} md={8}>
-        <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
-          <TabPane tab="HomeScreen" key="0" >
-            <Col md={12} >
-              <Image src={ info.content } className="imageCenter" responsive />
+          <div>
+            {screenWidth < 992 ?
+            (<Col>
+            <Tabs defaultActiveKey="0" tabPosition="top" onChange={this.handleSwipe} activeKey={(this.state.key).toString()}>
+              <TabPane tab="HomeScreen" key="0" >
+                <Col md={12} >
+                  <Image src={ info.content } className="imageCenter" responsive />
+                </Col>
+              </TabPane>
+              <TabPane tab="Guided GIF" key="1">
+                <Col md={12} >
+                  <Image src={ info.content } className="imageCenter" responsive rounded />
+                </Col>
+              </TabPane>
+              <TabPane tab="Video" key="2">
+                <video width="100%" className="imageCenter" loop controls muted >
+                  <source src={ info.content } type="video/mp4" />
+                </video>
+              </TabPane>
+              <TabPane tab="Description" key="3">
+                <Panel className='projectDescription'>
+                  <Media>
+                   <Media.Left>
+                      <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
+                    </Media.Left>
+                    <Media.Body>
+                      <h2>{descriptionArr[this.props.project][0].title}</h2>
+                      { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
+                    </Media.Body>
+                  </Media>
+                  { descriptionArr[this.props.project][0].tools ?
+                    (<ListGroup fill>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Project Summary</h4>
+                      <h5>{descriptionArr[this.props.project][0].description}</h5>
+                      </ListGroupItem>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Responsibilities</h4>
+                      <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
+                      </ListGroupItem>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Tools + Tech</h4>
+                      {descriptionArr[this.props.project][0].tools.map((item, i) => {
+                        const count = descriptionArr[this.props.project][0].tools.length;
+                        const size = 100 / count;
+                        return (
+                        <Tooltip title={item.name} key={i}>
+                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                        </Tooltip>
+                        )
+                      })}
+                      </ListGroupItem>
+                      <ListGroupItem>
+                       <Media>
+                         <Media.Left>
+                            <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                          </Media.Left>
+                          <Media.Body>
+                            <h4 className="textPadd" >Team</h4>
+                            <h5>{descriptionArr[this.props.project][0].team}</h5>
+                          </Media.Body>
+                        </Media>
+                      </ListGroupItem>
+                    </ListGroup>
+                    )
+                    : (<ListGroup fill>
+                        <ListGroupItem>
+                        <h5>{descriptionArr[this.props.project][0].description}</h5>
+                        </ListGroupItem>
+                      </ListGroup>
+                  )}
+                </Panel>
+              </TabPane>
+            </Tabs>
+            </Col>)
+          : (<div>
+              <Col smHidden md={4}>
+              <Panel className='projectDescription'>
+                  <Media>
+                   <Media.Left>
+                      <img width={64} height={64} src={info.logo} alt="Image"/>
+                    </Media.Left>
+                    <Media.Body>
+                      <h2>{info.title}</h2>
+                      { info.location ? (<h5>{info.location} • {info.date}</h5>) : null}
+                    </Media.Body>
+                  </Media>
+                  { info.tools ?
+                    (<ListGroup fill>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Project Summary</h4>
+                      <h5>{info.description}</h5>
+                      </ListGroupItem>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Responsibilities</h4>
+                      <h5>{info.responsibilities}</h5>
+                      </ListGroupItem>
+                      <ListGroupItem>
+                      <h4 className="textPadd" >Tools + Tech</h4>
+                      {info.tools.map((item) => {
+                        const count = info.tools.length;
+                        const size = 100 / count;
+                        return (
+                        <Tooltip title={item.name}>
+                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                        </Tooltip>
+                        )
+                      })}
+                      </ListGroupItem>
+                      <ListGroupItem>
+                       <Media>
+                         <Media.Left>
+                            <img width={48} height={48} src={info.teamImage} alt="Image"/>
+                          </Media.Left>
+                          <Media.Body>
+                            <h4 className="textPadd" >Team</h4>
+                            <h5>{info.team}</h5>
+                          </Media.Body>
+                        </Media>
+                      </ListGroupItem>
+                    </ListGroup>
+                    )
+                    : (<ListGroup fill>
+                        <ListGroupItem>
+                        <h5>{info.description}</h5>
+                        </ListGroupItem>
+                      </ListGroup>
+                  )}
+              </Panel>
             </Col>
-          </TabPane>
-          <TabPane tab="Guided GIF" key="1">
-            <Col md={12} >
-              <Image src={ info.content } className="imageCenter" responsive rounded />
+            <Col xs={12} md={8}>
+            <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top" >
+              <TabPane tab="HomeScreen" key="0" >
+                <Col md={12} >
+                  <Image src={ info.content } className="imageCenter" responsive />
+                </Col>
+              </TabPane>
+              <TabPane tab="Guided GIF" key="1">
+                <Col md={12} >
+                  <Image src={ info.content } className="imageCenter" responsive rounded />
+                </Col>
+              </TabPane>
+              <TabPane tab="Video" key="2">
+                <video width="100%" className="imageCenter" loop controls muted >
+                  <source src={ info.content } type="video/mp4" />
+                </video>
+              </TabPane>
+              { length !== 5 ? null :
+              (<TabPane tab="Wireframes" key="3">
+                <Col md={12} >
+                  <Image src={ info.content } className="imageCenter" responsive rounded />
+                </Col>
+              </TabPane>)
+              }
+            </Tabs>
             </Col>
-          </TabPane>
-          <TabPane tab="Video" key="2">
-            <video width="100%" className="imageCenter" loop controls muted >
-              <source src={ info.content } type="video/mp4" />
-            </video>
-          </TabPane>
-          { length < 4 ? null :
-          (<TabPane tab="Wireframes" key="3">
-            <Col md={12} >
-              <Image src={ info.content } className="imageCenter" responsive rounded />
-            </Col>
-          </TabPane>)
+          </div>)
           }
-        </Tabs>
-        </Col>
-      </div>
+        </div>
     )
   }
 }

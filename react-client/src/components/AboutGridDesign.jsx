@@ -5,75 +5,75 @@ import { Tooltip } from 'antd';
 const data = [
   {
     name:'3D Printing',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/3d_printing.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/3d_printing.svg'
   },
   {
     name:'CNC Routing',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/cnc_router.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/cnc_router.svg'
   },
   {
     name:'Laser Cutting',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/laser_cutter.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/laser_cutter.svg'
   },
   {
     name:'Carpentry',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/carpentry.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/carpentry.svg'
   },
   {
     name:'Welding',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/welding.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/welding.svg'
   },
   {
     name:'Robotics',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/robots.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/robots.svg'
   },
    {
     name:'Photoshop',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/photoshop.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/photoshop.svg'
   },
   {
     name:'Illustrator',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/illustrator.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/illustrator.svg'
   },
    {
     name:'InDesign',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/indesign.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/indesign.svg'
   },
   {
     name:'After Effects',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/after_effects.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/after_effects.svg'
   },
   {
     name:'Premier',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/premier.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/premier.svg'
   },
   {
     name:'Sketch',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/sketch.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/sketch.svg'
   },
   {
     name:'Rhinoceros',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/rhino.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/rhino.svg'
   },
   {
     name:'V-Ray',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/vray.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/vray.svg'
   },
    {
     name:'Final Cut Pro',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/final_cut_pro.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/final_cut_pro.svg'
   },
   {
     name:'SketchUp',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/sketchup.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/sketchup.svg'
   },
   {
     name:'AutoCAD',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/autocad.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/autocad.svg'
   },
   {
     name:'Revit',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design_logos/revit.svg'
+    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/revit.svg'
   }
 ]
 

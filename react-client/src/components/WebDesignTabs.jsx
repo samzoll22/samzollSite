@@ -21,24 +21,27 @@ class WebDesignTab extends React.Component {
   }
 
   render () {
+
     return (
       <Tabs
         defaultActiveKey="0"
         activeKey={(this.state.key).toString()}
         onChange={this.handleSwipe}
         tabPosition='left'
-        style={{ height: 600 }}
+        style={{ height: '60vh' }}
+        size="small"
       >
         <TabPane tab="Truck Hunt" key="0" className="animated fadeIn" >
-          <WebDesign project={this.state.key} />
+          <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
-        <TabPane tab="Oranges 2 Oranges" key="1" className="animated fadeIn"><WebDesign project={this.state.key} />
+        <TabPane tab="Oranges 2 Oranges" key="1" className="animated fadeIn">
+          <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
         <TabPane tab="Ticket Champ" key="2" className="animated fadeIn">
-        <WebDesign project={this.state.key} />
+          <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
         <TabPane tab="Trivia Night" key="3" className="animated fadeIn">
-        <WebDesign project={this.state.key} />
+          <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
       </Tabs>
     )

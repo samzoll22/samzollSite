@@ -4,7 +4,34 @@ module.exports = {
   { title: 'Truck Hunt SF',
     description: 'Truck Hunt allows users in San Francisco to find the nearest food trucks, place an order, and pick up when ready. Truck Hunt features both consumer and vendor facing interfaces so that truck vendors can also log onto the app to view incoming orders, past orders, and customer analytics.',
     responsibilities: 'UI/UX design, React/Redux implementation, consumer user flow with maps and search auto-complete, and vendor management portal with D3-based analytics.',
-    tools: 'React, React-Router, Redux, NodeJS, Express, PosgreSQL, Mapbox, Bootstrap, and Semantic UI',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Redux',
+              image: 'redux'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'PostgreSQL',
+              image: 'postgresql'
+            },
+            { name: 'Mapbox',
+              image: 'mapbox'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'Semantic UI',
+              image: 'semantic'
+            }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
@@ -27,12 +54,34 @@ module.exports = {
     location: 'San Francisco',
     locationImage: 'url',
     date: 'April 2017'
-  }],
+  },
+  {}],
   [
   { title: 'Oranges 2 Oranges',
     description: 'Oranges 2 Oranges is a realtime MMO based off the board game Apples to Apples. 4 players join a game and take turns coming up with the wittiest responses to each prompt. Player with the most judge voted points wins. Players can enjoy playing an endless-flyer game as other players connect in the waiting room.',
     responsibilities: 'Endless-flyer loading game, automated emailing tool, responsive UI and fluid UX improving animations.',
-    tools: 'React, React-Router, Socket.io, Phaser.io, NodeJS, Express, MongoDB, and Bootstrap',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'React-Router',
+              image: 'router'
+            },
+            { name: 'Socket.io',
+              image: 'socketio'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MongoDB',
+              image: 'mongod'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
@@ -56,12 +105,31 @@ module.exports = {
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
-  }],
+  },
+  {}],
   [
   { title: 'Ticket Champ',
     description: 'Ticket Champ is a ticket price comparison app. When trying to find the best price for tickets, Ticket Champ allows you to search your desired event and compare prices from multiple vendors.',
     responsibilities: "App UI/UX design and implementation, integrated multiple ticket vendor API's and consolidated server requests for minimal 3rd party API reliance.",
-    tools: 'React, NodeJS, Express, MySQL, Bootstrap and CSS Flexbox',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'MySQL',
+              image: 'mysql'
+            },
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'CSS Flexbox',
+              image: 'css'
+            }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
@@ -93,12 +161,34 @@ module.exports = {
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
-  }],
+  },
+  {}],
   [
   { title: 'Trivia Night',
     description: "Trivia Night enables bar owners to create white-labeled trivia games with personalized dashboard in a matter of seconds. Users BYOD and create a trivia game as friends join the socket-based HTML5 game, and compete for prizes of the bar's choice. Bystanders can follow along by watching the venue’s TV's to view questions and leaderboards in real-time.",
     responsibilities: 'Trivia Night Demo website, app UI/UX, and all promotional videos + materials.',
-    tools: 'Bootstrap, jQuery, NodeJS, Express, Photoshop, Illustrator, After Effects, and Final Cut Pro',
+    tools: [
+            { name: 'Bootstrap',
+              image: 'bootstrap'
+            },
+            { name: 'jQuery',
+              image: 'jquery'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            },
+            { name: 'Photoshop',
+              image: 'photoshop'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            },
+            { name: 'After Effects',
+              image: 'after_effects'
+            }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
@@ -122,6 +212,7 @@ module.exports = {
     location: 'Chicago',
     locationImage: 'url',
     date: '2017'
-  }]
+  },
+  {}]
   ]
 }

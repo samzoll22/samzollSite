@@ -28,6 +28,19 @@
   padding-bottom: 3em;
 }
 
+.toolStyle {
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.aboutIcons {
+  padding-top: 3em;
+}
+
+.aboutTitle {
+  padding-bottom: 1em;
+}
+
 .platformIcons {
   height: 40px;
   width: 40px;

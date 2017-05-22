@@ -37,18 +37,19 @@ class WebDesignTab extends React.Component {
         activeKey={(this.state.key).toString()}
         onChange={this.handleSwipe}
         tabPosition='left'
-        style={{ height: 600 }}
+        style={{ height: '60vh' }}
+        size="small"
       >
-        <TabPane tab="CannaCo Phase 1" key="0" className="animated fadeIn" >
+        <TabPane tab="CannaCo • 1" key="0" className="animated fadeIn" >
           <CanncoV1 />
         </TabPane>
-        <TabPane tab="CannaCo Phase 2" key="1" className="animated fadeIn" >
+        <TabPane tab="CannaCo • 2" key="1" className="animated fadeIn" >
           <CanncoV3 />
         </TabPane>
-        <TabPane tab="Music School Phase 1" key="2" className="animated fadeIn" >
+        <TabPane tab="Music School • 1" key="2" className="animated fadeIn" >
           <AAMusicV1 />
         </TabPane>
-        <TabPane tab="Music School Phase 2" key="3" className="animated fadeIn" >
+        <TabPane tab="Music School • 2" key="3" className="animated fadeIn" >
           <AAMusicV2 />
         </TabPane>
         <TabPane tab="Hand Drawing" key="4" className="animated fadeIn" >
