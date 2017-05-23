@@ -36,6 +36,10 @@ const developementTools = [
     image: 'heroku'
   },
   {
+    name: 'AWS S3',
+    image: 'aws'
+  },
+  {
     name: 'Illustrator',
     image: 'illustrator'
   },
