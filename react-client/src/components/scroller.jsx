@@ -8,7 +8,7 @@ import WebDesignTabs from './WebDesignTabs.jsx';
 import AppDesignTabs from './AppDesignTabs.jsx';
 import Design3dTabs from './3dDesignTabs.jsx';
 import { Tabs, Carousel, Timeline } from 'antd';
-import { Col, Panel, Image, Label } from 'react-bootstrap';
+import { Row, Col, Panel, Image, Label } from 'react-bootstrap';
 
 const TabPane = Tabs.TabPane;
 
@@ -66,6 +66,11 @@ class Section extends React.Component {
            <div> </div>
         </Element>
         <About className='animated fadeInUp'  />
+        <Row>
+          <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
+              <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/projects.svg" alt="projects" responsive/>
+          </Col>
+        </Row>
         <Element name="projects" className="start">
           <div> </div>
         </Element>

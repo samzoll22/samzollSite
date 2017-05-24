@@ -82,7 +82,7 @@ const AboutGrid = (props) => {
     <Col sm={12} md={12}>
         {data.map((item, i) => {
           return (
-            <Col xs={4} className="center" key={i} style={{'padding-bottom': '3em'}}>
+            <Col xs={4} className="center" key={i} style={{ paddingBottom: '3em'}}>
               <Media>
                <Media.Left>
                   <Tooltip title={item.name}>
