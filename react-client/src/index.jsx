@@ -31,17 +31,45 @@ class App extends React.Component {
     window.removeEventListener('resize', this.handleResize)
   }
 
+
   render () {
+    const isMobile = {
+        Android: function() {
+            return navigator.userAgent.match(/Android/i);
+        },
+        BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i);
+        },
+        iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        },
+        Opera: function() {
+            return navigator.userAgent.match(/Opera Mini/i);
+        },
+        Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i);
+        },
+        any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+    };
+    let mobileDevice = false;
+
+    if (isMobile.any() !== null) {
+      mobileDevice = true;
+    }
+    console.log('is mobile?', mobileDevice);
+
     return (
       <div>
         <Row>
           <Nav />
           <Col md={10} mdOffset={1}>
-            <Scroll width={this.state.windowWidth}/>
+            <Scroll width={this.state.windowWidth} mobile={mobileDevice} />
           </Col>
         </Row>
         <Row>
-          <Col sm={12} md={12}>
+          <Col sm={12} >
             <Footer />
           </Col>
         </Row>

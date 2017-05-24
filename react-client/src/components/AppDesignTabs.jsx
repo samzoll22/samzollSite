@@ -27,7 +27,7 @@ class WebDesignTab extends React.Component {
         activeKey={(this.state.key).toString()}
         onChange={this.handleSwipe}
         tabPosition='left'
-        style={{ height: '60vh' }}
+        style={{ height: '100%' }}
         size="small"
       >
         <TabPane tab="Lucky North Casino" key="0" className="animated fadeIn" >

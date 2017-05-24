@@ -42,8 +42,6 @@ class WebDesign extends React.Component {
     let length = descriptionArr[this.props.project].length;
     let screenWidth = this.props.width;
 
-    console.log('width in webdesign', this.props.width)
-
     if (this.state.key === 3 && screenWidth > 991) {
       this.setState({
         key: 0

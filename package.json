@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "react-dev": "webpack -d --watch --optimize-minimize",
+    "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
     "clean": "rm -rf react-client/dist/bundle.js node_module",
     "build": "npm install && webpack -d",

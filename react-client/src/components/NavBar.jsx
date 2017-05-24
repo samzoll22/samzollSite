@@ -38,8 +38,12 @@ class NavBar extends React.Component {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavItem eventKey={1} ><Link activeClass="active" to="about" spy smooth duration={300}>About</Link></NavItem>
-          <NavItem eventKey={2} ><Link activeClass="active" to="projects" spy smooth duration={500}>Projects</Link></NavItem>
+          <NavItem eventKey={1} ><Link activeClass="active" to="about" spy smooth duration={300} offset={80}>About</Link></NavItem>
+            <NavDropdown eventKey={2} title="Projects" id="basic-nav-dropdown" >
+              <MenuItem eventKey={2.1}><Link activeClass="active" to="projects" spy smooth duration={500} offset={-20}>Web Apps</Link></MenuItem>
+              <MenuItem eventKey={2.2}><Link activeClass="active" to="nativeapps" spy smooth duration={500} offset={-100}>Native Apps</Link></MenuItem>
+              <MenuItem eventKey={2.3}><Link activeClass="active" to="2d3d" spy smooth duration={500} offset={-100}>2D/3D Designs</Link></MenuItem>
+            </NavDropdown>
           <NavItem eventKey={3} ><Link activeClass="active" to="resume" spy smooth duration={700}>Resume</Link></NavItem>
           <NavItem eventKey={4} ><Link activeClass="active" to="contact" spy smooth duration={900}>Contact</Link></NavItem>
         </Nav>

@@ -3,7 +3,7 @@
   padding: 0 !important;
 }
 .element {
-  height: 692px;
+  height: 60vh;
   font-size: 45px;
   padding-top: 40px;
 /*  border-top:1px solid #000;
@@ -16,8 +16,17 @@
   font-weight: bolder !important;
 }*/
 
+h2 {
+    font-size: 1.8vw !important;
+}
+
+h4 {
+    font-size: .8vw !important;
+    font-weight: 700 !important;
+}
+
 h5 {
-  font-size: 12px;
+    font-size: .8vw !important;
 }
 
 .center.miniSpacer.col-xs-6 {
@@ -30,6 +39,15 @@ h5 {
   align-items: center;
   justify-content: center;
   padding-bottom: 3em;
+}
+
+.col-md-4.hidden-sm {
+  height: 100%;
+}
+
+
+a#basic-nav-dropdown {
+  color: #108ee9;
 }
 
 .toolStyle {

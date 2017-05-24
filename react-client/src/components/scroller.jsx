@@ -26,11 +26,11 @@ class Section extends React.Component {
 
   componentDidMount() {
     Events.scrollEvent.register('begin', function(to, element) {
-      console.log("begin", arguments);
+      // console.log("begin", arguments);
     });
 
     Events.scrollEvent.register('end', function(to, element) {
-      console.log("end", arguments);
+      // console.log("end", arguments);
     });
 
     scrollSpy.update();
@@ -69,30 +69,32 @@ class Section extends React.Component {
         <Element name="projects" className="start">
           <div> </div>
         </Element>
-        <Timeline>
-          <Element name="webdesign" className="element bottomSpacer">
+        <Timeline className="bottomSpacer">
+          <Element name="webdesign" >
+          </Element>
             <Timeline.Item>
               <h3 className="textPaddBig">Web Apps</h3>
               <WebDesignTabs width={this.props.width} />
             </Timeline.Item>
+          <Element name="nativeapps" >
           </Element>
-          <Element name="appdesign" className="element bottomSpacer">
           <Timeline.Item>
             <h3 className="textPaddBig">Native Apps</h3>
               <AppDesignTabs width={this.props.width} />
           </Timeline.Item>
+          <Element name="2d3d">
           </Element>
-          <Element name="2d3d" className="element bottomSpacer">
           <Timeline.Item className="animated zoomIn">
             <h3 className="textPaddBig">2D/3D Design</h3>
               <Design3dTabs width={this.props.width} />
           </Timeline.Item>
-          </Element>
+          <Timeline.Item >
+          </Timeline.Item>
         </Timeline>
         <Element name="resume" className="animated zoomIn resumeSpacer">
           <div> </div>
         </Element>
-        <Resume className='animated fadeInUp' width={this.props.width} />
+        <Resume className='animated fadeInUp' width={this.props.width} mobile={this.props.mobile}/>
         <Element name="contact" style={{height: "300px"}} className="textPaddBig bottomSpacer">
           <Contact className='animated fadeInUp' />
         </Element>

@@ -17,7 +17,7 @@ const Resume = (props) => (
           </div>
         </Col>
       </Col>
-      {props.width > 992 ? (<Col md={8} >
+      {!props.mobile ? (<Col md={8} >
         <Row className="center textPaddBig">
         <a target="_blank" href="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.pdf">
           <Image className="resume" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Sam-Zoll-Resume.png" />

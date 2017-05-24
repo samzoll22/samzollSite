@@ -34,9 +34,11 @@ class AppDesign extends React.Component {
     let length = descriptionArr[0].length;
     let screenWidth = this.props.width;
 
+    //Set to false now until all 2d/3d components ready for prod
+    //screenWidth < 992
     return (
       <div>
-        {screenWidth < 992 ?
+        { false ?
         (<Col>
           <Tabs defaultActiveKey="0" tabPosition="top" onChange={this.handleSwipe} activeKey={(this.state.key).toString()}>
             <TabPane tab="Rendering" key="0" >
