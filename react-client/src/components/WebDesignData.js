@@ -113,6 +113,28 @@ module.exports = {
     locationImage: 'url',
     date: 'April 2017'
   },
+  { title: 'Truck Hunt SF',
+    topic: 'Description',
+    tools: [
+            { name: 'Pencil',
+              image: 'pencil'
+            },
+            { name: 'Paper',
+              image: 'paper'
+            },
+            { name: 'iPhone 7 Plus',
+              image: 'iphone'
+            },
+            { name: 'Illustrator',
+              image: 'illustrator'
+            }],
+    description: 'This is a user flow diagram outlining the consumer ordering process and the corresponding basic mockups made with Adobe Illustrator.',
+    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/wireframe_1.png',
+    location: 'San Francisco',
+    locationImage: 'url',
+    date: 'March 2017'
+  },
   {}],
   [
   { title: 'Oranges 2 Oranges',
