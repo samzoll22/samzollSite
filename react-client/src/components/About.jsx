@@ -60,6 +60,8 @@ class About extends React.Component {
                 </h3>
           </Col>
         </Row>
+        {this.props.mobile ? null
+          : (
         <Row className="center" >
           <Col md={6} className="center miniSpacer" >
             <h2 className="aboutTitle" >Design Tools</h2>
@@ -78,6 +80,7 @@ class About extends React.Component {
             </Well>
           </Col>
         </Row>
+        )}
       </Well>
     </div>
     )

@@ -50,6 +50,11 @@ a#basic-nav-dropdown {
   color: #108ee9;
 }
 
+.mobileWarning {
+  color: #000;
+  padding-top: 40vh;
+}
+
 .toolStyle {
   padding-right: 1%;
   padding-left: 1%;
@@ -312,11 +317,11 @@ img.samTextSpacer.img-responsive {
 
 .email {
   transition: font-size 0.3s ease;
-  font-size: 2em;
+  font-size: 3.6vw;
 }
 
 .email:hover {
-  font-size: 2.5em;
+  font-size: 4vw;
 }
 
 .resume {

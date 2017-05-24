@@ -61,11 +61,11 @@ class Section extends React.Component {
   render () {
     return (
       <div className="textPaddBig bottomSpacer">
-        <Welcome className='animated fadeInUp'  />
+        <Welcome className='animated fadeInUp'  mobile={this.props.mobile}/>
         <Element name="about" className="aboutSpacer">
            <div> </div>
         </Element>
-        <About className='animated fadeInUp'  />
+        <About className='animated fadeInUp' mobile={this.props.mobile} />
         <Row>
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
               <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/projects.svg" alt="projects" responsive/>

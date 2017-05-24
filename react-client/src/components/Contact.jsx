@@ -14,7 +14,7 @@ const Contact = (props) => (
         </Col>
       </Row>
       <Row className="textPaddBig">
-        <h3 className="email"><a href="mailto:szoll@me.com?Subject=Nifty%20Website!">email me @ <Label style={{backgroundColor: "#108ee9"}}>szoll@me.com</Label></a></h3>
+        <h3 className="email"><a href="mailto:szoll@me.com">email me @ <Label style={{backgroundColor: "#108ee9"}}>szoll@me.com</Label></a></h3>
       </Row>
       <Row>
         <Col xs={6} xsOffset={3}>

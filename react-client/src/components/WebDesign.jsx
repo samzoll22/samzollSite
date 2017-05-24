@@ -67,52 +67,108 @@ class WebDesign extends React.Component {
                   <source src={ info.content } type="video/mp4" />
                 </video>
               </TabPane>
-              <TabPane tab="Description" key="3">
-                <Panel className='projectDescription'>
-                  <Media>
-                   <Media.Left>
-                      <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
-                    </Media.Left>
-                    <Media.Body>
-                      <h2>{descriptionArr[this.props.project][0].title}</h2>
-                      { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
-                    </Media.Body>
-                  </Media>
-                  <ListGroup fill>
-                    <ListGroupItem>
-                    <h4 className="textPadd" >Project Summary</h4>
-                    <h5>{descriptionArr[this.props.project][0].description}</h5>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                    <h4 className="textPadd" >Responsibilities</h4>
-                    <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                    <h4 className="textPadd" >Tools + Tech</h4>
-                    {descriptionArr[this.props.project][0].tools.map((item, i) => {
-                      const count = descriptionArr[this.props.project][0].tools.length;
-                      const size = 100 / count;
-                      return (
-                      <Tooltip title={item.name} key={i}>
-                        <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
-                      </Tooltip>
-                      )
-                    })}
-                    </ListGroupItem>
-                    <ListGroupItem>
-                     <Media>
+              {length > 4 ? (
+                  <TabPane tab="Wireframes" key="3">
+                    <Col md={12} >
+                      <Image src={ info.content } className="imageCenter" responsive rounded />
+                    </Col>
+                  </TabPane>
+                )
+                :(<TabPane tab="Description" key="3">
+                    <Panel className='projectDescription'>
+                      <Media>
                        <Media.Left>
-                          <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                          <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
                         </Media.Left>
                         <Media.Body>
-                          <h4 className="textPadd" >Team</h4>
-                          <h5>{descriptionArr[this.props.project][0].team}</h5>
+                          <h2>{descriptionArr[this.props.project][0].title}</h2>
+                          { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
                         </Media.Body>
                       </Media>
-                    </ListGroupItem>
-                  </ListGroup>
-                </Panel>
-              </TabPane>
+                      <ListGroup fill>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Project Summary</h4>
+                        <h5>{descriptionArr[this.props.project][0].description}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Responsibilities</h4>
+                        <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Tools + Tech</h4>
+                        {descriptionArr[this.props.project][0].tools.map((item, i) => {
+                          const count = descriptionArr[this.props.project][0].tools.length;
+                          const size = 100 / count;
+                          return (
+                          <Tooltip title={item.name} key={i}>
+                            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          </Tooltip>
+                          )
+                        })}
+                        </ListGroupItem>
+                        <ListGroupItem>
+                         <Media>
+                           <Media.Left>
+                              <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                            </Media.Left>
+                            <Media.Body>
+                              <h4 className="textPadd" >Team</h4>
+                              <h5>{descriptionArr[this.props.project][0].team}</h5>
+                            </Media.Body>
+                          </Media>
+                        </ListGroupItem>
+                      </ListGroup>
+                    </Panel>
+                  </TabPane>
+                  )}
+               {length === 5 ? (
+                  <TabPane tab="Description" key="4">
+                    <Panel className='projectDescription'>
+                      <Media>
+                       <Media.Left>
+                          <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
+                        </Media.Left>
+                        <Media.Body>
+                          <h2>{descriptionArr[this.props.project][0].title}</h2>
+                          { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
+                        </Media.Body>
+                      </Media>
+                      <ListGroup fill>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Project Summary</h4>
+                        <h5>{descriptionArr[this.props.project][0].description}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Responsibilities</h4>
+                        <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Tools + Tech</h4>
+                        {descriptionArr[this.props.project][0].tools.map((item, i) => {
+                          const count = descriptionArr[this.props.project][0].tools.length;
+                          const size = 100 / count;
+                          return (
+                          <Tooltip title={item.name} key={i}>
+                            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          </Tooltip>
+                          )
+                        })}
+                        </ListGroupItem>
+                        <ListGroupItem>
+                         <Media>
+                           <Media.Left>
+                              <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                            </Media.Left>
+                            <Media.Body>
+                              <h4 className="textPadd" >Team</h4>
+                              <h5>{descriptionArr[this.props.project][0].team}</h5>
+                            </Media.Body>
+                          </Media>
+                        </ListGroupItem>
+                      </ListGroup>
+                    </Panel>
+                  </TabPane>
+                  ) : null}
             </Tabs>
             </Col>)
           : (<div>
