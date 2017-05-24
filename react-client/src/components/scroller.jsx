@@ -85,7 +85,7 @@ class Section extends React.Component {
           </Element>
           <Timeline.Item>
             <h3 className="textPaddBig">Native Apps</h3>
-              <AppDesignTabs width={this.props.width} />
+              <AppDesignTabs width={this.props.width} isMobile={this.props.mobile}/>
           </Timeline.Item>
           <Element name="2d3d">
           </Element>

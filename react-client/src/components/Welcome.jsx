@@ -16,7 +16,7 @@ const Welcome = (props) => (
       </Row>
     </div>
     <div className="down">
-        <Link activeClass="active" to="about" spy smooth duration={400}>
+        <Link activeClass="active" to="about" spy smooth duration={400} offset={80}>
           <Glyphicon glyph="glyphicon glyphicon-chevron-down"/>
         </Link>
     </div>
