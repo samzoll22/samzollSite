@@ -55,7 +55,10 @@ class About extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col md={10} mdOffset={1}>
+          <Col md={6} className="center textPadd">
+                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Profile_Picture_2017_Square.png" circle responsive className="profilePicture"/>
+          </Col>
+          <Col md={6} className="samAbout">
                 <h3 className="samFont center"> I love designing beautifully assembled products that focus on creating meaningful user experiences. In particular, I'm passionate about crafting experiences from start to finish, from sketches to mockups, to a coded elegant masterpiece. In my previous position at Purple Gator, I led a remote design team to create a trivia game UX which has been ranked in the top casino apps in the US Apple App Store. Recently, I've built several applications including a food truck finding and ordering app, a real-time multiplayer text based game, and a ticket price comparison app.
                 </h3>
           </Col>

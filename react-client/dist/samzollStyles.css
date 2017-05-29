@@ -52,7 +52,7 @@ a#basic-nav-dropdown {
 
 .mobileWarning {
   color: #000;
-  padding-top: 40vh;
+  padding-top: 38vh;
 }
 
 .toolStyle {
@@ -140,6 +140,16 @@ ul.nav.navbar-nav.navbar-right {
 @media screen and (min-width: 1200px) {
   .projectDescription.panel.panel-default {
     height: 100%
+  }
+}
+
+.samAbout {
+  padding-top: 3em;
+}
+
+@media screen and (min-width: 992px) {
+  .samAbout {
+    padding-top: 0;
   }
 }
 
@@ -250,6 +260,11 @@ img.samTextSpacer.img-responsive {
   padding-bottom: 2em;
 }
 
+img.profilePicture.img-responsive.img-circle {
+  height: 30vh;
+  display: inline;
+}
+
 .samTextSpacer {
   padding-top: 6em;
   padding-bottom: 5em;
@@ -300,7 +315,6 @@ img.samTextSpacer.img-responsive {
 
 }
 
-
 @media screen and (min-width: 992px) {
   .resumeParent {
     height: 420px;
@@ -317,11 +331,11 @@ img.samTextSpacer.img-responsive {
 
 .email {
   transition: font-size 0.3s ease;
-  font-size: 3.6vw;
+  font-size: 3vw;
 }
 
 .email:hover {
-  font-size: 4vw;
+  font-size: 3.6vw;
 }
 
 .resume {
