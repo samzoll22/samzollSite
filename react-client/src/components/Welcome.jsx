@@ -9,7 +9,7 @@ const Welcome = (props) => {
     return (
     <Jumbotron className="fullView white">
       <Row>
-        <Col md={8} mdOffset={2}>
+        <Col sm={10} smOffset={1} md={8} mdOffset={2}>
         <div className="textCenter textPaddBig">
           <Row className="center textPaddBig">
             <Image className="halfWidth" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/im-sam-zoll.svg"  />
