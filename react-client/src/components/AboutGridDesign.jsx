@@ -79,24 +79,41 @@ const data = [
 
 const AboutGrid = (props) => {
   return (
-    <Col sm={12} md={12}>
-        {data.map((item, i) => {
-          return (
-            <Col xs={4} className="center" key={i} style={{ paddingBottom: '3em'}}>
-              <Media>
-               <Media.Left>
-                  <Tooltip title={item.name}>
-                    <Image src={item.image} height={32} width={32}/>
-                  </Tooltip>
-                </Media.Left>
-                <Media.Body>
-                  <Media.Heading><h5>{item.name}</h5></Media.Heading>
-                </Media.Body>
-              </Media>
-            </Col>
-          )
-        })}
-    </Col>
+    <div>
+    {props.width > 991 ? (
+      <Col sm={12} md={12}>
+          {data.map((item, i) => {
+            return (
+              <Col xs={4} className="center" key={i} style={{ paddingBottom: '3em'}}>
+                <Media>
+                 <Media.Left>
+                    <Tooltip title={item.name}>
+                      <Image src={item.image} height={32} width={32}/>
+                    </Tooltip>
+                  </Media.Left>
+                  <Media.Body>
+                    <Media.Heading><h5>{item.name}</h5></Media.Heading>
+                  </Media.Body>
+                </Media>
+              </Col>
+            )
+          })}
+      </Col>
+    )
+    :(
+      <Col sm={12} md={12}>
+          {data.map((item, i) => {
+            return (
+              <Col xs={4} className="center" key={i} style={{ paddingBottom: '3em'}}>
+                <Tooltip title={item.name}>
+                  <Image src={item.image} height={32} width={32}/>
+                </Tooltip>
+              </Col>
+            )
+          })}
+      </Col>
+    )}
+    </div>
   )
 }
 

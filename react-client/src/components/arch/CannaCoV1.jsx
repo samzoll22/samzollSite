@@ -39,7 +39,7 @@ class AppDesign extends React.Component {
     return (
       <div>
         { false ?
-        (<Col>
+        (<Col smHidden md={4}>
           <Tabs defaultActiveKey="0" tabPosition="top" onChange={this.handleSwipe} activeKey={(this.state.key).toString()}>
             <TabPane tab="Rendering" key="0" >
               <Col md={12} >
@@ -109,7 +109,7 @@ class AppDesign extends React.Component {
           </Tabs>
         </Col>)
       : (<div>
-          <Col smHidden md={4}>
+          <Col xsHidden smHidden md={4}>
             <Panel className='projectDescription'>
                 <Media>
                  <Media.Left>
@@ -177,7 +177,7 @@ class AppDesign extends React.Component {
                   )}
             </Panel>
           </Col>
-          <Col xs={12} md={8}>
+          <Col sm={12} md={8}>
           <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
             <TabPane tab="Rendering" key="0" >
               <Col md={12} >

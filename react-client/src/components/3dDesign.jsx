@@ -88,7 +88,7 @@ class AppDesign extends React.Component {
                 )}
           </Panel>
         </Col>
-        <Col xs={12} md={8}>
+        <Col sm={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
           <TabPane tab="Slide 1" key="0" >
             <Col md={12} >

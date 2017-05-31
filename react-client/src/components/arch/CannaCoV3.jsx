@@ -41,7 +41,7 @@ class AppDesign extends React.Component {
     let length = descriptionArr[1].length;
     return (
       <div>
-        <Col smHidden md={4}>
+        <Col xsHidden smHidden md={4}>
           <Panel className='projectDescription'>
               <Media>
                <Media.Left>
@@ -109,7 +109,7 @@ class AppDesign extends React.Component {
                 )}
           </Panel>
         </Col>
-        <Col xs={12} md={8}>
+        <Col sm={12} md={8}>
         <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top">
           <TabPane tab="Overview" key="0" >
             <Col md={12} >

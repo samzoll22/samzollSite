@@ -70,7 +70,7 @@ class About extends React.Component {
             <h2 className="aboutTitle" >Design Tools</h2>
             <Well>
               <Row className="animated bounceIn aboutIcons">
-                <AboutGridDesign />
+                <AboutGridDesign width={this.props.width}/>
               </Row>
             </Well>
           </Col>
@@ -78,7 +78,7 @@ class About extends React.Component {
             <h2 className="aboutTitle" >Developer Tools</h2>
             <Well>
               <Row className="animated bounceIn aboutIcons">
-                <AboutGridDev />
+                <AboutGridDev width={this.props.width}/>
               </Row>
             </Well>
           </Col>
@@ -91,54 +91,3 @@ class About extends React.Component {
 }
 
 export default About;
-
-          // <Col md={6} className="center miniSpacer">
-            // <div className="test" onMouseEnter={this.designEnter} onMouseLeave={this.designLeave}>
-              //   {this.state.design ?
-              // (<AboutGrid />)
-              // : (<Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" />)
-        //      }
-          //   </div>
-          // </Col>
-          // <Col md={6} className="center miniSpacer">
-          //   <div className="test" onMouseEnter={this.devEnter} onMouseLeave={this.devLeave}>
-          //     <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" />
-          //   </div>
-          // </Col>
-
-      // <Col xs={6} className="center miniSpacer">
-      //      <div className="test" onMouseEnter={this.designEnter} onMouseLeave={this.designLeave}>
-              // {this.state.design ?
-              // (<Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/designer-logos.svg" />)
-              // : (<Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.svg" />)
-              // }
-            // </div>
-          // </Col>
-          // <Col xs={6} className="center miniSpacer">
-          //   <div className="test" onMouseEnter={this.devEnter} onMouseLeave={this.devLeave}>
-          //     {this.state.dev ?
-          //     (<Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-logos.svg" />)
-          //     : (<Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.svg" />)
-          //     }
-          //   </div>
-          // </Col>
-
-
-
-
-      // <Row className="center miniSpacer">
-      //   <h2> Toolbox Coming Soon </h2>
-      // </Row>
-
-        // <Col xs={6} className="center miniSpacer">
-        //   <div className="aboutImageSwap">
-        //     <Image className="bottom" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/designer-logos.png" />
-        //     <Image className="top" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/design-tools.png" />
-        //   </div>
-        // </Col>
-        // <Col xs={6} className="center miniSpacer">
-        //   <div className="aboutImageSwap">
-        //     <Image className="bottom" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-logos.png" />
-        //     <Image className="top" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/developer-tools.png" />
-        //   </div>
-        // </Col>

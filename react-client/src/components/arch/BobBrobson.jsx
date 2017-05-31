@@ -32,7 +32,7 @@ class AppDesign extends React.Component {
     let length = descriptionArr[7].length;
     return (
       <div>
-        <Col smHidden md={4}>
+        <Col xsHidden smHidden md={4}>
           <Panel className='projectDescription'>
               <Media>
                <Media.Left>
