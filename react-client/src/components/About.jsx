@@ -1,5 +1,6 @@
 import React from 'react';
 import { Well, Button, Col, Row, Image, Glyphicon } from 'react-bootstrap';
+import { Slider } from 'antd';
 import Scroll from 'react-scroll';
 import AboutGridDesign from './AboutGridDesign.jsx';
 import AboutGridDev from './AboutGridDev.jsx';
@@ -11,41 +12,61 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      design: true,
-      dev: true
+      slider: 50
     }
-    this.designEnter = this.designEnter.bind(this);
-    this.designLeave = this.designLeave.bind(this);
-    this.devEnter = this.devEnter.bind(this);
-    this.devLeave = this.devLeave.bind(this);
+    this.handleSlider = this.handleSlider.bind(this);
   }
 
-
-  designEnter() {
+  handleSlider(slider) {
     this.setState({
-      design: true
+      slider
     })
   }
 
-  designLeave() {
-    this.setState({
-      design: false
-    })
-  }
 
-  devEnter() {
-    this.setState({
-      dev: true
-    })
-  }
-
-  devLeave() {
-    this.setState({
-      dev: false
-    })
-  }
 
   render () {
+  const sliderData = {
+    0: 'Design',
+    50: 'Hybrid',
+    100: 'Code'
+  }
+
+  const val = this.state.slider;
+  const sliderText = sliderData[this.state.slider];
+  let sliderStyle0 = '#C4C4C8';
+  let sliderStyle50 = '#C4C4C8';
+  let sliderStyle100 = '#C4C4C8';
+
+  if (val === 0) {
+    sliderStyle0 = '#f50';
+  } else if (val === 50) {
+    sliderStyle50 = '#f50';
+  } else if (val === 100) {
+    sliderStyle100 = '#f50';
+  }
+
+   const skillz = {
+     0: {
+         style: {
+           color: sliderStyle0,
+         },
+         label: sliderData[0]
+     },
+     50: {
+         style: {
+           color: sliderStyle50,
+         },
+         label: sliderData[50]
+     },
+     100: {
+         style: {
+           color: sliderStyle100,
+         },
+         label: sliderData[100]
+     },
+   }
+   console.log('this is it', this.state.slider)
    return (
     <div >
       <Well className="white center contactPadd">
@@ -63,10 +84,34 @@ class About extends React.Component {
                 </h3>
           </Col>
         </Row>
+        <Row>
+          <Col xs={8} xsOffset={2}>
+            {this.state.slider === 0 && (
+              <div className="animated zoomIn center" style={{height: 200}}>
+                <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
+              </div>
+              )
+            }
+            {this.state.slider === 50 && (
+              <div className="animated zoomIn center" style={{height: 200}}>
+                <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
+              </div>
+              )
+            }
+            {this.state.slider === 100 && (
+              <div className="animated zoomIn center" style={{height: 200}}>
+                <p data-height="200" data-theme-id="0" data-slug-hash="bfCDF" data-default-tab="css,result" data-user="blissdev" data-embed-version="2" data-pen-title="SVG w/ Filter + SVG Animation" class="codepen">See the Pen <a href="https://codepen.io/blissdev/pen/bfCDF/">SVG w/ Filter + SVG Animation</a> by Jordan Arentsen (<a href="https://codepen.io/blissdev">@blissdev</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+              </div>
+              )
+            }
+            <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={50} onChange={this.handleSlider}/>
+          </Col>
+        </Row>
         {this.props.mobile ? null
           : (
         <Row className="center" >
-          <Col md={6} className="center miniSpacer" >
+          <Col mdHidden md={6} className="center miniSpacer" >
             <h2 className="aboutTitle" >Design Tools</h2>
             <Well>
               <Row className="animated bounceIn aboutIcons">
@@ -74,7 +119,7 @@ class About extends React.Component {
               </Row>
             </Well>
           </Col>
-          <Col md={6} className="center miniSpacer" >
+          <Col mdHidden md={6} className="center miniSpacer" >
             <h2 className="aboutTitle" >Developer Tools</h2>
             <Well>
               <Row className="animated bounceIn aboutIcons">

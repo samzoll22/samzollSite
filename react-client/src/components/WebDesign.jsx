@@ -31,7 +31,6 @@ class WebDesign extends React.Component {
     const statePlus = this.state.key + 1;
     this.setState({
       key: statePlus
-
     })
   }
 
