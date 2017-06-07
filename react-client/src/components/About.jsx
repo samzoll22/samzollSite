@@ -1,6 +1,7 @@
 import React from 'react';
 import { Well, Button, Col, Row, Image, Glyphicon } from 'react-bootstrap';
 import { Slider } from 'antd';
+import Iframe from 'react-iframe';
 import Scroll from 'react-scroll';
 import AboutGridDesign from './AboutGridDesign.jsx';
 import AboutGridDev from './AboutGridDev.jsx';
@@ -87,28 +88,42 @@ class About extends React.Component {
         <Row>
           <Col xs={8} xsOffset={2}>
             {this.state.slider === 0 && (
-              <div className="animated zoomIn center" style={{height: 200}}>
+              <div className="animated zoomIn center" style={{height: 300, display: 'inline-block'}}>
+                <h2> Lo-Fi to Hi-Fi: Sketching + Mockups </h2>
                 <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
               </div>
               )
             }
             {this.state.slider === 50 && (
-              <div className="animated zoomIn center" style={{height: 200}}>
-                <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
+              <div className="center" style={{height: 300, display: 'inline-block'}}>
+                <h2> Raster to Vector: Design + Code Hybrid</h2>
+                <Image className="szLogoHover" src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
               </div>
               )
             }
             {this.state.slider === 100 && (
-              <div className="animated zoomIn center" style={{height: 200}}>
-                <p data-height="200" data-theme-id="0" data-slug-hash="bfCDF" data-default-tab="css,result" data-user="blissdev" data-embed-version="2" data-pen-title="SVG w/ Filter + SVG Animation" class="codepen">See the Pen <a href="https://codepen.io/blissdev/pen/bfCDF/">SVG w/ Filter + SVG Animation</a> by Jordan Arentsen (<a href="https://codepen.io/blissdev">@blissdev</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+              <div className="animated slideInUp center" style={{height: 300, display: 'inline-block'}}>
+                <h2> Static to Dynamic: SVG + CSS Animation </h2>
+                <Image className="szLogoHover" style={{padding: 10}} src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-inner-line-animate.svg' width={240} responsive />
+                <Button bsSize="xsmall" target="_blank" href="https://codepen.io/samzoll22/pen/MowZyw"><a>View on Codepen</a></Button>
+              </div>
+              )
+            }
+            {this.state.slider === 101 && (
+              <div className="animated zoomIn center" style={{height: 300}}>
+                <Iframe url="https://codepen.io/samzoll22/pen/qjdLEm"
+                  width="600px"
+                  height="300px"
+                  display="initial"
+                  position="relative"
+                  />
               </div>
               )
             }
             <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={50} onChange={this.handleSlider}/>
           </Col>
         </Row>
-        {this.props.mobile ? null
+        {this.props.mobile || true ? null
           : (
         <Row className="center" >
           <Col mdHidden md={6} className="center miniSpacer" >

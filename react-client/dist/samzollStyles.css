@@ -329,6 +329,27 @@ img.profilePicture.img-responsive.img-circle {
   padding-top: 2em;
 }
 
+.szLogoHover {
+  animation: szGrow 2s infinite;
+}
+
+@keyframes szGrow {
+        0% {
+          rotateX: (0);
+        }
+        50% {
+          rotateX: (180deg);
+        }
+        100% {
+          rotateX: (0);
+        }
+      }
+
+img.szLogoHover.img-responsive {
+  display: inline-block;
+
+}
+
 .email {
   transition: font-size 0.3s ease;
   font-size: 3vw;
