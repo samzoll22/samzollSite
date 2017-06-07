@@ -13,7 +13,7 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      slider: 50
+      slider: 0
     }
     this.handleSlider = this.handleSlider.bind(this);
   }
@@ -73,7 +73,7 @@ class About extends React.Component {
       <Well className="white center contactPadd">
         <Row className="samFontHeader center">
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
-            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about.svg" alt="about" responsive/>
+            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about2.svg" alt="about" responsive/>
           </Col>
         </Row>
         <Row>
@@ -85,27 +85,40 @@ class About extends React.Component {
                 </h3>
           </Col>
         </Row>
+        <Row className="samTextSpacer">
+          <Col xs={4} xsOffset={4} md={2} mdOffset={5} lassName="center">
+            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/what-i-do.svg" alt="what-i-do" responsive/>
+          </Col>
+        </Row>
         <Row>
           <Col xs={8} xsOffset={2}>
             {this.state.slider === 0 && (
-              <div className="animated zoomIn center" style={{height: 300, display: 'inline-block'}}>
+              <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
                 <h2> Lo-Fi to Hi-Fi: Sketching + Mockups </h2>
-                <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
+                <div className="animated slideInLeft" >
+                  <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-logo-drawing.png' height={250} responsive />
+                  <h3>Hand-drawn sketches converted to vectors with Illustrator</h3>
+                </div>
               </div>
               )
             }
             {this.state.slider === 50 && (
-              <div className="center" style={{height: 300, display: 'inline-block'}}>
+              <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
                 <h2> Raster to Vector: Design + Code Hybrid</h2>
-                <Image className="szLogoHover" src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' width={200} responsive />
+                <div className="animated slideInLeft" >
+                  <Image className="szLogoHover" src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' height={250} responsive />
+                  <h3>Final Hi-Fi Vector Logo</h3>
+                </div>
               </div>
               )
             }
             {this.state.slider === 100 && (
-              <div className="animated slideInUp center" style={{height: 300, display: 'inline-block'}}>
-                <h2> Static to Dynamic: SVG + CSS Animation </h2>
-                <Image className="szLogoHover" style={{padding: 10}} src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-inner-line-animate.svg' width={240} responsive />
-                <Button bsSize="xsmall" target="_blank" href="https://codepen.io/samzoll22/pen/MowZyw"><a>View on Codepen</a></Button>
+              <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
+                <h2> Static to Dynamic Code: SVG + CSS Animation </h2>
+                <div className="animated slideInLeft" >
+                  <Image className="szLogoHover" style={{padding: 10}} src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-inner-line-animate.svg' height={250} responsive />
+                  <Button bsSize="xsmall" target="_blank" href="https://codepen.io/samzoll22/pen/MowZyw"><a>View on Codepen</a></Button>
+                </div>
               </div>
               )
             }
@@ -120,7 +133,7 @@ class About extends React.Component {
               </div>
               )
             }
-            <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={50} onChange={this.handleSlider}/>
+            <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={0} onChange={this.handleSlider}/>
           </Col>
         </Row>
         {this.props.mobile || true ? null
