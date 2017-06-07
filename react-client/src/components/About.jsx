@@ -67,7 +67,6 @@ class About extends React.Component {
          label: sliderData[100]
      },
    }
-   console.log('this is it', this.state.slider)
    return (
     <div >
       <Well className="white center contactPadd">
@@ -90,7 +89,7 @@ class About extends React.Component {
             <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/what-i-do.svg" alt="what-i-do" responsive/>
           </Col>
         </Row>
-        <Row>
+        <Row >
           <Col xs={8} xsOffset={2}>
             {this.state.slider === 0 && (
               <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
@@ -122,18 +121,9 @@ class About extends React.Component {
               </div>
               )
             }
-            {this.state.slider === 101 && (
-              <div className="animated zoomIn center" style={{height: 300}}>
-                <Iframe url="https://codepen.io/samzoll22/pen/qjdLEm"
-                  width="600px"
-                  height="300px"
-                  display="initial"
-                  position="relative"
-                  />
-              </div>
-              )
-            }
-            <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={0} onChange={this.handleSlider}/>
+            <div className="samTextSpacer">
+              <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={0} onChange={this.handleSlider}/>
+            </div>
           </Col>
         </Row>
         {this.props.mobile || true ? null
