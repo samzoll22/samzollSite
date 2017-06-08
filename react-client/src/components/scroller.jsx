@@ -62,10 +62,6 @@ class Section extends React.Component {
     return (
       <div className="textPaddBig bottomSpacer">
         <Welcome className='animated fadeInUp'  mobile={this.props.mobile}/>
-        <Element name="about" className="aboutSpacer">
-           <div> </div>
-        </Element>
-        <About className='animated fadeInUp' mobile={this.props.mobile} width={this.props.width} />
         <Row>
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
               <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/projects2.svg" alt="projects" responsive/>
@@ -96,6 +92,10 @@ class Section extends React.Component {
           <Timeline.Item >
           </Timeline.Item>
         </Timeline>
+        <Element name="about" className="aboutSpacer">
+           <div> </div>
+        </Element>
+        <About className='animated fadeInUp' mobile={this.props.mobile} width={this.props.width} />
         <Element name="resume" className="animated zoomIn resumeSpacer">
           <div> </div>
         </Element>

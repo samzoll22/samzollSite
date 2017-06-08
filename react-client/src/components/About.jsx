@@ -13,7 +13,7 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      slider: 0
+      slider: 100
     }
     this.handleSlider = this.handleSlider.bind(this);
   }
@@ -122,7 +122,7 @@ class About extends React.Component {
               )
             }
             <div className="samTextSpacer">
-              <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={0} onChange={this.handleSlider}/>
+              <Slider marks={skillz} step={null} value={this.state.slider} defaultValue={100} onChange={this.handleSlider}/>
             </div>
           </Col>
         </Row>

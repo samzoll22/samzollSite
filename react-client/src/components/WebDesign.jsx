@@ -51,29 +51,24 @@ class WebDesign extends React.Component {
             {screenWidth < 992 ?
             (<Col>
             <Tabs defaultActiveKey="0" tabPosition="top" onChange={this.handleSwipe} activeKey={(this.state.key).toString()}>
-              <TabPane tab="HomeScreen" key="0" >
+              <TabPane tab="Overview" key="0" >
                 <Col md={12} >
                   <Image src={ info.content } className="imageCenter" responsive />
                 </Col>
               </TabPane>
-              <TabPane tab="Guided GIF" key="1">
-                <Col md={12} >
-                  <Image src={ info.content } className="imageCenter" responsive rounded />
-                </Col>
-              </TabPane>
-              <TabPane tab="Video" key="2">
+              <TabPane tab="Video" key="1">
                 <video width="100%" className="imageCenter" loop controls muted >
                   <source src={ info.content } type="video/mp4" />
                 </video>
               </TabPane>
-              {length > 4 ? (
-                  <TabPane tab="Wireframes" key="3">
+              {length > 3 ? (
+                  <TabPane tab="Wireframes" key="2">
                     <Col md={12} >
                       <Image src={ info.content } className="imageCenter" responsive rounded />
                     </Col>
                   </TabPane>
                 )
-                :(<TabPane tab="Description" key="3">
+                :(<TabPane tab="Description" key="2">
                     <Panel className='projectDescription'>
                       <Media>
                        <Media.Left>
@@ -120,55 +115,7 @@ class WebDesign extends React.Component {
                     </Panel>
                   </TabPane>
                   )}
-               {length === 5 ? (
-                  <TabPane tab="Description" key="4">
-                    <Panel className='projectDescription'>
-                      <Media>
-                       <Media.Left>
-                          <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
-                        </Media.Left>
-                        <Media.Body>
-                          <h2>{descriptionArr[this.props.project][0].title}</h2>
-                          { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
-                        </Media.Body>
-                      </Media>
-                      <ListGroup fill>
-                        <ListGroupItem>
-                        <h4 className="textPadd" >Project Summary</h4>
-                        <h5>{descriptionArr[this.props.project][0].description}</h5>
-                        </ListGroupItem>
-                        <ListGroupItem>
-                        <h4 className="textPadd" >Responsibilities</h4>
-                        <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
-                        </ListGroupItem>
-                        <ListGroupItem>
-                        <h4 className="textPadd" >Tools + Tech</h4>
-                        {descriptionArr[this.props.project][0].tools.map((item, i) => {
-                          const count = descriptionArr[this.props.project][0].tools.length;
-                          const size = 100 / count;
-                          return (
-                          <Tooltip title={item.name} key={i}>
-                            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
-                          </Tooltip>
-                          )
-                        })}
-                        </ListGroupItem>
-                        <ListGroupItem>
-                         <Media>
-                           <Media.Left>
-                              <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
-                            </Media.Left>
-                            <Media.Body>
-                              <h4 className="textPadd" >Team</h4>
-                              <h5>{descriptionArr[this.props.project][0].team}</h5>
-                            </Media.Body>
-                          </Media>
-                        </ListGroupItem>
-                      </ListGroup>
-                    </Panel>
-                  </TabPane>
-                  ) : null}
-            </Tabs>
+              </Tabs>
             </Col>)
           : (<div>
               <Col smHidden md={4}>
@@ -242,23 +189,18 @@ class WebDesign extends React.Component {
             </Col>
             <Col xs={12} md={8}>
             <Tabs defaultActiveKey="0" activeKey={(this.state.key).toString()} onChange={this.handleSwipe} tabPosition="top" >
-              <TabPane tab="HomeScreen" key="0" >
+              <TabPane tab="Overview" key="0" >
                 <Col md={12} >
                   <Image src={ info.content } className="imageCenter" responsive />
                 </Col>
               </TabPane>
-              <TabPane tab="Guided GIF" key="1">
-                <Col md={12} >
-                  <Image src={ info.content } className="imageCenter" responsive rounded />
-                </Col>
-              </TabPane>
-              <TabPane tab="Video" key="2">
+              <TabPane tab="Video" key="1">
                 <video width="100%" className="imageCenter" loop controls muted >
                   <source src={ info.content } type="video/mp4" />
                 </video>
               </TabPane>
-              { length !== 5 ? null :
-              (<TabPane tab="Wireframes" key="3">
+              { length === 4 &&
+              (<TabPane tab="Wireframes" key="2">
                 <Col md={12} >
                   <Image src={ info.content } className="imageCenter" responsive rounded />
                 </Col>

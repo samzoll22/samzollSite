@@ -19,7 +19,7 @@ const Welcome = (props) => {
           </Row>
         </div>
         <div className="down">
-            <Link activeClass="active" to="about" spy smooth duration={400} offset={80}>
+            <Link activeClass="active" to="projects" spy smooth duration={400} offset={-150}>
               <Glyphicon glyph="glyphicon glyphicon-chevron-down"/>
             </Link>
         </div>
@@ -49,7 +49,7 @@ const Welcome = (props) => {
           </Row>
         </div>
         <div className="down">
-            <Link activeClass="active" to="about" spy smooth duration={400} offset={80}>
+            <Link activeClass="active" to="projects" spy smooth duration={400} offset={-150}>
               <Glyphicon glyph="glyphicon glyphicon-chevron-down"/>
             </Link>
         </div>

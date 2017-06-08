@@ -38,12 +38,12 @@ class NavBar extends React.Component {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavItem eventKey={1} ><Link  to="about" spy smooth duration={300} offset={80}>About</Link></NavItem>
-            <NavDropdown eventKey={2} title="Projects" id="basic-nav-dropdown" >
-              <MenuItem eventKey={2.1}><Link  to="projects" spy smooth duration={500} offset={-20} >Web Apps</Link></MenuItem>
-              <MenuItem eventKey={2.2}><Link  to="nativeapps" spy smooth duration={500} offset={-100}>Native Apps</Link></MenuItem>
-              <MenuItem eventKey={2.3}><Link  to="2d3d" spy smooth duration={500} offset={-100}>2D/3D Designs</Link></MenuItem>
+            <NavDropdown eventKey={1} title="Projects" id="basic-nav-dropdown" >
+              <MenuItem eventKey={1.1}><Link  to="projects" spy smooth duration={500} offset={-150} >Web Apps</Link></MenuItem>
+              <MenuItem eventKey={1.2}><Link  to="nativeapps" spy smooth duration={500} offset={-100}>Native Apps</Link></MenuItem>
+              <MenuItem eventKey={1.3}><Link  to="2d3d" spy smooth duration={500} offset={-100}>2D/3D Designs</Link></MenuItem>
             </NavDropdown>
+          <NavItem eventKey={2} ><Link  to="about" spy smooth duration={300} offset={80}>About</Link></NavItem>
           <NavItem eventKey={3} ><Link  to="resume" spy smooth duration={700}>Resume</Link></NavItem>
           <NavItem eventKey={4} ><Link  to="contact" spy smooth duration={900}>Contact</Link></NavItem>
         </Nav>

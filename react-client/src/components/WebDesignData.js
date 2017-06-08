@@ -35,47 +35,11 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-static.png',
+    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'April 2017'
   },
-  { title: 'Truck Hunt SF',
-    topic: 'Description',
-    tools: [
-            { name: 'React',
-              image: 'react'
-            },
-            { name: 'React-Router',
-              image: 'router'
-            },
-            { name: 'Redux',
-              image: 'redux'
-            },
-            { name: 'Node.JS',
-              image: 'node'
-            },
-            { name: 'Express',
-              image: 'express'
-            },
-            { name: 'PostgreSQL',
-              image: 'postgresql'
-            },
-            { name: 'Mapbox',
-              image: 'mapbox'
-            },
-            { name: 'Bootstrap',
-              image: 'bootstrap'
-            },
-            { name: 'Semantic UI',
-              image: 'semantic'
-            }],
-    description: 'This is a quick (4X speed) gif guided tour. Watch video for real time (1X speed).',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
-    location: 'San Francisco',
-    locationImage: 'url',
-    date: 'April 2017'},
   { title: 'Truck Hunt SF',
     topic: 'Description',
     tools: [
@@ -165,37 +129,6 @@ module.exports = {
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-static.png',
-    location: 'San Francisco',
-    locationImage: 'url',
-    date: 'March 2017'
-  },
-  { title: 'Oranges 2 Oranges',
-    topic: 'Description',
-    tools: [
-            { name: 'React',
-              image: 'react'
-            },
-            { name: 'React-Router',
-              image: 'router'
-            },
-            { name: 'Socket.io',
-              image: 'socketio'
-            },
-            { name: 'Node.JS',
-              image: 'node'
-            },
-            { name: 'Express',
-              image: 'express'
-            },
-            { name: 'MongoDB',
-              image: 'mongod'
-            },
-            { name: 'Bootstrap',
-              image: 'bootstrap'
-            }],
-    description: 'This is a quick (4X speed) gif guided tour.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges_2_oranges.gif',
     location: 'San Francisco',
     locationImage: 'url',
@@ -258,34 +191,6 @@ module.exports = {
             }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket-Champ-Static.png',
-    location: 'San Francisco',
-    locationImage: 'url',
-    date: 'March 2017'
-  },
-  { title: 'Ticket Champ',
-    topic: 'Description',
-    tools: [
-            { name: 'React',
-              image: 'react'
-            },
-            { name: 'Node.JS',
-              image: 'node'
-            },
-            { name: 'Express',
-              image: 'express'
-            },
-            { name: 'MySQL',
-              image: 'mysql'
-            },
-            { name: 'Bootstrap',
-              image: 'bootstrap'
-            },
-            { name: 'CSS Flexbox',
-              image: 'css'
-            }],
-    description: 'This is a quick (1X speed) gif guided tour.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif',
     location: 'San Francisco',
@@ -374,22 +279,6 @@ module.exports = {
             }],
     teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/homescreen.png',
-    location: 'Chicago',
-    locationImage: 'url',
-    date: '2017'
-  },
-  { title: 'Trivia Night',
-    topic: 'Description',
-    tools: [
-            { name: 'Photoshop',
-              image: 'photoshop'
-            },
-            { name: 'Illustrator',
-              image: 'illustrator'
-            }],
-    description: 'Detailed desktop site mockup.',
     logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
     content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-website.gif',
     location: 'Chicago',

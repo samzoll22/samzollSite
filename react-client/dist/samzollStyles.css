@@ -347,7 +347,7 @@ img.profilePicture.img-responsive.img-circle {
 
 img.szLogoHover.img-responsive {
   display: inline-block;
-
+  max-height: 40em !important;
 }
 
 .email {
