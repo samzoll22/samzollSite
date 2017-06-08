@@ -56,19 +56,69 @@ class WebDesign extends React.Component {
                   <Image src={ info.content } className="imageCenter" responsive />
                 </Col>
               </TabPane>
-              <TabPane tab="Video" key="1">
-                <video width="100%" className="imageCenter" loop controls muted >
-                  <source src={ info.content } type="video/mp4" />
-                </video>
-              </TabPane>
-              {length > 3 ? (
-                  <TabPane tab="Wireframes" key="2">
+              {length === 3 &&
+                (<TabPane tab="Video" key="1">
+                  <video width="100%" className="imageCenter" loop controls muted >
+                    <source src={ info.content } type="video/mp4" />
+                  </video>
+                </TabPane>)
+              }
+              {length === 4 ? (
+                  <TabPane tab="Wireframes" key="1">
                     <Col md={12} >
-                      <Image src={ info.content } className="imageCenter" responsive rounded />
+                      <Image src={ mobile[2].content } className="imageCenter" responsive rounded />
                     </Col>
                   </TabPane>
                 )
                 :(<TabPane tab="Description" key="2">
+                    <Panel className='projectDescription'>
+                      <Media>
+                       <Media.Left>
+                          <img width={64} height={64} src={descriptionArr[this.props.project][0].logo} alt="Image"/>
+                        </Media.Left>
+                        <Media.Body>
+                          <h2>{descriptionArr[this.props.project][0].title}</h2>
+                          { descriptionArr[this.props.project][0].location ? (<h5>{descriptionArr[this.props.project][0].location} • {descriptionArr[this.props.project][0].date}</h5>) : null}
+                        </Media.Body>
+                      </Media>
+                      <ListGroup fill>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Project Summary</h4>
+                        <h5>{descriptionArr[this.props.project][0].description}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Responsibilities</h4>
+                        <h5>{descriptionArr[this.props.project][0].responsibilities}</h5>
+                        </ListGroupItem>
+                        <ListGroupItem>
+                        <h4 className="textPadd" >Tools + Tech</h4>
+                        {descriptionArr[this.props.project][0].tools.map((item, i) => {
+                          const count = descriptionArr[this.props.project][0].tools.length;
+                          const size = 100 / count;
+                          return (
+                          <Tooltip title={item.name} key={i}>
+                            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          </Tooltip>
+                          )
+                        })}
+                        </ListGroupItem>
+                        <ListGroupItem>
+                         <Media>
+                           <Media.Left>
+                              <img width={48} height={48} src={descriptionArr[this.props.project][0].teamImage} alt="Image"/>
+                            </Media.Left>
+                            <Media.Body>
+                              <h4 className="textPadd" >Team</h4>
+                              <h5>{descriptionArr[this.props.project][0].team}</h5>
+                            </Media.Body>
+                          </Media>
+                        </ListGroupItem>
+                      </ListGroup>
+                    </Panel>
+                  </TabPane>
+                  )}
+                  {length === 4 &&
+                  (<TabPane tab="Description" key="2">
                     <Panel className='projectDescription'>
                       <Media>
                        <Media.Left>

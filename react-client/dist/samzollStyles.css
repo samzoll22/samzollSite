@@ -133,13 +133,12 @@ ul.nav.navbar-nav.navbar-right {
 }
 */
 .projectDescription.panel.panel-default {
-    height: 530px;
-    overflow: scroll;
+    height: 100%;
   }
 
 @media screen and (min-width: 1200px) {
   .projectDescription.panel.panel-default {
-    height: 100%
+    overflow: scroll;
   }
 }
 
