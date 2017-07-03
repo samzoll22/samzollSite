@@ -338,7 +338,7 @@ module.exports = {
               image: 'photoshop'
             }],
         teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
-        team: 'Solo Project',
+        team: 'Solo Project @ University of Michigan',
         logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
         content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/Rendered-in-Site1.jpg',
         location: 'Ann Arbor',

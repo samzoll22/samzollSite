@@ -113,7 +113,7 @@ class About extends React.Component {
             }
             {this.state.slider === 100 && (
               <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
-                <h2> Static to Dynamic Code: SVG + CSS Animation </h2>
+                <h2> Static Design to Dynamic Code: SVG + CSS Animation </h2>
                 <div className="animated slideInLeft" >
                   <Image className="szLogoHover" style={{padding: 10}} src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-inner-line-animate.svg' height={250} responsive />
                   <Button bsSize="xsmall" target="_blank" href="https://codepen.io/samzoll22/pen/MowZyw"><a>View on Codepen</a></Button>
