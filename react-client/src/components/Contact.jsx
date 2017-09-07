@@ -10,7 +10,7 @@ const Contact = (props) => (
       <div className="white contactPadd">
       <Row className="textPaddBig">
         <Col sm={6} smOffset={3} md={6} mdOffset={3} className="center">
-          <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/lets-get-in-touch.svg" responsive/>
+          <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/lets-get-in-touch.svg" responsive/>
         </Col>
       </Row>
       <Row className="textPaddBig">
@@ -21,17 +21,17 @@ const Contact = (props) => (
         <Row>
         <Col xs={4}>
           <a target="_blank" href="https://github.com/samzoll22">
-            <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/github-logo.svg" />
+            <Image className="social" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/social/github-logo.svg" />
           </a>
         </Col>
         <Col xs={4}>
           <a target="_blank" href="https://www.linkedin.com/in/samzoll/">
-            <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/linkedin-logo-button.svg" />
+            <Image className="social" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/social/linkedin-logo-button.svg" />
           </a>
         </Col>
         <Col xs={4}>
           <a target="_blank" href="https://www.instagram.com/szoll/">
-            <Image className="social" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/social/instagram-logo.svg" />
+            <Image className="social" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/social/instagram-logo.svg" />
           </a>
         </Col>
         </Row>

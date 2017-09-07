@@ -104,25 +104,25 @@ class AppDesign extends React.Component {
           <TabPane tab="Plans + Sections" key="4">
              <Carousel effect="fade" dots autoplay>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section1.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/section1.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section2.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/section2.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan0.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan0.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan1.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan1.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan2.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan2.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccphoto.jpg" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/ccphoto.jpg" className="imageCenter" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccwebsite.png" className="imageCenter" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/ccwebsite.png" className="imageCenter" responsive />
               </div>
             </Carousel>
           </TabPane>

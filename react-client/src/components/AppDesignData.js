@@ -17,25 +17,25 @@ module.exports = {
             { name: 'Final Cut Pro',
               image: 'final_cut_pro'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator and Ruby Seven Studios',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/lucky-north-app-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/itunes-screenshot.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/lucky-north-app-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/itunes-screenshot.png',
     platforms: [
       {
         type:'iOS',
         link:'https://itunes.apple.com/us/app/lucky-north-casino-lucky-777-jackpot-slot-casino/id1080911184?mt=8',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/iOS.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/iOS.svg'
       },
       {
         type:'Android',
         link:'https://play.google.com/store/apps/details?id=com.rubyseven.luckynorthcasino&hl=en',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/Android.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/Android.svg'
       },
       {
         type:'Facebook',
         link:'https://www.amazon.com/Lucky-North-Casino-FREE-Casino/dp/B01C5FY7AQ',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/Facebook.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/Facebook.svg'
       }
     ],
     location: 'Chicago',
@@ -52,8 +52,8 @@ module.exports = {
               image: 'photoshop'
             }],
     description: 'This is a detailed mockup created in Illustrator to demonstrate the proposed trivia game play layout.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/lucky-north-app-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/gameplay.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/lucky-north-app-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/gameplay.png',
     location: 'Chicago',
     locationImage: 'url',
     date: ' 2016 - Present'
@@ -74,8 +74,8 @@ module.exports = {
               image: 'final_cut_pro'
             }],
     description: 'This motion graphics animation was created to demonstrate the user game play flow from beginning to end.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/lucky-north-app-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/luckyNorth/LNC_Trivia_Gameplay_FinalDemo.m4v',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/lucky-north-app-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/luckyNorth/LNC_Trivia_Gameplay_FinalDemo.m4v',
     location: 'Chicago',
     locationImage: 'url',
     date: ' 2016 - Present'
@@ -101,15 +101,15 @@ module.exports = {
               name: 'Xcode',
               image: 'xcode'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/Monster-Homepage.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/Monster-Homepage.png',
     platforms: [
       {
         type:'iOS',
         link:'http://triviamonster.io/',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/iOS.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/iOS.svg'
       }
     ],
     location: 'Chicago',
@@ -123,8 +123,8 @@ module.exports = {
               image: 'illustrator'
             }],
     description: 'This is a detailed mockup of the Trivia Monster HomeScreen',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/HomeScreen.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/HomeScreen.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2016 - Present'
@@ -136,8 +136,8 @@ module.exports = {
               image: 'illustrator'
             }],
     description: 'This is a detailed mockup of the trivia gameplay.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaMonster/Gameplay.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/New-TM-Icon2-rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaMonster/Gameplay.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2016 - Present'
@@ -163,20 +163,20 @@ module.exports = {
               name: 'Xcode',
               image: 'xcode'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator and LED Gaming',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/DoubleLuckIconX1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/itunes-screenshot.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/DoubleLuckIconX1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/itunes-screenshot.png',
     platforms: [
       {
         type:'Apple Watch',
         link:'https://itunes.apple.com/us/app/double-luck-nudge-slots-for-apple-watch/id1039176847?mt=8',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/AppleWatch.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/AppleWatch.svg'
       },
       {
         type:'iOS',
         link:'https://itunes.apple.com/us/app/double-luck-nudge-slots-for-apple-watch/id1039176847?mt=8',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/iPhone.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/iPhone.svg'
       }
     ],
     location: 'Chicago',
@@ -193,8 +193,8 @@ module.exports = {
               image: 'photoshop'
             }],
     description: 'This is a detailed mockup of Double Luck Nudge featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/DoubleLuckIconX1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/App-Store-Screenshots6-1.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/DoubleLuckIconX1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/App-Store-Screenshots6-1.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2015'
@@ -209,8 +209,8 @@ module.exports = {
               image: 'photoshop'
             }],
     description: 'This is a detailed mockup of Double Luck Nudge featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/DoubleLuckIconX1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/doubleLuck/App-Store-Screenshots6-2.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/DoubleLuckIconX1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/doubleLuck/App-Store-Screenshots6-2.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2015'
@@ -233,20 +233,20 @@ module.exports = {
               name: 'Xcode',
               image: 'xcode'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/itunes-screenshot.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/itunes-screenshot.png',
     platforms: [
       {
         type:'Apple Watch',
         link:'https://itunes.apple.com/us/app/muncherman/id1021353409?ls=1&mt=8',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/AppleWatch.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/AppleWatch.svg'
       },
       {
         type:'iOS',
         link:'https://itunes.apple.com/us/app/muncherman/id1021353409?ls=1&mt=8',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/iPhone.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/iPhone.svg'
       }
     ],
     location: 'Chicago',
@@ -263,8 +263,8 @@ module.exports = {
           image: 'photoshop'
         }],
     description: 'This is a detailed mockup of Muncher Man featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/1.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/1.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2015'
@@ -279,8 +279,8 @@ module.exports = {
           image: 'photoshop'
         }],
     description: 'This is a detailed mockup of Muncher Man featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/muncherMan/3.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/Muncher-Man-Final4-1024-Rounded.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/muncherMan/3.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2015'
@@ -302,25 +302,25 @@ module.exports = {
         { name: 'Final Cut Pro',
           image: 'final_cut_pro'
         }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/1024X-app-icon-1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/iTunes-Mock-Up+cropped.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/1024X-app-icon-1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/iTunes-Mock-Up+cropped.png',
     platforms: [
       {
         type:'iOS',
         link:'http://www.trivios.net/',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/iOS.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/iOS.svg'
       },
       {
         type:'Android',
         link:'http://www.trivios.net/',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/Android.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/Android.svg'
       },
       {
         type:'Amazon',
         link:'http://www.trivios.net/',
-        image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/platforms/Amazon.svg'
+        image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/platforms/Amazon.svg'
       }
     ],
     location: 'Chicago',
@@ -337,8 +337,8 @@ module.exports = {
           image: 'photoshop'
         }],
     description: 'This is a detailed mockup of triVios featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/1024X-app-icon-1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/Apple_iPhone4-2.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/1024X-app-icon-1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/Apple_iPhone4-2.png',
     location: 'Chicago',
     locationImage: 'url',
     date: '2014-2015'},
@@ -358,8 +358,8 @@ module.exports = {
           image: 'final_cut_pro'
         }],
     description: 'This is a detailed mockup of triVios featured in the Apple App Store',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/1024X-app-icon-1024.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/trivios/triVios+1.2+Video+Final+(Official)+30s+-+1334X750.mov',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/1024X-app-icon-1024.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/trivios/triVios+1.2+Video+Final+(Official)+30s+-+1334X750.mov',
     location: 'Chicago',
     locationImage: 'url',
     date: '2014-2015'

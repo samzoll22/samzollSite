@@ -5,75 +5,75 @@ import { Tooltip } from 'antd';
 const data = [
   {
     name:'3D Printing',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/3d_printing.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/3d_printing.svg'
   },
   {
     name:'CNC Routing',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/cnc_router.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/cnc_router.svg'
   },
   {
     name:'Laser Cutting',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/laser_cutter.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/laser_cutter.svg'
   },
   {
     name:'Carpentry',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/carpentry.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/carpentry.svg'
   },
   {
     name:'Welding',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/welding.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/welding.svg'
   },
   {
     name:'Robotics',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/robots.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/robots.svg'
   },
    {
     name:'Photoshop',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/photoshop.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/photoshop.svg'
   },
   {
     name:'Illustrator',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/illustrator.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/illustrator.svg'
   },
    {
     name:'InDesign',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/indesign.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/indesign.svg'
   },
   {
     name:'After Effects',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/after_effects.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/after_effects.svg'
   },
   {
     name:'Premier',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/premier.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/premier.svg'
   },
   {
     name:'Sketch',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/sketch.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/sketch.svg'
   },
   {
     name:'Rhinoceros',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/rhino.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/rhino.svg'
   },
   {
     name:'V-Ray',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/vray.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/vray.svg'
   },
    {
     name:'Final Cut Pro',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/final_cut_pro.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/final_cut_pro.svg'
   },
   {
     name:'SketchUp',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/sketchup.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/sketchup.svg'
   },
   {
     name:'AutoCAD',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/autocad.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/autocad.svg'
   },
   {
     name:'Revit',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/revit.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/revit.svg'
   }
 ]
 

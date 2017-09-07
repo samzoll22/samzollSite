@@ -78,7 +78,7 @@ const Footer = (props) => {
           const size = 100 / count;
           return (
           <Tooltip title={item.name} key={i}>
-            <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+            <Image className="toolStyle" src={`http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
           </Tooltip>)
           })
         }

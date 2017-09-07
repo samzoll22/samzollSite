@@ -60,7 +60,7 @@ class AppDesign extends React.Component {
                         const size = 100 / count;
                         return (
                         <Tooltip title={item.name} key={i}>
-                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          <Image className="toolStyle" src={`http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
                         </Tooltip>
                         )
                       })}
@@ -91,7 +91,7 @@ class AppDesign extends React.Component {
                         const size = 100 / count;
                         return (
                         <Tooltip title={item.name} key={i}>
-                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          <Image className="toolStyle" src={`http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
                         </Tooltip>
                         )
                       })}
@@ -105,28 +105,28 @@ class AppDesign extends React.Component {
           <TabPane tab="Slideshow" key="0">
              <Carousel effect="fade" dots autoplay>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/1445+Lill5.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/1445+Lill5.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/1445+Lill5(Export+Version).jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/1445+Lill5(Export+Version).jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Marks4+-+2.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Marks4+-+2.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Marks4.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Marks4.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Skowronski6+-+2+.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Skowronski6+-+2+.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Skowronski6.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Skowronski6.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Wrightwood6+-+2.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Wrightwood6+-+2.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/Wrightwood6.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/Wrightwood6.jpg" responsive />
               </div>
             </Carousel>
           </TabPane>

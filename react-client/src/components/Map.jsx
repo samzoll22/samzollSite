@@ -22,7 +22,7 @@
 //       <Marker
 //             coordinates={props.coords}
 //           >
-//             <img src={'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo-Marker.png'} alt="mapCenter" />
+//             <img src={'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo-Marker.png'} alt="mapCenter" />
 //           </Marker>
 //       </ReactMapboxGl>
 //     </div>)

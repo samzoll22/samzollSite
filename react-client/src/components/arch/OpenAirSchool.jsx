@@ -60,7 +60,7 @@ class AppDesign extends React.Component {
                         const size = 100 / count;
                         return (
                         <Tooltip title={item.name} key={i}>
-                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          <Image className="toolStyle" src={`http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
                         </Tooltip>
                         )
                       })}
@@ -91,7 +91,7 @@ class AppDesign extends React.Component {
                         const size = 100 / count;
                         return (
                         <Tooltip title={item.name} key={i}>
-                          <Image className="toolStyle" src={`https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
+                          <Image className="toolStyle" src={`http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/${item.image}.svg`} alt={item} width={`${size}%`} height={32} />
                         </Tooltip>
                         )
                       })}
@@ -105,31 +105,31 @@ class AppDesign extends React.Component {
           <TabPane tab="Slideshow" key="0">
              <Carousel effect="fade" dots autoplay>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+1.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+1.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+2.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+2.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+3.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+3.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+4.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+4.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+5.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+5.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+6.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+6.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+7.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+7.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+8.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+8.jpg" responsive />
               </div>
               <div>
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+9.jpg" responsive />
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/Final+Open+Air+School+9.jpg" responsive />
               </div>
             </Carousel>
           </TabPane>

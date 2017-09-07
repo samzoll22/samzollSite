@@ -33,7 +33,7 @@ class NavBar extends React.Component {
     <Navbar className="white" fixedTop collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-          <Image className="szLogo" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" responsive onClick={this.scrollToTop}/>
+          <Image className="szLogo" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg" alt="Sam Zoll Logo" responsive onClick={this.scrollToTop}/>
         </Navbar.Brand>
       </Navbar.Header>
       <Navbar.Collapse>

@@ -32,10 +32,10 @@ module.exports = {
             { name: 'Semantic UI',
               image: 'semantic'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/truck-hunt-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'April 2017'
@@ -71,8 +71,8 @@ module.exports = {
               image: 'semantic'
             }],
     description: 'This is a video guided tour @ 1X Speed.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck+hunt+demo+(720p).mp4',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/truck-hunt-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/truck+hunt+demo+(720p).mp4',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'April 2017'
@@ -93,8 +93,8 @@ module.exports = {
               image: 'illustrator'
             }],
     description: 'This is a user flow diagram outlining the consumer ordering process and the corresponding basic mockups made with Adobe Illustrator.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/truck-hunt-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/truckHunt/wireframe_1.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/truck-hunt-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/wireframe_1.png',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -126,10 +126,10 @@ module.exports = {
             { name: 'Bootstrap',
               image: 'bootstrap'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges_2_oranges.gif',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/oranges2oranges/oranges_2_oranges.gif',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -159,8 +159,8 @@ module.exports = {
               image: 'bootstrap'
             }],
     description: 'This is a quick (4X speed) video guided tour.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/oranges2oranges/oranges2oranges-logo-reduced.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/oranges2oranges/Oranges+2+Oranges+2X(reduced).m4v',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -189,10 +189,10 @@ module.exports = {
             { name: 'CSS Flexbox',
               image: 'css'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
     team: 'Personal project built with an awesome team of four.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ.gif',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/ticket-champ-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/ticket-champ.gif',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -219,8 +219,8 @@ module.exports = {
               image: 'css'
             }],
     description: 'This is a video (1X speed) guided tour.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/Ticket+Champ+720p.mp4',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/ticket-champ-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/Ticket+Champ+720p.mp4',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -241,8 +241,8 @@ module.exports = {
               image: 'illustrator'
             }],
     description: 'This is the wireframe sketch that was converted to a greyscale mockup using Adobe Illustrator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/ticket-champ-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/ticketChamp/wireframe.png',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/ticket-champ-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/ticketChamp/wireframe.png',
     location: 'San Francisco',
     locationImage: 'url',
     date: 'March 2017'
@@ -277,10 +277,10 @@ module.exports = {
             { name: 'iPhone 7 Plus',
               image: 'iphone'
             }],
-    teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/400X-Baby-Gator.png',
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/400X-Baby-Gator.png',
     team: 'Purple Gator',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-website.gif',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaNight/trivia-night-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaNight/trivia-night-website.gif',
     location: 'Chicago',
     locationImage: 'url',
     date: '2017'
@@ -300,8 +300,8 @@ module.exports = {
               image: 'after_effects'
             }],
     description: 'Marketing demo and product experience tour.',
-    logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/trivia-night-logo.png',
-    content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/triviaNight/Trivia-Night-720P.mp4',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaNight/trivia-night-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/triviaNight/Trivia-Night-720P.mp4',
     location: 'Chicago',
     locationImage: 'url',
     date: '2017'

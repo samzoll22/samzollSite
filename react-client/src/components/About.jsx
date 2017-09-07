@@ -72,12 +72,12 @@ class About extends React.Component {
       <Well className="white center contactPadd">
         <Row className="samFontHeader center">
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
-            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about2.svg" alt="about" responsive/>
+            <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/about2.svg" alt="about" responsive/>
           </Col>
         </Row>
         <Row>
           <Col md={6} className="center textPadd">
-                <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/Profile_Picture_2017_Square.png" circle responsive className="profilePicture"/>
+                <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Profile_Picture_2017_Square.png" circle responsive className="profilePicture"/>
           </Col>
           <Col md={6} className="samAbout">
                 <h3 className="samFont center"> I love designing beautifully assembled products that focus on creating meaningful user experiences. In particular, I'm passionate about crafting experiences from start to finish, from sketches to mockups, to a coded elegant masterpiece. In my previous position at Purple Gator, I led a remote design team to create a trivia game UX which has been ranked in the top casino apps in the US Apple App Store. Recently, I've built several applications including a food truck finding and ordering app, a real-time multiplayer text based game, and a ticket price comparison app.
@@ -86,7 +86,7 @@ class About extends React.Component {
         </Row>
         <Row className="samTextSpacer">
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} lassName="center">
-            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/what-i-do.svg" alt="what-i-do" responsive/>
+            <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/what-i-do.svg" alt="what-i-do" responsive/>
           </Col>
         </Row>
         <Row >
@@ -95,7 +95,7 @@ class About extends React.Component {
               <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
                 <h2> Lo-Fi to Hi-Fi: Sketching + Mockups </h2>
                 <div className="animated slideInLeft" >
-                  <Image src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-logo-drawing.png' height={250} responsive />
+                  <Image src='http://dhmyyrxmn8ugc.cloudfront.net/portfolio/about/sam-zoll-logo-drawing.png' height={250} responsive />
                   <h3>Hand-drawn sketches converted to vectors with Illustrator</h3>
                 </div>
               </div>
@@ -105,7 +105,7 @@ class About extends React.Component {
               <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
                 <h2> Raster to Vector: Design + Code Hybrid</h2>
                 <div className="animated slideInLeft" >
-                  <Image className="szLogoHover" src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg' height={250} responsive />
+                  <Image className="szLogoHover" src='http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg' height={250} responsive />
                   <h3>Final Hi-Fi Vector Logo</h3>
                 </div>
               </div>
@@ -115,7 +115,7 @@ class About extends React.Component {
               <div className="animated fadeIn center" style={{height: 300, display: 'inline-block'}}>
                 <h2> Static Design to Dynamic Code: SVG + CSS Animation </h2>
                 <div className="animated slideInLeft" >
-                  <Image className="szLogoHover" style={{padding: 10}} src='https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/about/sam-zoll-inner-line-animate.svg' height={250} responsive />
+                  <Image className="szLogoHover" style={{padding: 10}} src='http://dhmyyrxmn8ugc.cloudfront.net/portfolio/about/sam-zoll-inner-line-animate.svg' height={250} responsive />
                   <Button bsSize="xsmall" target="_blank" href="https://codepen.io/samzoll22/pen/MowZyw"><a>View on Codepen</a></Button>
                 </div>
               </div>

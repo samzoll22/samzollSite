@@ -5,75 +5,75 @@ import { Tooltip } from 'antd';
 const data = [
   {
     name:'HTML',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/html.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/html.svg'
   },
   {
     name:'CSS',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/css.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/css.svg'
   },
   {
     name:'Javascript',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/javascript.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/javascript.svg'
   },
   {
     name:'Node',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/node.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/node.svg'
   },
   {
     name:'Express',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/express.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/express.svg'
   },
   {
     name:'mySQL',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/mysql.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/mysql.svg'
   },
    {
     name:'React',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/react.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/react.svg'
   },
   {
     name:'Redux',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/redux.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/redux.svg'
   },
    {
     name:'PostgreSQL',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/postgresql.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/postgresql.svg'
   },
   {
     name:'Angular',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/angular.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/angular.svg'
   },
   {
     name:'jQuery',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/jquery.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/jquery.svg'
   },
   {
     name:'Socket.io',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/socketio.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/socketio.svg'
   },
   {
     name:'Bootstrap',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/bootstrap.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/bootstrap.svg'
   },
   {
     name:'Material UI',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/material.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/material.svg'
   },
    {
     name:'Semantic UI',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/semantic.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/semantic.svg'
   },
   {
     name:'D3',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/d3.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/d3.svg'
   },
   {
     name:'Github',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/git.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/git.svg'
   },
   {
     name:'AWS',
-    image:'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/tool-icons/aws.svg'
+    image:'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/tool-icons/aws.svg'
   }
 ]
 

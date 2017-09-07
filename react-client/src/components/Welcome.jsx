@@ -12,10 +12,10 @@ const Welcome = (props) => {
         <Col sm={10} smOffset={1} md={8} mdOffset={2}>
         <div className="textCenter textPaddBig">
           <Row className="center textPaddBig">
-            <Image className="halfWidth" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/im-sam-zoll.svg"  />
+            <Image className="halfWidth" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/im-sam-zoll.svg"  />
           </Row>
           <Row>
-            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/im-a-digital-designer.svg"  />
+            <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/im-a-digital-designer.svg"  />
           </Row>
         </div>
         <div className="down">
@@ -42,10 +42,10 @@ const Welcome = (props) => {
         <Col md={8} mdOffset={2}>
         <div className="textCenter textPaddBig">
           <Row className="center textPaddBig">
-            <Image className="halfWidth" src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/im-sam-zoll.svg"  />
+            <Image className="halfWidth" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/im-sam-zoll.svg"  />
           </Row>
           <Row>
-            <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/im-a-digital-designer.svg"  />
+            <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/im-a-digital-designer.svg"  />
           </Row>
         </div>
         <div className="down">

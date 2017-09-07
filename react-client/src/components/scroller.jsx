@@ -64,7 +64,7 @@ class Section extends React.Component {
         <Welcome className='animated fadeInUp'  mobile={this.props.mobile}/>
         <Row>
           <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
-              <Image src="https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/projects2.svg" alt="projects" responsive/>
+              <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/projects2.svg" alt="projects" responsive/>
           </Col>
         </Row>
         <Element name="projects" className="start">

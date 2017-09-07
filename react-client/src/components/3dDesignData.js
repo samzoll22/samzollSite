@@ -23,10 +23,10 @@ module.exports = {
             { name: 'Photoshop',
               image: 'photoshop'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/First-Rendering-1.1.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v1/First-Rendering-1.1.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2014'
@@ -41,8 +41,8 @@ module.exports = {
               image: 'illustrator'
             }],
         description: 'Process / User Flow Diagram.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/medicine+processing+diagram.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v1/medicine+processing+diagram.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2014'
@@ -60,8 +60,8 @@ module.exports = {
               image: 'illustrator'
             }],
         description: 'Floor Plans.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/FINAL+PLANS+MIDTERM-04.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v1/FINAL+PLANS+MIDTERM-04.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2014'
@@ -76,8 +76,8 @@ module.exports = {
               image: 'illustrator'
             }],
         description: 'Section Diagram.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v1/SECTION+MIDTERM-01.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v1/SECTION+MIDTERM-01.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2014'}
@@ -108,10 +108,10 @@ module.exports = {
             { name: 'Photoshop',
               image: 'photoshop'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+1.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo+-+1.jpg',
         location: 'Chicago',
         locationImage: 'url',
         date: '2016'
@@ -135,8 +135,8 @@ module.exports = {
               image: 'photoshop'
             }],
         description: 'Slide 2 - Centralized location.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+2.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo+-+2.jpg',
         location: 'Chicago',
         locationImage: 'url',
         date: '2016'
@@ -163,8 +163,8 @@ module.exports = {
               image: 'photoshop'
             }],
         description: 'Slide 3 - Automating architecture.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+3.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo+-+3.jpg',
         location: 'Chicago',
         locationImage: 'url',
         date: '2016'
@@ -191,8 +191,8 @@ module.exports = {
               image: 'photoshop'
             }],
         description: 'Slide 4 - Modular design. ',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo-Logo.png',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/cannaco/CannaCo+-+4.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo-Logo.png',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/cannaco/CannaCo+-+4.jpg',
         location: 'Chicago',
         locationImage: 'url',
         date: '2016'
@@ -227,10 +227,10 @@ module.exports = {
             { name: 'LEDs',
               image: 'led'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/IMG_1525.JPG',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v1/IMG_1525.JPG',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -245,8 +245,8 @@ module.exports = {
               image: 'illustrator'
             }],
         description: 'Floor Plans.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/FINAL+3+PLANS.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v1/FINAL+3+PLANS.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -267,8 +267,8 @@ module.exports = {
               image: 'paper'
             }],
         description: 'Section Sketch.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/SECTION+PERSPECTIVE.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v1/SECTION+PERSPECTIVE.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -286,8 +286,8 @@ module.exports = {
               image: 'illustrator'
             }],
         description: 'Exterior facade diagram.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -311,8 +311,8 @@ module.exports = {
               image: 'photoshop'
             }],
         description: '1/16th Scale Model with fiber optic cables and LED lights.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v1/EXTERIOR+FACADE.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'}
@@ -337,10 +337,10 @@ module.exports = {
             { name: 'Photoshop',
               image: 'photoshop'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/Rendered-in-Site1.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/Rendered-in-Site1.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2013'
@@ -364,8 +364,8 @@ module.exports = {
               image: 'photoshop'
             }],
         description: 'This is a graphic representing the numerous iterations it to took get to completed design.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/AA+Music+v2/Tile+UG4.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/AAMusic2-Logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/AA+Music+v2/Tile+UG4.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2013'
@@ -382,10 +382,10 @@ module.exports = {
             { name: 'Paper',
               image: 'paper'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -400,8 +400,8 @@ module.exports = {
               image: 'paper'
             }],
         description: 'One point perspective.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/IMG_7942.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/drawing-logo.svg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/IMG_7942.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -421,10 +421,10 @@ module.exports = {
             { name: 'InDesign',
               image: 'indesign'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
         team: 'Solo Project @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Open+Air+School/book-icon.svg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Open+Air+School/book-icon.svg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2012'
@@ -441,10 +441,10 @@ module.exports = {
             { name: 'Photoshop',
               image: 'photoshop'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
         team: 'UM3D Lab @ University of Michigan',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/Research-Poster.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/UM+3D/Research-Poster.jpg',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2010-2011'
@@ -456,8 +456,8 @@ module.exports = {
               image: 'mudbox'
             }],
         description: 'Mudbox character detail.',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/UM+3D/character.png',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/UM+3D/um3dlab-logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/UM+3D/character.png',
         location: 'Ann Arbor',
         locationImage: 'url',
         date: '2010-2011'
@@ -471,10 +471,10 @@ module.exports = {
             { name: 'Sketchup',
               image: 'sketchup'
             }],
-        teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',
+        teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',
         team: 'Bob Brobson',
-        logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',
-        content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
+        logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Bob+Brobson/brobson-logo.jpg',
+        content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Hand+Drawing/IMG_7937.jpg',
         location: 'Chicago',
         locationImage: 'url',
         date: '2009'
@@ -487,61 +487,61 @@ module.exports = {
   // { title: 'CannaCo',
   //   description: "CannaCo is a further iteration of the Modern Pharmacy & Hospital of Chicago project, directed by studio Professor Sean Vance. The goal was to explore modern medicine, specifically medical marijuana. By finding new ways to invent and brand a conceptual company, a medical marijuana dispensary was created. Extensive research was conducted in the development of an infographic. This describes how the companies' supply chain would operate, the mechanical and operational functions of how raw materials are treated once they arrive on site, and how the promotional materials and finished products appear once packaged. From business cards to supply-chain management, CannaCo takes an in-depth look on how to create a medical dispensary in Chicago.",
   //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
-  //   teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+  //   teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
   //   team: 'Solo Project',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render1.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/render1.jpg'},
   // { title: 'CannaCo',
   //   topic: 'Rendering',
   //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
   //   description: 'Rendering with Rhino and V-Ray',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/render2.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/render2.jpg'},
   // { title: 'CannaCo',
   //   topic: 'Graphic Design',
   //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
   //   description: 'Infographic',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic1.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/infographic1.jpg'},
   // { title: 'CannaCo',
   //   topic: 'Architecture',
   //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
   //   description: 'Axonometric Diagram',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/infographic2.jpg'
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/infographic2.jpg'
   // },
   // { title: 'CannaCo',
   //   topic: 'Architecture',
   //   tools: 'Rhino, Sketchup, AutoCAD, V-Ray, Illustrator, Photoshop, and CNC Laser Cutters',
   //   description: 'Plans, Sections, and Presentation Photo',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
-  //   content: ['https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/section2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan0.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan1.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/plan2.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccphoto.jpg', 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/CannaCo+v2/ccwebsite.png']
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/cc-logo.jpg',
+  //   content: ['http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/section1.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/section2.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan0.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan1.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/plan2.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/ccphoto.jpg', 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/CannaCo+v2/ccwebsite.png']
   //   }
   // ],
   // [
   // { title: 'Maison de Verre',
   //   description: "After studying the Maison de Verre, it was discovered that different patterns of circulation tend to preference certain members of the household. The house was designed so that residents would have very specific routes when navigating the home. The lower level was set up so that the husband, also a doctor, could receive and treat his patients. The middle level contains all the residential living spaces, while the top level contains the bedrooms. Throughout these three levels, it is evident from the diagrams above that the house preferences the male as opposed to the female inhabitants.",
   //   tools: 'Rhino, V-Ray, Final Cut Pro, Illustrator and Photoshop',
-  //   teamImage: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/SamZoll-Logo-2017.svg',
+  //   teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
   //   team: 'Solo Project',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/Maison-de-Verre-Final-Poster.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/Maison-de-Verre-Final-Poster.jpg'},
   // { title: 'Maison de Verre',
   //   topic: 'Architecture',
   //   tools: 'Rhino, V-Ray, Final Cut Pro, Illustrator and Photoshop',
   //   description: 'Exterior Study',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/Maison+de+Verre+exterior.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/Maison+de+Verre+exterior.jpg'},
   // { title: 'Maison de Verre',
   //   topic: 'Architecture',
   //   tools: 'Rhino, V-Ray, Final Cut Pro, Illustrator and Photoshop',
   //   description: 'Interior Study',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/Maison+de+Verre+interior.jpg'},
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/Maison+de+Verre+interior.jpg'},
   //   { title: 'Maison de Verre',
   //   topic: 'Final Photo',
   //   tools: 'Creativity!',
   //   description: 'Power Pose.',
-  //   logo: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
-  //   content: 'https://s3-us-west-1.amazonaws.com/zollstorage/portfolio/2d3d/Maison+de+Verre/final-photo.jpg'}
+  //   logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/maison+de+verre-logo.jpg',
+  //   content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/2d3d/Maison+de+Verre/final-photo.jpg'}
   // ],
