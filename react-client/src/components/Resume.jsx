@@ -19,7 +19,7 @@ const Resume = (props) => (
       </Col>
       {!props.mobile ? (<Col md={8} >
         <Row className="center textPaddBig">
-        <a target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/portfolio/Sam+Zoll+Resume.pdf">
+        <a target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam+Zoll+Resume.pdf">
           <Image className="resume" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam-Zoll-Resume.png" />
         </a>
         </Row>
