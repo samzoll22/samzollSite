@@ -11,7 +11,7 @@ const Resume = (props) => (
         <Col xs={4} xsOffset={4} md={8} mdOffset={4}>
           <div className="resumeStyle center">
             <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/resume2.svg" responsive/>
-            <a className="download" target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam-Zoll-Resume.pdf" >
+            <a className="download" target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam+Zoll+Resume+Mid+2017.pdf" >
               Download <Glyphicon glyph="glyphicon glyphicon glyphicon-download-alt"/>
             </a>
           </div>
@@ -19,8 +19,8 @@ const Resume = (props) => (
       </Col>
       {!props.mobile ? (<Col md={8} >
         <Row className="center textPaddBig">
-        <a target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam+Zoll+Resume.pdf">
-          <Image className="resume" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam-Zoll-Resume.png" />
+        <a target="_blank" href="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam+Zoll+Resume+Mid+2017.pdf">
+          <Image className="resume" src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/Sam+Zoll+Resume+Mid+2017.jpg" />
         </a>
         </Row>
       </Col>) : null}
