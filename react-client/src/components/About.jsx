@@ -85,7 +85,7 @@ class About extends React.Component {
           </Col>
         </Row>
         <Row className="samTextSpacer">
-          <Col xs={4} xsOffset={4} md={2} mdOffset={5} lassName="center">
+          <Col xs={4} xsOffset={4} md={2} mdOffset={5} className="center">
             <Image src="http://dhmyyrxmn8ugc.cloudfront.net/portfolio/what-i-do.svg" alt="what-i-do" responsive/>
           </Col>
         </Row>
