@@ -32,10 +32,6 @@ const developementTools = [
     image: 'css'
   },
   {
-    name: 'Heroku',
-    image: 'heroku'
-  },
-  {
     name: 'AWS S3',
     image: 'aws'
   },
@@ -66,7 +62,7 @@ const Footer = (props) => {
   return (
   <div className="center footer">
     <h3 className="footerText">
-      Designed and Developed by Sam Zoll © 2017
+      Designed and Developed by Sam Zoll © 2019
     </h3>
     <p className="footerSubtext">
       This site was built with the tools listed below.

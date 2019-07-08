@@ -276,6 +276,16 @@ img.profilePicture.img-responsive.img-circle {
   text-align: center;
 }
 
+.samFontBig {
+  color: black;
+  font-family: Avenir, Helvetica;
+  padding-bottom: 4em;
+  font-size: 270%;
+  text-align: center;
+
+}
+
+
 .samFontHeader {
   color: black;
   font-family: Avenir, Helvetica;

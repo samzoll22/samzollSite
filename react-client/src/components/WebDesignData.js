@@ -1,6 +1,31 @@
 module.exports = {
   data: [
   [
+  { title: 'Convertly',
+    description: 'Convertly is a ecommerce and website building platform.',
+    responsibilities: 'Implemented backend authentication, payment processing, and chat APIs',
+    tools: [
+            { name: 'React',
+              image: 'react'
+            },
+            { name: 'Redux',
+              image: 'redux'
+            },
+            { name: 'Node.JS',
+              image: 'node'
+            },
+            { name: 'Express',
+              image: 'express'
+            }],
+    teamImage: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/SamZoll-Logo-2017.svg',
+    team: 'Bay Area News Group - Ad Taxi Team',
+    logo: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/truck-hunt-logo.png',
+    content: 'http://dhmyyrxmn8ugc.cloudfront.net/portfolio/truckHunt/Trunk-Hunt-HQ.gif',
+    location: 'San Jose',
+    locationImage: 'url',
+    date: 'July 2017 - January 2018'
+  }],
+  [
   { title: 'Truck Hunt SF',
     description: 'Truck Hunt allows users in San Francisco to find the nearest food trucks, place an order, and pick up when ready. Truck Hunt features both consumer and vendor facing interfaces so that truck vendors can also log onto the app to view incoming orders, past orders, and customer analytics.',
     responsibilities: 'UI/UX design, React/Redux implementation, consumer user flow with maps and search auto-complete, and vendor management portal with D3-based analytics.',

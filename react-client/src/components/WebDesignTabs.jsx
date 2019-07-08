@@ -31,16 +31,19 @@ class WebDesignTab extends React.Component {
         style={{ height: '100%' }}
         size="small"
       >
-        <TabPane tab="Truck Hunt" key="0" className="animated fadeIn" >
+        <TabPane tab="Convertly" key="0" className="animated fadeIn" >
           <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
-        <TabPane tab="Oranges 2 Oranges" key="1" className="animated fadeIn">
+        <TabPane tab="Truck Hunt" key="1" className="animated fadeIn" >
           <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
-        <TabPane tab="Ticket Champ" key="2" className="animated fadeIn">
+        <TabPane tab="Oranges 2 Oranges" key="2" className="animated fadeIn">
           <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
-        <TabPane tab="Trivia Night" key="3" className="animated fadeIn">
+        <TabPane tab="Ticket Champ" key="3" className="animated fadeIn">
+          <WebDesign project={this.state.key} width={this.props.width}/>
+        </TabPane>
+        <TabPane tab="Trivia Night" key="4" className="animated fadeIn">
           <WebDesign project={this.state.key} width={this.props.width}/>
         </TabPane>
       </Tabs>
